@@ -1,0 +1,65 @@
+{
+  "choices": [
+    "narrow64",
+    "narrow64",
+    "narrow_ar_res"
+  ],
+  "comparisons": [
+    {
+      "fold": 0,
+      "model": "narrow64",
+      "correct": 4319,
+      "features": 410
+    },
+    {
+      "fold": 0,
+      "model": "narrow_ar",
+      "correct": 4314,
+      "features": 440
+    },
+    {
+      "fold": 0,
+      "model": "narrow_ar_res",
+      "correct": 4306,
+      "features": 445
+    },
+    {
+      "fold": 1,
+      "model": "narrow64",
+      "correct": 4416,
+      "features": 410
+    },
+    {
+      "fold": 1,
+      "model": "narrow_ar",
+      "correct": 4397,
+      "features": 440
+    },
+    {
+      "fold": 1,
+      "model": "narrow_ar_res",
+      "correct": 4399,
+      "features": 445
+    },
+    {
+      "fold": 2,
+      "model": "narrow64",
+      "correct": 4348,
+      "features": 410
+    },
+    {
+      "fold": 2,
+      "model": "narrow_ar",
+      "correct": 4368,
+      "features": 440
+    },
+    {
+      "fold": 2,
+      "model": "narrow_ar_res",
+      "correct": 4373,
+      "features": 445
+    }
+  ],
+  "source": "inner validation correct counts only",
+  "outer_scores_used": false
+}

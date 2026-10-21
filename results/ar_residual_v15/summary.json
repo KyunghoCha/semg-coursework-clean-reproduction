@@ -1,0 +1,45 @@
+{
+  "new_fits": 23,
+  "total_observed_fit_records_through_v15": 358,
+  "total_saved_models_through_v15": 138,
+  "inner": [
+    {
+      "model": "narrow64",
+      "correct": 13083,
+      "windows": 14592,
+      "accuracy": 0.8965871710526315,
+      "fold_sd": 0.008357936506804584
+    },
+    {
+      "model": "narrow_ar",
+      "correct": 13079,
+      "windows": 14592,
+      "accuracy": 0.8963130482456141,
+      "fold_sd": 0.00707096047967109
+    },
+    {
+      "model": "narrow_ar_res",
+      "correct": 13078,
+      "windows": 14592,
+      "accuracy": 0.8962445175438597,
+      "fold_sd": 0.008054617194122425
+    }
+  ],
+  "outer_correct": 26305,
+  "outer_baseline_correct": 26270,
+  "outer_windows": 29184,
+  "outer_accuracy": 0.9013500548245614,
+  "outer_baseline_accuracy": 0.9001507675438597,
+  "outer_fold_sd": 0.005873684851210589,
+  "outer_choices": [
+    "narrow64",
+    "narrow64",
+    "narrow_ar_res"
+  ],
+  "new_fit_seconds_sum": 875.4848838315811,
+  "cost_cases": 6,
+  "trial_improved": 110,
+  "trial_worse": 78,
+  "trial_tied": 1348,
+  "independent_external_test": false
+}

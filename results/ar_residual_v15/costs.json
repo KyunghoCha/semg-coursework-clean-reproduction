@@ -1,0 +1,242 @@
+[
+  {
+    "case": "trial_shared_td_ar_0",
+    "utc": "2026-10-21T10:31:02.456031+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 55,
+    "classes": 8,
+    "trees": 3200,
+    "representative_fold": 0,
+    "training_trials": 1152,
+    "model_bytes": 11608192,
+    "fit_seconds": 7.519332582131028,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 0.3614085,
+        "p95_ms": 0.5732980999999996,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 0.605442,
+        "p95_ms": 1.1298912499999998,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 0.900164,
+        "p95_ms": 1.7347978999999996,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "3ab0a35794411976aa982d4fad05d931d51185cc705239bdc8619da3cee12bc2",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 7296,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "record_disjoint_td_ar_0",
+    "utc": "2026-10-21T10:31:03.140140+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 55,
+    "classes": 8,
+    "trees": 3200,
+    "representative_fold": 0,
+    "training_trials": 1154,
+    "model_bytes": 11710960,
+    "fit_seconds": 7.354262045118958,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 0.3629685,
+        "p95_ms": 0.61471015,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 0.4475935,
+        "p95_ms": 1.0750807,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 0.9181575,
+        "p95_ms": 1.6086554,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "83c545f55a023ddfda9de8f4c804ba4af04a154a5ae721384dab897e76d8b6e3",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 7258,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "trial_shared_td_ar_res_0",
+    "utc": "2026-10-21T10:31:03.817999+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 60,
+    "classes": 8,
+    "trees": 3200,
+    "representative_fold": 0,
+    "training_trials": 1152,
+    "model_bytes": 11563496,
+    "fit_seconds": 7.715697413077578,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 0.36366149999999997,
+        "p95_ms": 0.5587817999999999,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 0.4449255,
+        "p95_ms": 1.0503946,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 0.9143475,
+        "p95_ms": 1.5595018999999986,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "ad47549be8d55e1c59b86fe6185509768ba2b81a2c350ad8e17c56a2a6f08cd7",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 7296,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "record_disjoint_td_ar_res_0",
+    "utc": "2026-10-21T10:31:04.520942+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 60,
+    "classes": 8,
+    "trees": 3200,
+    "representative_fold": 0,
+    "training_trials": 1154,
+    "model_bytes": 11581528,
+    "fit_seconds": 7.895835038041696,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 0.36130399999999996,
+        "p95_ms": 0.49286689999999955,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 0.4525185,
+        "p95_ms": 0.9731845499999999,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 0.9160655,
+        "p95_ms": 1.6065425999999998,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "22bf98e46c6f437f3ff8a52bc85a963376c86967916d7f42d5a441be12f0014e",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 7258,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "outer_narrow_ar_res_2",
+    "utc": "2026-10-21T10:31:08.067486+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 445,
+    "classes": 64,
+    "trees": 25600,
+    "representative_fold": 2,
+    "training_trials": 1024,
+    "model_bytes": 36466624,
+    "fit_seconds": 129.78479719394818,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 2.2070115,
+        "p95_ms": 3.5666808499999996,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 2.3997029999999997,
+        "p95_ms": 2.97253505,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 5.042694,
+        "p95_ms": 6.03677065,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "9248f594b12736cad211a8147cc5cf1b696503ecac3af847e2157c47b1c94692",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 9728,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "outer_narrow64_2",
+    "utc": "2026-10-21T10:31:11.402842+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "features": 410,
+    "classes": 64,
+    "trees": 25600,
+    "representative_fold": 2,
+    "training_trials": 1024,
+    "model_bytes": 37001816,
+    "fit_seconds": 130.8898935141042,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.871928,
+        "p95_ms": 2.39898145,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "scaler_model_probability_batch1": {
+        "median_ms": 2.610503,
+        "p95_ms": 3.1510674499999998,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 4.8677145,
+        "p95_ms": 5.27437775,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_sha256": "c7e7362e33003f0fd5022355d57aa72deb681536a1e216782e7502e171dc6fcd",
+    "model_unchanged": true,
+    "restored_evaluation_windows": 9728,
+    "restored_predictions_equal": true,
+    "feature_cache_matches": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  }
+]

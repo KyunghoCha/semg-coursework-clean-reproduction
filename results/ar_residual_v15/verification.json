@@ -1,0 +1,141 @@
+{
+  "fits_verified": 23,
+  "models_restored_on_cpu": true,
+  "models_preserved": true,
+  "source_models": [
+    {
+      "stem": "inner_narrow_ar_0",
+      "sha256": "24a25b1782dddbeb36880d5047ae1e46bb3885032dd87930fd070341ea49e727",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_narrow_ar_res_0",
+      "sha256": "4e9d706c18996c706addd01f26c864f8e57267c6834a01766c5411166ff6374a",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_narrow_ar_1",
+      "sha256": "ce9ccffcd3bc420ff28ba57ff06eacbd6f13ed61bc214dc6a86d8cf048d90aef",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_narrow_ar_res_1",
+      "sha256": "f8dcf31b1ff958cd5b70527c98678643fb59ab08ec419ddb653991de3b9d9f83",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_narrow_ar_2",
+      "sha256": "5e07e343e598fc209fb1adc7b940f3e2ccdd574517e33c4ac43231a6d59cbc81",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_narrow_ar_res_2",
+      "sha256": "7c03f3f94bf70cffbfff9c3dec2b17e2ff133f2afa7dd9543cb8eb6f870b82aa",
+      "restored_windows": 4864
+    },
+    {
+      "stem": "outer_narrow_ar_res_2",
+      "sha256": "9248f594b12736cad211a8147cc5cf1b696503ecac3af847e2157c47b1c94692",
+      "restored_windows": 9728
+    },
+    {
+      "stem": "trial_shared_td_ar_0",
+      "sha256": "3ab0a35794411976aa982d4fad05d931d51185cc705239bdc8619da3cee12bc2",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_1",
+      "sha256": "8c36da905b1c8e80e51a7c27fbd1d3839bc7d273dfb8c4c8433a4e029b0d8d01",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_2",
+      "sha256": "9214409cc3648cba589cc0bd715487e5ffbffc4362d10457396eee1a50f30c78",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_3",
+      "sha256": "b81c024b24a48d0b905f79fe7b07a5b9de29a7513543237fc2e17b78d8c59851",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "record_disjoint_td_ar_0",
+      "sha256": "83c545f55a023ddfda9de8f4c804ba4af04a154a5ae721384dab897e76d8b6e3",
+      "restored_windows": 7258
+    },
+    {
+      "stem": "record_disjoint_td_ar_1",
+      "sha256": "41b104b4339c382c77f3ad741fe934d2ec6e6a6ae296f76fdda9c6bfe83c0bd8",
+      "restored_windows": 7543
+    },
+    {
+      "stem": "record_disjoint_td_ar_2",
+      "sha256": "228c56bd8f5c3a427d29d6e55bab695866f13622f943d2a2c991e6958280cf99",
+      "restored_windows": 7315
+    },
+    {
+      "stem": "record_disjoint_td_ar_3",
+      "sha256": "58b4731973ee60d95871a7dcb72861a8133b214a73e6616c7e2dfc7590c0ba04",
+      "restored_windows": 7068
+    },
+    {
+      "stem": "trial_shared_td_ar_res_0",
+      "sha256": "ad47549be8d55e1c59b86fe6185509768ba2b81a2c350ad8e17c56a2a6f08cd7",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_res_1",
+      "sha256": "47ca8de92ba6634c701bb54818387ddbe7e6225acfc8f978a5ed8b4bee554e37",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_res_2",
+      "sha256": "b34da09ea9101e27a25d3b93651c84e909ca7fe5564b5de6963614177b50776b",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "trial_shared_td_ar_res_3",
+      "sha256": "5c7222ae74d85565e7ccf683fd14322d763a36d9b2699123fd3dda57da9243b6",
+      "restored_windows": 7296
+    },
+    {
+      "stem": "record_disjoint_td_ar_res_0",
+      "sha256": "22bf98e46c6f437f3ff8a52bc85a963376c86967916d7f42d5a441be12f0014e",
+      "restored_windows": 7258
+    },
+    {
+      "stem": "record_disjoint_td_ar_res_1",
+      "sha256": "35b53b056c88e53367c9be23f60df9422c6dda486d4e7ef6778c33553211fe70",
+      "restored_windows": 7543
+    },
+    {
+      "stem": "record_disjoint_td_ar_res_2",
+      "sha256": "fdda51c82c7c8084052375aa12ef60ee62dfeffe3d296d1d4258cce9de1ee7a8",
+      "restored_windows": 7315
+    },
+    {
+      "stem": "record_disjoint_td_ar_res_3",
+      "sha256": "dea0937f364dd94beda755cf2d95f695fdc963ece85160f93716727a7361a371",
+      "restored_windows": 7068
+    }
+  ],
+  "splits_independently_regenerated": true,
+  "scalers_train_only": true,
+  "all_training_targets_present": true,
+  "all_evaluation_eight_classes_present": true,
+  "inner_evaluation_records": [
+    64,
+    63,
+    63
+  ],
+  "probability_columns_aligned": true,
+  "selection_recomputed_from_inner_only": true,
+  "full_control_coverage": true,
+  "full_outer_coverage": true,
+  "historical_test_intersection": 0,
+  "source_signal_unchanged": true,
+  "external_independent_data": false,
+  "trial_improved": 110,
+  "trial_worse": 78,
+  "trial_tied": 1348
+}

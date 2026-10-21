@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "b85bafa0b0500c38359228c9c8c8797cc93ee5893e481a74671b0dc1a94c4d44",
+  "development_trials": 1536,
+  "excluded_historical_test": 384,
+  "full_feature_trials": 1920,
+  "inner_fits": 6,
+  "outer_fits_max": 3,
+  "control_fits": 16,
+  "signal_ms": 200,
+  "windows_per_trial": 19,
+  "primary_metric": "window accuracy",
+  "external_independent_data": false
+}

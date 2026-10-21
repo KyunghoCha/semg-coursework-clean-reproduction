@@ -11,7 +11,7 @@ for stage in diagnostic_v2 mechanisms_v3 capacity_v4 geometry_probe latent_subcl
 done
 run_python() { "$SEMG_PYTHON" "$@"; }
 case "$phase" in
-  test) run_python -m pytest -q tests experiments/diagnostic_v2/test_features_v2.py experiments/diagnostic_v2/test_causal_context.py experiments/mechanisms_v3/test_features_v3.py experiments/latent_subclass_v5/test_collapse.py experiments/cross_spectrum_v6/test_cross.py experiments/fine_spectrum_v8/test_fine.py experiments/cost_benchmark/test_fast.py experiments/spectral_controls_v9/test_design.py experiments/nested_selection_v10/test_selection.py experiments/line_projection_v11/test_projection.py experiments/record_reference_control/test_splits.py experiments/probability_blend_v12/test_blending.py experiments/forest_transfer_v13/test_forest_selection.py experiments/gain_invariance_v14/test_features.py ;;
+  test) run_python -m pytest -q tests experiments/diagnostic_v2/test_features_v2.py experiments/diagnostic_v2/test_causal_context.py experiments/mechanisms_v3/test_features_v3.py experiments/latent_subclass_v5/test_collapse.py experiments/cross_spectrum_v6/test_cross.py experiments/fine_spectrum_v8/test_fine.py experiments/cost_benchmark/test_fast.py experiments/spectral_controls_v9/test_design.py experiments/nested_selection_v10/test_selection.py experiments/line_projection_v11/test_projection.py experiments/record_reference_control/test_splits.py experiments/probability_blend_v12/test_blending.py experiments/forest_transfer_v13/test_forest_selection.py experiments/gain_invariance_v14/test_features.py experiments/ar_residual_v15/test_ar_features.py ;;
   features)
     run_python experiments/diagnostic_v2/features_v2.py
     run_python experiments/mechanisms_v3/features_v3.py
@@ -56,6 +56,12 @@ case "$phase" in
   forest-transfer)
     run_python experiments/forest_transfer_v13/run.py "${@:2}"
     run_python experiments/forest_transfer_v13/verify.py ;;
+  ar-residual)
+    run_python experiments/ar_residual_v15/ar_features.py
+    run_python experiments/ar_residual_v15/run.py
+    run_python experiments/ar_residual_v15/verify.py
+    run_python experiments/ar_residual_v15/cost.py
+    run_python experiments/ar_residual_v15/report.py ;;
   probability-blend)
     run_python experiments/probability_blend_v12/run.py "${@:2}"
     run_python experiments/probability_blend_v12/verify.py ;;
@@ -85,5 +91,5 @@ case "$phase" in
     run_python experiments/nested_selection_v10/verify.py
     run_python experiments/line_projection_v11/verify.py
     run_python experiments/record_reference_control/verify.py ;;
-  *) echo 'Usage: bash run_extensions.sh {test|features|diagnose|nested|mechanisms|capacity|subclass|cross|cross-capacity|fine-spectrum|spectral-controls|nested-selection|line-projection|reference-phase|record-reference|probability-blend|forest-transfer|fit-gap|benchmark|verify} [--resume]' >&2; exit 2 ;;
+  *) echo 'Usage: bash run_extensions.sh {test|features|diagnose|nested|mechanisms|capacity|subclass|cross|cross-capacity|fine-spectrum|spectral-controls|nested-selection|line-projection|reference-phase|record-reference|probability-blend|forest-transfer|ar-residual|fit-gap|benchmark|verify} [--resume]' >&2; exit 2 ;;
 esac
