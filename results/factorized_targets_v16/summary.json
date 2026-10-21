@@ -1,0 +1,57 @@
+{
+  "component_fits": 48,
+  "family_evaluations": 16,
+  "baseline_fits_reused": 8,
+  "cumulative_observed_fit_records": 406,
+  "cumulative_saved_models": 186,
+  "component_fit_seconds": 63.66741045634262,
+  "cost_conditions": 6,
+  "comparisons": [
+    {
+      "protocol": "trial_shared",
+      "method": "independent",
+      "correct_delta": -1589,
+      "accuracy_delta_pp": -5.444764254385969,
+      "angle_delta_pp": -1.627604166666663,
+      "gesture_delta_pp": -1.2575383771929793,
+      "angle_only_error_delta": 1222,
+      "gesture_only_error_delta": 1114,
+      "both_wrong_delta": -747
+    },
+    {
+      "protocol": "trial_shared",
+      "method": "conditional",
+      "correct_delta": -92,
+      "accuracy_delta_pp": -0.3152412280701844,
+      "angle_delta_pp": 0.14391447368421462,
+      "gesture_delta_pp": -0.5071271929824595,
+      "angle_only_error_delta": -56,
+      "gesture_only_error_delta": 134,
+      "both_wrong_delta": 14
+    },
+    {
+      "protocol": "record_disjoint",
+      "method": "independent",
+      "correct_delta": 1755,
+      "accuracy_delta_pp": 6.013569078947372,
+      "angle_delta_pp": 2.0045230263157854,
+      "gesture_delta_pp": 0.6202028508771884,
+      "angle_only_error_delta": -1574,
+      "gesture_only_error_delta": -1170,
+      "both_wrong_delta": 989
+    },
+    {
+      "protocol": "record_disjoint",
+      "method": "conditional",
+      "correct_delta": 255,
+      "accuracy_delta_pp": 0.8737664473684209,
+      "angle_delta_pp": -0.18160635964912797,
+      "gesture_delta_pp": 1.0039747807017496,
+      "angle_only_error_delta": 38,
+      "gesture_only_error_delta": -308,
+      "both_wrong_delta": 15
+    }
+  ],
+  "post_evaluation_model_selection": false,
+  "external_independent_test": false
+}

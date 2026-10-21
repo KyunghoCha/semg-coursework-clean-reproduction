@@ -1,0 +1,17 @@
+{
+  "plan_sha256": "4cbd8a4e479f48b64f78adab2294abe6e41d1a7f8de3a42abb7f0fd6beafc672",
+  "expected_fits": 48,
+  "development_trials": 1536,
+  "excluded_historical_test": 384,
+  "features": 60,
+  "windows_per_trial": 19,
+  "rounds": 400,
+  "record_id_as_input": false,
+  "record_id_as_target": false,
+  "methods": [
+    "independent",
+    "conditional"
+  ],
+  "hyperparameter_selection": false,
+  "external_independent_test": false
+}

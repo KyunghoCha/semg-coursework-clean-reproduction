@@ -1,5 +1,5 @@
 {
-  "source_commit": "108a5b788d9bb3119caf4b5a1b49bc6457ec6f66",
+  "source_commit": "557e8ccab6f021d09a450ea713aa240d75f8bc9c",
   "verified_result_stages": [
     "diagnostic_v2",
     "mechanisms_v3",
@@ -20,6 +20,7 @@
     "active_record_baseline",
     "gain_invariance_v14",
     "ar_residual_v15",
+    "factorized_targets_v16",
     "cost_benchmark",
     "continuation_cost",
     "continuation_report",
