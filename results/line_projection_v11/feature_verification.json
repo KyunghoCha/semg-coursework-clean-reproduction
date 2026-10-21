@@ -1,0 +1,17 @@
+{
+  "shape": [
+    1920,
+    19,
+    905
+  ],
+  "source_sha256": "5e8463e65871c6157a6957351b3fd2070ac43fe37ac962d6f42ca73c12356bef",
+  "feature_sha256": "2c8435eeca77074e072e43386afce9b62f8c3bc9c734971f6c604b7930d480f9",
+  "finite": true,
+  "frequencies_hz": [
+    300,
+    420
+  ],
+  "projection_rank": 4,
+  "signal_samples": 200,
+  "source_modified": false
+}

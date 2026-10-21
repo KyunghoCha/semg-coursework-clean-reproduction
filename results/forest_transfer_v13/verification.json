@@ -1,0 +1,10 @@
+{
+  "new_models_restored": 6,
+  "source_artifact_hashes_checked": 54,
+  "all_class_probability_columns_aligned": true,
+  "scalers_recalculated": true,
+  "inner_selection_recomputed": true,
+  "historical_test_intersection": 0,
+  "outer_development_coverage_exact": true,
+  "external_independent_data": false
+}

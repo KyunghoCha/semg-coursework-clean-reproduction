@@ -1,0 +1,10 @@
+{
+  "comparisons": 16,
+  "timing_series_recomputed": 96,
+  "unchanged_256_predictions": true,
+  "probability_tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-05
+  },
+  "training_or_test_evaluations": 0
+}

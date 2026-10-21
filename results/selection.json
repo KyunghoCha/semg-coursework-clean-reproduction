@@ -1,0 +1,25 @@
+{
+  "model": "XGB_win300",
+  "criterion": "development_mean_window_accuracy",
+  "eligible": [
+    "SVM",
+    "RF",
+    "XGB",
+    "SVM_C10",
+    "XGB_depth4",
+    "XGB_spectral",
+    "XGB_win300"
+  ],
+  "means": {
+    "RF": 0.6387439579107674,
+    "SVM": 0.4783749423900289,
+    "SVM_C10": 0.5613314081769423,
+    "XGB": 0.6221924740782961,
+    "XGB_depth4": 0.5522915966255586,
+    "XGB_forearm": 0.440790531258558,
+    "XGB_spectral": 0.6413779859776774,
+    "XGB_win300": 0.6738625200351585
+  },
+  "test_consulted_for_selection": false,
+  "selection_scope": "development scores only; prior baseline CV used all holdout trials"
+}

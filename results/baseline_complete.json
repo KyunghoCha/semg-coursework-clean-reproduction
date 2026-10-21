@@ -1,0 +1,10 @@
+{
+  "fits": 18,
+  "models": [
+    "SVM",
+    "RF",
+    "XGB"
+  ],
+  "all_folds_complete": true,
+  "protocol_sha256": "89838365f515229f37e0c453135fa70849406f8091c2eb3d47c3bd3a23b764cd"
+}

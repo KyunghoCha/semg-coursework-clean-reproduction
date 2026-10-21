@@ -1,0 +1,15 @@
+{
+  "core_environment_identical": true,
+  "versions": {
+    "xgboost": "3.0.5",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.7.2",
+    "joblib": "1.5.2"
+  },
+  "library_sha256": "5502cc0d7550e3d63ebdbac8de1e2568536a4161a91975e44d4f778c53689921",
+  "cupy": "13.6.0",
+  "cupy_runtime": 12090,
+  "cupy_device_compute_capability": "61"
+}

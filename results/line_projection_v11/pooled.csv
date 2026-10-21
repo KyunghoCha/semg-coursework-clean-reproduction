@@ -1,0 +1,2 @@
+model,windows,correct,causal_correct,causal_accuracy,accuracy,precision_macro,recall_macro,f1_macro,angle_accuracy,gesture_accuracy
+projected400,29184,23038,25824,0.8848684210526315,0.7894051535087719,0.789520148879812,0.7894051535087718,0.7892799181129578,0.8891858552631579,0.8466968201754386

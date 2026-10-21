@@ -1,0 +1,12 @@
+{
+  "holdout_test_trials": 384,
+  "prior_baseline_cv_training_unique_trials": 384,
+  "training_fold_count_per_trial": {
+    "4": 384
+  },
+  "validation_fold_count_per_trial": {
+    "1": 384
+  },
+  "development_intersection_holdout_test": 0,
+  "interpretation": "fixed split of previously used data; not unseen external evaluation"
+}

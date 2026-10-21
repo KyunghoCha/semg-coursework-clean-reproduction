@@ -1,0 +1,10 @@
+{
+  "splits_identical": true,
+  "windows_paired_per_protocol": 29184,
+  "source_models_preserved": true,
+  "cost_cases_verified": 4,
+  "raw_timing_recalculated": true,
+  "new_fits_in_report": 0,
+  "posthoc_diagnostic": true,
+  "external_independent_data": false
+}

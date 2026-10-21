@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "ef573477babd5ce83c9ec10a6d9d4ef72be239fd3c79a42f39630dc94097654a",
+  "new_fits": 8,
+  "development_trials": 1536,
+  "excluded_historical_test": 384,
+  "primary_unit": "200ms activity window",
+  "windows_per_trial": 19,
+  "classes": 8,
+  "rounds": 400,
+  "trees": 3200,
+  "features": 905,
+  "candidate_selection": false,
+  "external_independent_data": false
+}

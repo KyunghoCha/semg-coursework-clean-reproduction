@@ -1,0 +1,11 @@
+{
+  "selected": "fine400",
+  "means": {
+    "cross400": 0.8791461074561404,
+    "fine400": 0.8977864583333334
+  },
+  "minimum_improvement": 0.005,
+  "selection_metric": "independent window accuracy",
+  "holdout_used": false,
+  "reused_development_evaluation": true
+}

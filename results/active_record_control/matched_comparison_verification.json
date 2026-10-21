@@ -1,0 +1,13 @@
+{
+  "splits_identical": true,
+  "features": [
+    25,
+    905
+  ],
+  "same_model_rounds": 400,
+  "same_training_targets": 8,
+  "windows_per_protocol_per_representation": 29184,
+  "posthoc_diagnostic": true,
+  "main_candidate_selection_changed": false,
+  "source_models_retrained": false
+}

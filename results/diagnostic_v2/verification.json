@@ -1,0 +1,11 @@
+{
+  "fits_verified": 96,
+  "inner_folds_verified": 9,
+  "outer_folds_verified": 3,
+  "holdout_intersection": 0,
+  "train_evaluation_intersection": 0,
+  "windows_per_trial": 19,
+  "scalers_exactly_recomputed": true,
+  "primary_metric": "window accuracy",
+  "historically_unseen_external_test": false
+}

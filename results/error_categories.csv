@@ -1,0 +1,7 @@
+model,phase,total,correct,angle_only,gesture_only,both
+SVM,baseline_holdout,7296,3620,1010,1515,1151
+SVM,baseline_cv,36480,17715,4944,7812,6009
+RF,baseline_holdout,7296,4697,738,1052,809
+RF,baseline_cv,36480,23545,3574,5289,4072
+XGB,baseline_holdout,7296,4621,764,1130,781
+XGB,baseline_cv,36480,22970,3653,5641,4216

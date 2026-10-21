@@ -1,0 +1,5 @@
+model,fit_seconds,model_bytes,train_trials,evaluation_trials,original_prediction_exact,holdout_used,purpose
+XGB_rich800,26.703277968103066,19457440,682,342,True,False,"cost reconstruction, no model selection"
+XGB_noTime800,20.73721075314097,19556028,682,342,True,False,"cost reconstruction, no model selection"
+SVM_rich_standard,12.524571551941335,21722433,682,342,True,False,"cost reconstruction, no model selection"
+SVM_rich_quantile,12.636143614072353,23968385,682,342,True,False,"cost reconstruction, no model selection"

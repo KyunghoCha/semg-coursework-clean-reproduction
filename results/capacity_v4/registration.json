@@ -1,0 +1,17 @@
+{
+  "plan_sha256": "68d52cbb645735f1c9c87d1dffde2493329d7e883436903534a0156dce1466c7",
+  "candidates": [
+    "XGB_rich800",
+    "XGB_rich1600",
+    "XGB_noTime800",
+    "SVM_rich_standard",
+    "SVM_rich_quantile"
+  ],
+  "development_trials": 1536,
+  "holdout_excluded": 384,
+  "outer_folds": 3,
+  "inner_folds": 3,
+  "history_windows": 5,
+  "selection": "maximum inner mean independent-window accuracy; list order breaks ties",
+  "historically_unseen_data": false
+}

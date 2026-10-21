@@ -1,0 +1,31 @@
+{
+  "source_windows": 36480,
+  "maximum_feature_difference": 4.440892098500626e-16,
+  "raw_float32_differences": 0,
+  "models": [
+    {
+      "model": "cross64_400_v7",
+      "development_windows": 29184,
+      "scaled_float32_differences": 0,
+      "equal_predictions": true,
+      "equivalence_reason": "identical float32 model inputs",
+      "single_window_predictions_checked": 256
+    },
+    {
+      "model": "cross64_800_v7",
+      "development_windows": 29184,
+      "scaled_float32_differences": 0,
+      "equal_predictions": true,
+      "equivalence_reason": "identical float32 model inputs",
+      "single_window_predictions_checked": 256
+    },
+    {
+      "model": "fine64_400_v8",
+      "development_windows": 29184,
+      "scaled_float32_differences": 0,
+      "equal_predictions": true,
+      "equivalence_reason": "identical float32 model inputs",
+      "single_window_predictions_checked": 256
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "e8f195241e21838b6bb146e41a0be1a8bf3ad99bf0c16f4bcc120edacb0d5633",
+  "models": [
+    "global8_3200",
+    "subclass64_400",
+    "subclass64_cross400"
+  ],
+  "folds": 3,
+  "development_trials": 1536,
+  "holdout_excluded": 384,
+  "trees_per_model": 25600,
+  "inference_inputs": "signal features only; no subject/recording ID",
+  "external_independent_data": false
+}

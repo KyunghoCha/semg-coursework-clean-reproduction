@@ -1,0 +1,9 @@
+{
+  "fits_verified": 9,
+  "models_restored": 9,
+  "holdout_intersection": 0,
+  "scaler_recalculation_exact": true,
+  "subclass_probability_sum_verified": true,
+  "inference_input": "signal features only",
+  "external_independent_test": false
+}

@@ -1,0 +1,38 @@
+{
+  "early_prediction_is_trial_out_of_fold": true,
+  "full_development_refit_used": false,
+  "folds": [
+    {
+      "fold": 0,
+      "model_train_trials": 1024,
+      "early_evaluation_trials": 512,
+      "trial_intersection": 0,
+      "training_windows": 19456,
+      "train_records": 64,
+      "evaluation_records": 64,
+      "record_intersection": 64
+    },
+    {
+      "fold": 1,
+      "model_train_trials": 1024,
+      "early_evaluation_trials": 512,
+      "trial_intersection": 0,
+      "training_windows": 19456,
+      "train_records": 64,
+      "evaluation_records": 64,
+      "record_intersection": 64
+    },
+    {
+      "fold": 2,
+      "model_train_trials": 1024,
+      "early_evaluation_trials": 512,
+      "trial_intersection": 0,
+      "training_windows": 19456,
+      "train_records": 64,
+      "evaluation_records": 64,
+      "record_intersection": 64
+    }
+  ],
+  "feature_design_previously_used_development": true,
+  "record_disjoint": false
+}

@@ -1,0 +1,13 @@
+private/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.joblib
+*.ubj
+*.npz
+*.npy
+*.pptx
+*.pdf
+*.zip
+.env*

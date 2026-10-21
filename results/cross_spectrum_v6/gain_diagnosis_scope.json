@@ -1,0 +1,7 @@
+{
+  "completed_cross_models": 3,
+  "power_development_trials": 1536,
+  "holdout_used": false,
+  "importance": "training total gain, not causal importance",
+  "physiological_origin_confirmed": false
+}

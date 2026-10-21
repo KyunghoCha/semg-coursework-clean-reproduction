@@ -1,0 +1,10 @@
+{
+  "fits_verified": 18,
+  "models_restored": 18,
+  "nested_splits_regenerated": true,
+  "heldout_intersection": 0,
+  "inner_selection_recomputed": true,
+  "final_selection_uses_inner_only": true,
+  "scalers_recalculated": true,
+  "external_independent_data": false
+}

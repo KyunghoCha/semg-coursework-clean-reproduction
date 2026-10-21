@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "model": "fine64",
+      "training_windows": 19456,
+      "training_correct": 19456,
+      "training_correct64": 19456,
+      "evaluation_windows": 9728,
+      "evaluation_correct": 8731,
+      "source_model_unchanged": true
+    },
+    {
+      "model": "narrow64",
+      "training_windows": 19456,
+      "training_correct": 19456,
+      "training_correct64": 19456,
+      "evaluation_windows": 9728,
+      "evaluation_correct": 8760,
+      "source_model_unchanged": true
+    }
+  ],
+  "new_fits": 0,
+  "private_predictions_saved": true,
+  "independent_integer_counts_match": true,
+  "training_is_resubstitution": true
+}

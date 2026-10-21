@@ -1,0 +1,78 @@
+{
+  "case": "inner_RF100_fine",
+  "utc": "2026-10-21T03:34:05.796624+00:00",
+  "device": "cpu",
+  "threads": 6,
+  "representative_fold": 0,
+  "training_trials": 768,
+  "signal_ms": 200,
+  "hop_ms": 100,
+  "alpha": null,
+  "active_models": 1,
+  "model_bytes": 68164857,
+  "fit_seconds_sum": 8.476787667023018,
+  "fit_times_original_training_devices": true,
+  "timing": {
+    "feature_batch1": {
+      "median_ms": 1.889343,
+      "p95_ms": 2.448075399999999,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "scaler_model_probability_batch1": {
+      "median_ms": 12.135701000000001,
+      "p95_ms": 12.41833765,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "total_batch1": {
+      "median_ms": 14.539835,
+      "p95_ms": 15.81492795,
+      "repeats": 200,
+      "warmup": 20
+    }
+  },
+  "source_models": [
+    {
+      "model": "RF100_fine",
+      "path": "private/forest_transfer_v13/inner_RF100_fine_0.joblib",
+      "bytes": 68164857,
+      "sha256": "b8b7761f144aa9dd531ec0bf3e877ba3a81ab42c4f9d9a843cb8729e9d10801f"
+    }
+  ],
+  "verification": [
+    {
+      "model": "RF100_fine",
+      "restored_evaluation_windows": 256,
+      "predictions_equal": true
+    }
+  ],
+  "equivalent_feature_windows": 256,
+  "current_window_only": true,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true,
+  "private_predictions_written": false,
+  "cpu_api": "XGB inplace_predict / forest predict_proba",
+  "library_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 6,
+      "version": "2025.0-Product"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    }
+  ],
+  "process_lifetime_peak_rss_kib": 883916,
+  "peak_rss_includes_validation_arrays": true
+}

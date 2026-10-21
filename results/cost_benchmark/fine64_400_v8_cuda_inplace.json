@@ -1,0 +1,98 @@
+{
+  "prediction_api": "inplace",
+  "maximum_probability_difference": 0.0,
+  "library_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 6,
+      "version": "2025.0-Product"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    }
+  ],
+  "model": "fine64_400_v8",
+  "comparison_group": "cross_v7",
+  "device": "cuda",
+  "thread_cap": 6,
+  "svm_implementation_single_thread": false,
+  "signal_ms": 200,
+  "features": 905,
+  "model_bytes_with_scaler": 36339488,
+  "timing": {
+    "model_batch1": {
+      "repeats": 100,
+      "warmup": 20,
+      "median_ms": 164.7664575,
+      "p95_ms": 168.9199228,
+      "measured_total_ms": 16507.727315,
+      "calls_per_second": 6.057769073343819,
+      "windows_per_second": 6.057769073343819
+    },
+    "total_batch1": {
+      "repeats": 100,
+      "warmup": 20,
+      "median_ms": 168.45311650000002,
+      "p95_ms": 172.67592969999998,
+      "measured_total_ms": 16932.289808,
+      "calls_per_second": 5.905875763640248,
+      "windows_per_second": 5.905875763640248
+    },
+    "model_batch256": {
+      "repeats": 10,
+      "warmup": 5,
+      "median_ms": 199.53928050000002,
+      "p95_ms": 201.04218075,
+      "measured_total_ms": 1997.274091,
+      "calls_per_second": 5.006824073401551,
+      "windows_per_second": 1281.746962790797
+    },
+    "total_batch256": {
+      "repeats": 10,
+      "warmup": 5,
+      "median_ms": 251.83324299999998,
+      "p95_ms": 253.1240886,
+      "measured_total_ms": 2516.405393,
+      "calls_per_second": 3.9739224958814097,
+      "windows_per_second": 1017.3241589456409
+    }
+  },
+  "memory": {
+    "rss_before_model_kib": 226136,
+    "rss_after_load_kib": 485700,
+    "rss_after_warmup_kib": 541908,
+    "process_lifetime_peak_rss_kib": 591244,
+    "observed_vram_before_mib": 166,
+    "observed_vram_after_mib": 166,
+    "vram_is_not_peak": true
+  },
+  "synchronization": "cudaDeviceSynchronize before/after timed GPU calls",
+  "model_timing_includes": "float32 conversion, transfer if GPU, inplace_predict, CPU-return probability and marginalization",
+  "context_signal": {
+    "first_output_signal_ms": 200,
+    "fully_populated_history_ms": 600,
+    "future_wait_ms": 0,
+    "hop_ms": 100,
+    "reset": "known trial boundary",
+    "continuous_transition_delay_measured": false
+  },
+  "other_compute_processes_before": 0,
+  "other_compute_processes_after": 0,
+  "graphics_desktop_remains_active": true
+}

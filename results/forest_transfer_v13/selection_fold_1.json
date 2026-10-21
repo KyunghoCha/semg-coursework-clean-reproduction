@@ -1,0 +1,11 @@
+{
+  "fold": 1,
+  "selected": "narrow64",
+  "source": "inner correct counts then actual stored bytes",
+  "scores": {
+    "fine64": 4404,
+    "narrow64": 4416,
+    "RF100_fine": 3672,
+    "ET400_fine": 4113
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "development_trials": 1536,
+  "holdout_used": false,
+  "purpose": "descriptive geometry only; no centroids or scaler are used by predictors",
+  "person_and_recording_effects_not_separable": true,
+  "centroids_private": true
+}

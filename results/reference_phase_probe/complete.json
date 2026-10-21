@@ -1,0 +1,13 @@
+{
+  "raw_hashes_rechecked": 64,
+  "development_trials": 1536,
+  "early_signal_ms": 200,
+  "late_signal_ms": 200,
+  "frozen_oof_models": 3,
+  "late_predictions_match_saved": true,
+  "new_fits": 0,
+  "historical_test_predictions": 0,
+  "physiological_rest_verified": false,
+  "origin_of_frequency_components_confirmed": false,
+  "threads": 1
+}

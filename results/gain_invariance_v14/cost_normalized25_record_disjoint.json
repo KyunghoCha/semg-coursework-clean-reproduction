@@ -1,0 +1,41 @@
+{
+  "case": "normalized25_record_disjoint",
+  "utc": "2026-10-21T03:57:10.689931+00:00",
+  "device": "cpu",
+  "threads": 6,
+  "features": 25,
+  "classes": 8,
+  "trees": 3200,
+  "representative_fold": 0,
+  "training_trials": 1154,
+  "signal_ms": 200,
+  "model_bytes": 11331040,
+  "fit_seconds": 5.483830761862919,
+  "timing": {
+    "feature_batch1": {
+      "median_ms": 0.082794,
+      "p95_ms": 0.14978094999999997,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "scaler_model_probability_batch1": {
+      "median_ms": 0.476036,
+      "p95_ms": 0.77002675,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "total_batch1": {
+      "median_ms": 0.7506885,
+      "p95_ms": 1.2759597999999999,
+      "repeats": 200,
+      "warmup": 20
+    }
+  },
+  "model_sha256": "bbde696067ba5d1ef920f843037743d2fd3ea5e299323fd68460a344d29e32e6",
+  "model_unchanged": true,
+  "restored_evaluation_windows": 7258,
+  "restored_predictions_equal": true,
+  "feature_cache_matches": true,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true
+}

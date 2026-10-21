@@ -1,0 +1,9 @@
+{
+  "saved_representatives": 18,
+  "all_saved_models": 115,
+  "observed_fit_records": 335,
+  "pending_representatives": [],
+  "inference_benchmark_completed": true,
+  "fit_times_include_resource_contention": true,
+  "structure_read_only": true
+}

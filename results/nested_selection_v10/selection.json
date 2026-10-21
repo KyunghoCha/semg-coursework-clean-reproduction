@@ -1,0 +1,36 @@
+{
+  "outer_choices": [
+    "narrow64",
+    "narrow64",
+    "narrow64"
+  ],
+  "final_development_candidate": "narrow64",
+  "inner_correct_totals": [
+    {
+      "model": "fine64",
+      "correct": 13028,
+      "features": 905,
+      "rounds": 400
+    },
+    {
+      "model": "narrow64",
+      "correct": 13083,
+      "features": 410,
+      "rounds": 400
+    },
+    {
+      "model": "drop_two64",
+      "correct": 12740,
+      "features": 895,
+      "rounds": 400
+    },
+    {
+      "model": "direct8",
+      "correct": 12605,
+      "features": 905,
+      "rounds": 3200
+    }
+  ],
+  "outer_scores_used": false,
+  "historical_test_used": false
+}

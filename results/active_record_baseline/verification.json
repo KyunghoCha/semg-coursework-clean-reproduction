@@ -1,0 +1,22 @@
+{
+  "fits_verified": 8,
+  "source_model_sha256": [
+    "6835a9e198919be0672c1ae42ff0b994f41e352d3b78da02e0210789348b6d15",
+    "8ebc183c49e2aa28078be3cd64fd3c83475885a132ee2296ab15bfa0fbf5d992",
+    "54f8993c60790b171bca98d29a31baaa6b65d86b6dce1fa8121dd98762b89dab",
+    "fac8a1a671e95a55a9f161aeed1d73c9612b4843123e6a798b0acced1d48cfdd",
+    "1066093893bf0dfdee75e7fd72a6a3631425398a01506599d2f26dc0e3ca456f",
+    "67bce10bcd2501e7db52f01bce66ea248233de2b3ef7c6a5514f431ec85a3188",
+    "5c5f1bff59f32646e85443b2c67d0bc2f3f272a9a15fd79b3c2a3009e10d7a29",
+    "a5594811b42cd33815a38b871d97aa02ea2ef5c19f2bba8a1f25e778e69df2b5"
+  ],
+  "models_preserved": true,
+  "models_restored_on_cpu": true,
+  "splits_independently_regenerated": true,
+  "all_eight_classes_present": true,
+  "probability_columns_aligned": true,
+  "scalers_train_only": true,
+  "every_development_trial_evaluated_once_per_protocol": true,
+  "historical_test_intersection": 0,
+  "external_independent_data": false
+}

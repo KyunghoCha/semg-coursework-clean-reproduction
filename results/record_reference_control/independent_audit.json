@@ -1,0 +1,231 @@
+{
+  "source_filename_labels_checked": 1920,
+  "all_eight_classes_present_in_every_partition": true,
+  "independently_regenerated_splits_match": true,
+  "models_restored_on_cpu": 8,
+  "scalers_train_only": true,
+  "probability_columns_aligned": true,
+  "source_models_unchanged": true,
+  "early_features_recomputed": true,
+  "outside_window_perturbation_invariant": true,
+  "upstream_filter_causality_verified": false,
+  "physiological_rest_verified": false,
+  "folds": [
+    {
+      "protocol": "trial_shared",
+      "fold": 0,
+      "train_trials": 1152,
+      "evaluation_trials": 384,
+      "correct": 301,
+      "accuracy": 0.7838541666666666,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 1.1920928955078125e-07,
+      "source_model_sha256": "8f52a2f77dbbe250e3149fa351f86f8dca0f0256f984828fe3c1abd5e685d5df"
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 1,
+      "train_trials": 1152,
+      "evaluation_trials": 384,
+      "correct": 317,
+      "accuracy": 0.8255208333333334,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 1.1920928955078125e-07,
+      "source_model_sha256": "7ea481dd696934a1f2dcccaa63de26f57e686a7b4dfec0b04c3621f61722b078"
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 2,
+      "train_trials": 1152,
+      "evaluation_trials": 384,
+      "correct": 327,
+      "accuracy": 0.8515625,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 1.1920928955078125e-07,
+      "source_model_sha256": "6aced6e85512690d8fbd7126204ffc8546291003fd2f4a8a5c21af262b7e8e1f"
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 3,
+      "train_trials": 1152,
+      "evaluation_trials": 384,
+      "correct": 304,
+      "accuracy": 0.7916666666666666,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 5.960464477539063e-08,
+      "source_model_sha256": "2b836ecfc41869567d52df324eb237c9114c7b4d809bf5ddec594997a68afc23"
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 0,
+      "train_trials": 1154,
+      "evaluation_trials": 382,
+      "correct": 6,
+      "accuracy": 0.015706806282722512,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 5.960464477539063e-08,
+      "source_model_sha256": "0d59f751464d031c2fc7d07aa4ab7ea755c7d0cc145b5e095286e948372730f8"
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 1,
+      "train_trials": 1139,
+      "evaluation_trials": 397,
+      "correct": 8,
+      "accuracy": 0.020151133501259445,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 5.960464477539063e-08,
+      "source_model_sha256": "484dd9a43a06b4737a1c2f05b6c42ed7e34b391ae0743792579c4677cd8d6ec8"
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 2,
+      "train_trials": 1151,
+      "evaluation_trials": 385,
+      "correct": 18,
+      "accuracy": 0.046753246753246755,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 5.960464477539063e-08,
+      "source_model_sha256": "d4dd321d9afd4426dde2653b3a76e612366eca27661a97dff22b70d04e21ce04"
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 3,
+      "train_trials": 1164,
+      "evaluation_trials": 372,
+      "correct": 8,
+      "accuracy": 0.021505376344086023,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "max_cpu_probability_difference": 1.1920928955078125e-07,
+      "source_model_sha256": "7bd6d39dd92200e545797fed9ae93e9ff98ed584541aaac085c5a8bfefd2da9d"
+    }
+  ],
+  "pooled": [
+    {
+      "protocol": "trial_shared",
+      "trials": 1536,
+      "correct": 1249,
+      "accuracy": 0.8131510416666666,
+      "support": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "prediction_counts": [
+        188,
+        207,
+        191,
+        194,
+        177,
+        184,
+        199,
+        196
+      ]
+    },
+    {
+      "protocol": "record_disjoint",
+      "trials": 1536,
+      "correct": 40,
+      "accuracy": 0.026041666666666668,
+      "support": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "prediction_counts": [
+        216,
+        201,
+        200,
+        234,
+        160,
+        202,
+        159,
+        164
+      ]
+    }
+  ],
+  "new_model_fits": 0,
+  "historical_test_evaluations": 0
+}

@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "8a97e849afe0aee40448206905b260c6ec17a19d9cc78428cffe14830cad8b4f",
+  "folds": 4,
+  "protocols": [
+    "trial_shared",
+    "record_disjoint"
+  ],
+  "features": 905,
+  "signal_ms": 200,
+  "window_after_marker_seconds": [
+    0,
+    0.2
+  ],
+  "new_fits": 8,
+  "external_independent_data": false
+}

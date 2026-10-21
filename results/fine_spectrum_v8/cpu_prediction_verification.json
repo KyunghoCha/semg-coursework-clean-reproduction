@@ -1,0 +1,26 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "windows": 9728,
+      "same_predictions": true,
+      "maximum_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "fold": 1,
+      "windows": 9728,
+      "same_predictions": true,
+      "maximum_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "fold": 2,
+      "windows": 9728,
+      "same_predictions": true,
+      "maximum_probability_difference": 1.1920928955078125e-07
+    }
+  ],
+  "windows": 29184,
+  "cpu_thread_cap": 6,
+  "training_and_test_evaluations": 0,
+  "scope": "all saved development out-of-fold window predictions"
+}

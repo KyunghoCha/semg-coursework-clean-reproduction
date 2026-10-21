@@ -1,0 +1,3 @@
+protocol,raw_only,normalized_only,both,neither,windows
+trial_shared,4785,3097,13331,7971,29184
+record_disjoint,1444,1738,1141,24861,29184

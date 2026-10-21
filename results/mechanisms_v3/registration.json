@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "2219b1d783e11294ed9c3911f8f17547449968e6d600978ea81cedf8bf9fb840",
+  "candidates": [
+    "ZC_added_200_19",
+    "base_200_18",
+    "spectrum_200_18",
+    "spectrum_300_18",
+    "spectrum_200_19",
+    "spectrum_no60_200_19"
+  ],
+  "development_trials": 1536,
+  "holdout_excluded": 384,
+  "folds": 5,
+  "selection": false,
+  "existing_development_reuse": true
+}

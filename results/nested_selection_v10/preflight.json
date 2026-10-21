@@ -1,0 +1,39 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "inner_train_trials": 768,
+      "inner_selection_trials": 256,
+      "outer_evaluation_trials": 512,
+      "learning_targets": 64,
+      "minimum_inner_trials_per_target": 6,
+      "maximum_inner_trials_per_target": 18
+    },
+    {
+      "fold": 1,
+      "inner_train_trials": 768,
+      "inner_selection_trials": 256,
+      "outer_evaluation_trials": 512,
+      "learning_targets": 64,
+      "minimum_inner_trials_per_target": 6,
+      "maximum_inner_trials_per_target": 16
+    },
+    {
+      "fold": 2,
+      "inner_train_trials": 768,
+      "inner_selection_trials": 256,
+      "outer_evaluation_trials": 512,
+      "learning_targets": 64,
+      "minimum_inner_trials_per_target": 8,
+      "maximum_inner_trials_per_target": 19
+    }
+  ],
+  "all_targets_present": true,
+  "historical_test_excluded": true,
+  "features_shape": [
+    1920,
+    19,
+    905
+  ],
+  "new_fits": 0
+}

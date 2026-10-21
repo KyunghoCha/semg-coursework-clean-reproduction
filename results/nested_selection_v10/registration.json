@@ -1,0 +1,19 @@
+{
+  "plan_sha256": "d04707bfbf4a93b0d275b034785f5b2b7ad5d1a66044044d53f8b6226311181c",
+  "candidates": [
+    "fine64",
+    "narrow64",
+    "drop_two64",
+    "direct8"
+  ],
+  "outer_seed": 20261109,
+  "inner_seed_base": 20261110,
+  "inner_fits": 12,
+  "outer_fits_range": [
+    3,
+    6
+  ],
+  "development_trials": 1536,
+  "historical_test_excluded": 384,
+  "external_independent_data": false
+}

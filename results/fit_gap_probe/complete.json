@@ -1,0 +1,12 @@
+{
+  "models": 2,
+  "new_fits": 0,
+  "training_results_are_resubstitution": true,
+  "historical_test_evaluations": 0,
+  "model_hashes_unchanged": [
+    "fine64",
+    "narrow64"
+  ],
+  "shared_CPU_with_ongoing_GPU_learning": true,
+  "inference_benchmark": false
+}

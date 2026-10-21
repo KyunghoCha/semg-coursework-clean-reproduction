@@ -1,0 +1,10 @@
+{
+  "source_artifact_hashes_checked": 18,
+  "models_restored": 6,
+  "inner_weight_selection_recalculated": true,
+  "probability_arithmetic_independently_recalculated": true,
+  "every_development_trial_evaluated_once": true,
+  "heldout_intersection": 0,
+  "scalers_train_only": true,
+  "external_independent_data": false
+}

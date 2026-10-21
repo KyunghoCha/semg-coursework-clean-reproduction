@@ -1,0 +1,31 @@
+{
+  "fold_choices": [
+    "narrow64",
+    "narrow64",
+    "narrow64"
+  ],
+  "final_development_candidate": "narrow64",
+  "inner_totals": [
+    {
+      "model": "fine64",
+      "correct": 13028,
+      "model_bytes": 99233696
+    },
+    {
+      "model": "narrow64",
+      "correct": 13083,
+      "model_bytes": 100866744
+    },
+    {
+      "model": "RF100_fine",
+      "correct": 10907,
+      "model_bytes": 207360747
+    },
+    {
+      "model": "ET400_fine",
+      "correct": 12249,
+      "model_bytes": 1108869963
+    }
+  ],
+  "outer_scores_used": false
+}

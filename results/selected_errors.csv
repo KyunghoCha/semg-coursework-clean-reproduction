@@ -1,0 +1,2 @@
+model,total,correct,angle_only,gesture_only,both
+XGB_win300,6912,4714,596,934,668

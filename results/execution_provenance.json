@@ -1,0 +1,21 @@
+{
+  "preexperiment_commit": "e255d8627a642dd47b8d26c8d0e95e2259bcc705",
+  "preexperiment_commit_time": "2026-10-21T05:39:09+09:00",
+  "baseline_verified_commit": "e8ef9f33aff0cb6e145a1624aa4e8dec3b7257c0",
+  "baseline_verified_commit_time": "2026-10-21T05:44:34+09:00",
+  "protocol_sha256": "89838365f515229f37e0c453135fa70849406f8091c2eb3d47c3bd3a23b764cd",
+  "protocol_unchanged_since_first_commit": true,
+  "baseline_completed_utc": "2026-10-20T20:43:52.374429+00:00",
+  "candidate_selected_utc": "2026-10-20T20:51:04.705585+00:00",
+  "selected_holdout_completed_utc": "2026-10-20T20:51:13.626525+00:00",
+  "fit_counts": {
+    "baseline": 18,
+    "development": 40,
+    "selected_holdout": 1,
+    "total": 59,
+    "cuda_xgboost": 32,
+    "cpu_svm_rf": 27
+  },
+  "scope": "original private baseline and development run before public export",
+  "public_protocol_document_revised": true
+}

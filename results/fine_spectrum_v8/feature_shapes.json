@@ -1,0 +1,14 @@
+{
+  "added": [
+    1920,
+    19,
+    505
+  ],
+  "combined_features": 905,
+  "signal_samples": 200,
+  "bin_hz": 5,
+  "floor": 1e-12,
+  "development_fraction_at_floor": 0.07605944393781483,
+  "learned_feature_parameters": 0,
+  "sha256": "a09ac4e8ee9d40af8cc18508b5d36ec4cd3b39f08bef8c85c3a7b5502979b9c3"
+}

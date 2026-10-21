@@ -1,0 +1,4 @@
+-r requirements.txt
+cupy-cuda12x==13.6.0
+fastrlock==0.8.4
+nvidia-nccl-cu12==2.32.3

@@ -1,0 +1,31 @@
+{
+  "source_tables": [
+    {
+      "path": "results/nested_selection_v10/outer_by_fold.csv",
+      "sha256": "0c74893e4611436400b2cd9b241086bc9c8acc068d798b2ed0f4fe652ce29e99"
+    },
+    {
+      "path": "results/probability_blend_v12/outer.csv",
+      "sha256": "7ede2663c56e1d7d362b45867007f02c436cf56bf51761089b5c4e1080e4c797"
+    },
+    {
+      "path": "results/forest_transfer_v13/outer.csv",
+      "sha256": "4a465b54413aff6018203d50ad3ba35ca7efcddd8d635a4111667d04653f5be6"
+    },
+    {
+      "path": "results/fine_spectrum_v8/scores.csv",
+      "sha256": "c74a85884f4f9cc2d558fd81510b58a4660f513c0c9e9a9a53af6541682be302"
+    },
+    {
+      "path": "results/line_projection_v11/scores.csv",
+      "sha256": "5fcfc37b9cc7089c0172990fa484a5169723ce0366e2d1b5c3cb29fb40414bb6"
+    },
+    {
+      "path": "results/forest_transfer_v13/inner_candidates.csv",
+      "sha256": "bab224c4decdd131a50c6873734a80bf4676fc839820e92c99795be977731d40"
+    }
+  ],
+  "external_independent_data": false,
+  "new_fits": 0,
+  "selection_changed": false
+}

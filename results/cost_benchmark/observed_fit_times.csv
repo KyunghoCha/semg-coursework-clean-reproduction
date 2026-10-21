@@ -1,0 +1,71 @@
+stage,model,completed_fits,training_device,minimum_train_trials,maximum_train_trials,minimum_seconds,median_seconds,maximum_seconds,definition,exclusive_resource_timing
+original,RF,6,cpu,1536,1536,1.7813491490669549,1.8198506658663973,1.8470099770929664,scaler fit/transform + mean check + model.fit,False
+original,SVM,6,cpu,1536,1536,28.65461071697064,29.042884411057457,29.63886203384027,scaler fit/transform + mean check + model.fit,False
+original,XGB,6,cuda,1536,1536,5.619207314914092,5.696611155406572,5.865764047950506,scaler fit/transform + mean check + model.fit,False
+initial_development,RF,5,cpu,1228,1229,1.4213692271150649,1.4294122839346528,1.4441102507989854,scaler fit/transform + mean check + model.fit,False
+initial_development,SVM,5,cpu,1228,1229,17.83923087408766,18.416694947052747,18.894134607864544,scaler fit/transform + mean check + model.fit,False
+initial_development,SVM_C10,5,cpu,1228,1229,17.432554980972782,17.639717071084306,17.888873293064535,scaler fit/transform + mean check + model.fit,False
+initial_development,XGB,5,cuda,1228,1229,5.381675624987111,5.520632087951526,5.533243338111788,scaler fit/transform + mean check + model.fit,False
+initial_development,XGB_depth4,5,cuda,1228,1229,3.345001035835594,3.373279144987464,3.3961019958369434,scaler fit/transform + mean check + model.fit,False
+initial_development,XGB_forearm,5,cuda,1228,1229,4.993692263960838,5.002189953112975,5.073856109986082,scaler fit/transform + mean check + model.fit,False
+initial_development,XGB_spectral,5,cuda,1228,1229,6.22691564890556,6.249395885970444,6.317034058040008,scaler fit/transform + mean check + model.fit,False
+initial_development,XGB_win300,5,cuda,1228,1229,5.48836033907719,5.526122754905373,5.604268797906116,scaler fit/transform + mean check + model.fit,False
+initial_selected,XGB_win300,1,cuda,1536,1536,5.727414647117257,5.727414647117257,5.727414647117257,scaler fit/transform + mean check + model.fit,False
+diagnostic_v2,ET_rich,9,cpu,682,683,12.48796544293873,14.070820827037096,15.622956936014816,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,SVM_quantile,9,cpu,682,683,5.147524210158736,5.392793084960431,6.077039620140567,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,SVM_standard,9,cpu,682,683,5.473404719028622,5.622925137169659,5.777173769893125,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_base,9,cuda,682,683,4.96294536604546,5.060359690105543,5.270268362946808,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_relation,9,cuda,682,683,6.770257240859792,6.8837693920359015,7.073894227854908,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_rich,9,cuda,682,683,13.493776991032064,13.75245815818198,14.382652651984245,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_rich800,9,cuda,682,683,26.106101698009297,26.82869905885309,27.418273735092956,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_spectrum,9,cuda,682,683,9.194656769977884,9.239923195913434,9.299394187051805,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_time,9,cuda,682,683,8.498698140028864,8.679200691869482,8.822764406912029,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2,XGB_zc0,9,cuda,682,683,4.996081012068316,5.109719301108271,5.1591013739816844,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2_outer,XGB_base,3,cuda,1024,1024,5.339425239944831,5.38427947089076,5.404095999896526,scaler train/evaluation transforms + model.fit,False
+diagnostic_v2_outer,XGB_rich800,3,cuda,1024,1024,28.930168414954096,28.989622998051345,29.260778679978102,scaler train/evaluation transforms + model.fit,False
+mechanisms_v3,ZC_added_200_19,5,cuda,1228,1229,5.815067121991888,5.854428514139727,6.033790953923017,scaler train transform + model.fit + config verification,False
+mechanisms_v3,base_200_18,5,cuda,1228,1229,5.419833332998678,5.507752134930342,5.533673037076369,scaler train transform + model.fit + config verification,False
+mechanisms_v3,spectrum_200_18,5,cuda,1228,1229,10.381040374049917,10.583849041024225,10.666176841128618,scaler train transform + model.fit + config verification,False
+mechanisms_v3,spectrum_200_19,5,cuda,1228,1229,10.946605995995924,11.064559733960778,11.19943804689683,scaler train transform + model.fit + config verification,False
+mechanisms_v3,spectrum_300_18,5,cuda,1228,1229,10.599833533866333,10.844511972973123,10.883433070965111,scaler train transform + model.fit + config verification,False
+mechanisms_v3,spectrum_no60_200_19,5,cuda,1228,1229,10.971299028024076,11.129149614833295,11.211068009957671,scaler train transform + model.fit + config verification,False
+capacity_v4,SVM_rich_quantile,9,cpu,682,683,12.399214394157752,12.978861049050463,13.515040734782817,scaler train transform + model.fit,False
+capacity_v4,SVM_rich_standard,9,cpu,682,683,11.831185456132516,12.676696282112973,13.34836182417348,scaler train transform + model.fit,False
+capacity_v4,XGB_noTime800,9,cuda,682,683,20.376902665011585,51.82679225294851,55.54174974607304,scaler train transform + model.fit,False
+capacity_v4,XGB_rich1600,9,cuda,682,683,48.14651570096612,77.15971297002397,127.213718945859,scaler train transform + model.fit,False
+capacity_v4,XGB_rich800,9,cuda,682,683,25.457275290973485,26.841981570003554,73.81938208406791,scaler train transform + model.fit,False
+capacity_v4_outer,XGB_rich1600,3,cuda,1024,1024,53.20917122415267,122.7100673050154,150.16999713890254,scaler train transform + model.fit,False
+capacity_v4_outer,XGB_rich800,3,cuda,1024,1024,28.520972118945792,63.43118141894229,72.09597920998931,scaler train transform + model.fit,False
+latent_subclass_v5,global8,3,cuda,1024,1024,16.165181406075135,30.017734079854563,31.144281167071316,model.fit only,False
+latent_subclass_v5,subclass64,3,cuda,1024,1024,87.8897177579347,121.36526976409368,208.4900931690354,model.fit only,False
+cross_spectrum_v6,global8_3200,3,cuda,1024,1024,106.610984363826,106.6935661949683,238.9646198730916,model.fit only,False
+cross_spectrum_v6,subclass64_400,3,cuda,1024,1024,110.33778882888146,190.9261745091062,230.2765422530938,model.fit only,False
+cross_spectrum_v6,subclass64_cross400,3,cuda,1024,1024,132.28635004907846,233.34535531606525,254.5497019500472,model.fit only,False
+cross_capacity_v7,cross400,3,cuda,1024,1024,130.60186073416844,131.88173341192305,132.5437863310799,model.fit only,False
+cross_capacity_v7,cross800,3,cuda,1024,1024,202.9716530030128,211.3043314490933,214.56473702797663,model.fit only,False
+cross_capacity_v7,without_high_cross400,3,cuda,1024,1024,127.79248123499563,127.891951310914,131.0880379760638,model.fit only,False
+fine_spectrum_v8,fine400,3,cuda,1024,1024,227.43725022114813,237.93697867309675,238.16451687784863,model.fit only,False
+spectral_controls_v9,direct8,3,cuda,1024,1024,289.5366567929741,290.1465767510236,291.44321870594285,model.fit only,False
+spectral_controls_v9,drop_two64,3,cuda,1024,1024,240.1634857000317,246.19815889419988,255.60973969101903,model.fit only,False
+spectral_controls_v9,narrow64,3,cuda,1024,1024,119.69423699798062,123.02221303782426,124.15693860687315,model.fit only,False
+nested_selection_v10_inner,direct8,3,cuda,768,768,230.76508104009557,240.97393278288652,244.61785946204327,model.fit only,False
+nested_selection_v10_inner,drop_two64,3,cuda,768,768,199.34177859383635,202.161560890032,202.7549429659266,model.fit only,False
+nested_selection_v10_inner,fine64,3,cuda,768,768,186.3729067388922,197.90753988293,198.43580326694064,model.fit only,False
+nested_selection_v10_inner,narrow64,3,cuda,768,768,101.5897256389726,103.66978885908613,109.61646098294295,model.fit only,False
+nested_selection_v10_outer,fine64,3,cuda,1024,1024,243.0252402969636,245.21295787813145,252.22536268713884,model.fit only,False
+nested_selection_v10_outer,narrow64,3,cuda,1024,1024,123.41043994296342,125.3112967889756,130.8898935141042,model.fit only,False
+forest_transfer_v13,ET400_fine,3,cpu,768,768,77.72400097106583,82.70671850512736,83.02387077710591,model.fit only,False
+forest_transfer_v13,RF100_fine,3,cpu,768,768,8.476787667023018,9.695482687093318,9.80776876420714,model.fit only,False
+record_reference_control,record_disjoint,4,cuda,1139,1164,13.408347539138049,13.752324917004444,13.915928080910817,model.fit only,False
+record_reference_control,trial_shared,4,cuda,1152,1152,14.179693910991771,15.26918130647391,15.5771487778984,model.fit only,False
+active_record_control,record_disjoint,4,cuda,1139,1164,55.397873535053805,55.869366722065024,56.30584351997823,model.fit only,False
+active_record_control,trial_shared,4,cuda,1152,1152,48.33366494812071,52.57380952697713,54.8661265198607,model.fit only,False
+active_record_baseline,record_disjoint,4,cuda,1139,1164,5.396219481015578,5.509596580406651,5.579799794126302,model.fit only,False
+active_record_baseline,trial_shared,4,cuda,1152,1152,5.307742604054511,5.443912378512323,5.564753245096654,model.fit only,False
+gain_invariance_v14,record_disjoint,4,cuda,1139,1164,5.462965353159234,5.474283537478186,5.596256365068257,model.fit only,False
+gain_invariance_v14,trial_shared,4,cuda,1152,1152,5.437743491027504,5.58112440048717,5.612739362986758,model.fit only,False
+line_projection_v11,projected400,3,cuda,1024,1024,272.12349384999834,290.12709603691474,292.3802934458945,model.fit only,False
+cost_reconstruction,SVM_rich_quantile,1,cpu,682,682,12.636143614072353,12.636143614072353,12.636143614072353,model.fit only; same old inner predictions,False
+cost_reconstruction,SVM_rich_standard,1,cpu,682,682,12.524571551941335,12.524571551941335,12.524571551941335,model.fit only; same old inner predictions,False
+cost_reconstruction,XGB_noTime800,1,cuda,682,682,20.73721075314097,20.73721075314097,20.73721075314097,model.fit only; same old inner predictions,False
+cost_reconstruction,XGB_rich800,1,cuda,682,682,26.703277968103063,26.703277968103063,26.703277968103063,model.fit only; same old inner predictions,False

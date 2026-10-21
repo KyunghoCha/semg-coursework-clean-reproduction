@@ -1,0 +1,157 @@
+{
+  "models_checked": 8,
+  "source_filename_labels_checked": 1920,
+  "baseline_label_array_exact": true,
+  "constant_class_per_record": true,
+  "trials_per_source_record": 30,
+  "classes": 8,
+  "missing_classes_in_any_train_or_evaluation": false,
+  "probability_columns_aligned_with_labels": true,
+  "folds": [
+    {
+      "protocol": "trial_shared",
+      "fold": 0,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 8,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 1,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 8,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 2,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 8,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "trial_shared",
+      "fold": 3,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 8,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 0,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 7,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 1,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 8,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 2,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 7,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    },
+    {
+      "protocol": "record_disjoint",
+      "fold": 3,
+      "probability_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "train_subject_count": 8,
+      "evaluation_subject_count": 6,
+      "class_missing": false,
+      "probability_alignment_exact": true
+    }
+  ],
+  "scope": "Record holdout removes a person-condition combination; all eight classes remain in training."
+}

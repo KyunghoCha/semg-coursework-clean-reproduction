@@ -1,0 +1,78 @@
+{
+  "case": "inner_ET400_fine",
+  "utc": "2026-10-21T03:34:28.564794+00:00",
+  "device": "cpu",
+  "threads": 6,
+  "representative_fold": 0,
+  "training_trials": 768,
+  "signal_ms": 200,
+  "hop_ms": 100,
+  "alpha": null,
+  "active_models": 1,
+  "model_bytes": 365089817,
+  "fit_seconds_sum": 77.72400097106583,
+  "fit_times_original_training_devices": true,
+  "timing": {
+    "feature_batch1": {
+      "median_ms": 1.877165,
+      "p95_ms": 1.9493908,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "scaler_model_probability_batch1": {
+      "median_ms": 43.5934965,
+      "p95_ms": 44.80646529999999,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "total_batch1": {
+      "median_ms": 46.113870500000004,
+      "p95_ms": 47.766541,
+      "repeats": 200,
+      "warmup": 20
+    }
+  },
+  "source_models": [
+    {
+      "model": "ET400_fine",
+      "path": "private/forest_transfer_v13/inner_ET400_fine_0.joblib",
+      "bytes": 365089817,
+      "sha256": "ddee991e67b1e21587d28bce103d1ee45a1b5ded010a040a7d7341410202da36"
+    }
+  ],
+  "verification": [
+    {
+      "model": "ET400_fine",
+      "restored_evaluation_windows": 256,
+      "predictions_equal": true
+    }
+  ],
+  "equivalent_feature_windows": 256,
+  "current_window_only": true,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true,
+  "private_predictions_written": false,
+  "cpu_api": "XGB inplace_predict / forest predict_proba",
+  "library_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 6,
+      "version": "2025.0-Product"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    }
+  ],
+  "process_lifetime_peak_rss_kib": 1465372,
+  "peak_rss_includes_validation_arrays": true
+}

@@ -1,0 +1,7 @@
+{
+  "raw_manifest_identical": true,
+  "features_sha256_identical": true,
+  "split_manifest_identical": true,
+  "features_sha256": "7aac384f7c84653b05ab5c5a63b739ad561878f6d5f6f628e606d272ef3a8523",
+  "rerun_scope": "full input parsing/features/splits; models not retrained"
+}

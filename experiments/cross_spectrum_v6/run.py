@@ -1,0 +1,68 @@
+"""Fixed capacity-matched and cross-spectral comparisons; no evaluation identity input."""
+from semg.paths import RUN_ROOT, SOURCE_ROOT
+import gc
+import hashlib
+import json
+import sys
+from pathlib import Path
+from time import perf_counter
+import joblib
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import StratifiedKFold
+from sklearn.preprocessing import StandardScaler
+from xgboost import DMatrix
+from semg.models import make_model
+from semg.evaluation import unfold,metrics
+ROOT=RUN_ROOT;P=ROOT/'private/cross_spectrum_v6';R=ROOT/'results/cross_spectrum_v6'
+sys.path.insert(0,str(SOURCE_ROOT/'experiments/diagnostic_v2'))
+from causal_context import aggregate
+sys.path.insert(0,str(SOURCE_ROOT/'experiments'))
+from resume_check import checked_rows,write_identical_or_new,snapshot,verify_preserved
+NAMES=['global8_3200','subclass64_400','subclass64_cross400']
+
+
+if __name__=='__main__':
+    resume='--resume' in sys.argv
+    if (R/'scores.csv').exists() and not resume:raise FileExistsError('Explicit --resume required')
+    done={}
+    if resume:
+        snapshot(P)
+        done=checked_rows(R/'scores.csv',P,['model','fold'],lambda r:f"{r['model']}_{r['fold']}",lambda r:['.npz','.json','.joblib'])
+    split=json.loads((ROOT/'private/splits.json').read_text());dev=np.array(split['train']);held=set(split['test'])
+    y=np.load(ROOT/'private/cache/baseline.npz',allow_pickle=False)['y']
+    rich=np.load(ROOT/'private/diagnostic_v2/features.npz',allow_pickle=False)['rich']
+    extended=np.concatenate([rich,np.load(P/'features.npy',allow_pickle=False)],axis=2)
+    meta=pd.read_csv(ROOT/'private/trials.csv');subject=meta.subject.map({s:i for i,s in enumerate(sorted(meta.subject.unique()))}).to_numpy()
+    schedule=[dict(train=dev[a].tolist(),evaluation=dev[b].tolist()) for a,b in StratifiedKFold(3,shuffle=True,random_state=20261031).split(dev,y[dev])]
+    write_identical_or_new(P/'splits.json',schedule)
+    write_identical_or_new(R/'registration.json',dict(plan_sha256=hashlib.sha256((SOURCE_ROOT/'experiments/cross_spectrum_v6/PLAN.md').read_bytes()).hexdigest(),
+        models=NAMES,folds=3,development_trials=1536,holdout_excluded=384,trees_per_model=25600,
+        inference_inputs='signal features only; no subject/recording ID',external_independent_data=False))
+    for k,s in enumerate(schedule):
+        tr=np.array(s['train']);te=np.array(s['evaluation']);assert not set(tr)&set(te) and not (set(tr)|set(te))&held
+        joint=np.repeat(subject[tr]*8+y[tr],19);assert np.array_equal(np.unique(joint),np.arange(64))
+        for name in NAMES:
+            if (name,k) in done:print('RESUME_SKIP',(name,k),flush=True);continue
+            stem=f'{name}_{k}';assert not list(P.glob(f'{stem}.*')), 'Unscored artifacts require review'
+            x=extended if name=='subclass64_cross400' else rich
+            a,ya,_=unfold(x,y,tr);b,yb,gb=unfold(x,y,te)
+            subclass=name.startswith('subclass');rounds=400 if subclass else 3200;classes=64 if subclass else 8
+            scaler=StandardScaler();aa=scaler.fit_transform(a);bb=scaler.transform(b)
+            model=make_model('XGB');model.set_params(n_jobs=6,n_estimators=rounds)
+            t=perf_counter();model.fit(aa,joint if subclass else ya);elapsed=perf_counter()-t
+            config=json.loads(model.get_booster().save_config());assert config['learner']['generic_param']['device']=='cuda:0'
+            assert int(config['learner']['gradient_booster']['gbtree_model_param']['num_trees'])==25600
+            probability=model.get_booster().predict(DMatrix(bb));np.testing.assert_allclose(probability.sum(axis=1),1,atol=1e-6)
+            eight=probability.reshape(-1,8,8).sum(axis=1) if subclass else probability
+            pred=eight.argmax(axis=1);cp=aggregate(pred.reshape(-1,19)).ravel()
+            dest=P/f'{stem}.joblib';joblib.dump(dict(model=model,scaler=scaler),dest)
+            np.savez(P/f'{stem}.npz',truth=yb,prediction=pred,trial=gb,probability=probability,causal=cp,scaler_mean=scaler.mean_,scaler_var=scaler.var_)
+            (P/f'{stem}.json').write_text(json.dumps(config,indent=2))
+            row=dict(model=name,fold=k,train_trials=len(tr),evaluation_trials=len(te),train_windows=len(a),evaluation_windows=len(b),
+                learning_classes=classes,output_classes=8,trees=25600,rounds=rounds,features=x.shape[-1],fit_seconds=elapsed,model_megabytes=dest.stat().st_size/1e6,
+                causal_accuracy=float((cp==yb).mean()),**metrics(yb,pred))
+            pd.DataFrame([row]).to_csv(R/'scores.csv',mode='a',header=not (R/'scores.csv').exists(),index=False);print(json.dumps(row),flush=True)
+            del a,b,aa,bb,model,scaler;gc.collect()
+    if resume:verify_preserved(P)
+    (R/'complete.json').write_text(json.dumps(dict(fits=9,holdout_evaluations=0),indent=2))

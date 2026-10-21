@@ -1,0 +1,2 @@
+model,phase,fold,train_trials,test_trials,train_windows,test_windows,features,shared_trials,train_seconds,accuracy,precision_macro,recall_macro,f1_macro,angle_accuracy,gesture_accuracy,trial_vote_accuracy,inference_ms_per_window,model_megabytes
+XGB_win300,selected_holdout,0,1536,384,27648,6912,25,0,5.727414647117257,0.6820023148148148,0.6834609968253242,0.6820023148148149,0.6824417798356945,0.8171296296296297,0.7682291666666666,0.96875,30.536694121547043,11.313519

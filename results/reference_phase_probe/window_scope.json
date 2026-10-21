@@ -1,0 +1,14 @@
+{
+  "feature_dimensions": 905,
+  "outside_window_perturbation_positions": [
+    0,
+    8,
+    18
+  ],
+  "features_unchanged": true,
+  "fixed_scaler_outputs_unchanged": true,
+  "trial_statistics_used": false,
+  "current_feature_input": "200 supplied CSV samples and 5 channels",
+  "supplied_csv_filter_causality_verified": false,
+  "raw_unfiltered_signal_available": false
+}

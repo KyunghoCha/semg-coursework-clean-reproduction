@@ -1,0 +1,39 @@
+{
+  "inner_fits": 45,
+  "outer_folds_complete": 3,
+  "selected": [
+    {
+      "outer_fold": 0,
+      "selected": "XGB_rich1600",
+      "inner_means": {
+        "SVM_rich_quantile": 0.7361674108613614,
+        "SVM_rich_standard": 0.7285634469979033,
+        "XGB_noTime800": 0.795386022979625,
+        "XGB_rich1600": 0.8031479420542059,
+        "XGB_rich800": 0.7961581983117144
+      }
+    },
+    {
+      "outer_fold": 1,
+      "selected": "XGB_rich1600",
+      "inner_means": {
+        "SVM_rich_quantile": 0.732430641866796,
+        "SVM_rich_standard": 0.7265691496323253,
+        "XGB_noTime800": 0.7963713626299632,
+        "XGB_rich1600": 0.8031483933548093,
+        "XGB_rich800": 0.7967772323057821
+      }
+    },
+    {
+      "outer_fold": 2,
+      "selected": "XGB_rich1600",
+      "inner_means": {
+        "SVM_rich_quantile": 0.7381778046151203,
+        "SVM_rich_standard": 0.7296455154108625,
+        "XGB_noTime800": 0.8002705998416838,
+        "XGB_rich1600": 0.8073131457547507,
+        "XGB_rich800": 0.8008359290639695
+      }
+    }
+  ]
+}

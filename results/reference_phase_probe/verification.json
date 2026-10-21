@@ -1,0 +1,10 @@
+{
+  "original_reports_preserved": true,
+  "repeated_aggregate_files_identical": 5,
+  "raw_hashes_rechecked": 64,
+  "phase_fold_metrics_recalculated": 6,
+  "development_trials_per_phase": 1536,
+  "direct_fft_samples": 12,
+  "historical_test_evaluations": 0,
+  "private_evidence_saved": true
+}

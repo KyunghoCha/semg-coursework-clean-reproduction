@@ -1,0 +1,52 @@
+{
+  "source_commit": "f119798c19c8d4705b0337ce6270503794ab865f",
+  "verified_result_stages": [
+    "diagnostic_v2",
+    "mechanisms_v3",
+    "capacity_v4",
+    "geometry_probe",
+    "latent_subclass_v5",
+    "cross_spectrum_v6",
+    "cross_capacity_v7",
+    "fine_spectrum_v8",
+    "reference_phase_probe",
+    "record_reference_control",
+    "spectral_controls_v9",
+    "nested_selection_v10",
+    "line_projection_v11",
+    "probability_blend_v12",
+    "forest_transfer_v13",
+    "active_record_control",
+    "active_record_baseline",
+    "gain_invariance_v14",
+    "cost_benchmark",
+    "continuation_cost",
+    "continuation_report",
+    "fit_gap_probe"
+  ],
+  "in_progress_code_stages": [],
+  "transmitted": false,
+  "repository_created": false,
+  "pushed": false,
+  "omitted": [
+    "raw signals",
+    "model binaries",
+    "per-window predictions",
+    "individual subject scores",
+    "per-record profiles",
+    "input file/marker manifests",
+    "lecture originals",
+    "slide title inventory",
+    "hostnames",
+    "credentials",
+    "conversation text"
+  ],
+  "included": [
+    "independently implemented code",
+    "aggregate metrics",
+    "aggregate figures",
+    "method plans",
+    "verification summaries",
+    "package and GPU specifications"
+  ]
+}

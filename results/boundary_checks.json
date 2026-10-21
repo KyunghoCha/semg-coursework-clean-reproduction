@@ -1,0 +1,7 @@
+{
+  "exact_duplicate_feature_vectors": 0,
+  "minimum_gap_between_trial_segments_samples": 2999,
+  "all_channels": 5,
+  "all_trials": 1920,
+  "all_windows": 36480
+}

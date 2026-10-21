@@ -1,0 +1,11 @@
+{
+  "fits_verified": 8,
+  "models_restored": 8,
+  "split_regeneration_exact": true,
+  "record_disjoint_overlap": 0,
+  "trial_overlap": 0,
+  "heldout_intersection": 0,
+  "every_development_trial_evaluated_once_per_protocol": true,
+  "scalers_train_only": true,
+  "external_independent_data": false
+}

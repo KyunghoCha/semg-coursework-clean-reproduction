@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "74358a0082ded97c5cc213d56e0fe5f1eef6062c2138967d051fc6913da42aa4",
+  "candidates": [
+    "fine64",
+    "narrow64",
+    "RF100_fine",
+    "ET400_fine"
+  ],
+  "new_inner_fits": 6,
+  "new_outer_fits_range": [
+    0,
+    3
+  ],
+  "source_splits": "nested_selection_v10",
+  "historical_test_used": false
+}

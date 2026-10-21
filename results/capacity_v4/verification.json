@@ -1,0 +1,9 @@
+{
+  "fits_verified": 51,
+  "outer_models_restored": 6,
+  "holdout_intersection": 0,
+  "scalers_recomputed": true,
+  "selection_recomputed": true,
+  "causal_prefix_rule_verified": true,
+  "external_independent_evaluation": false
+}

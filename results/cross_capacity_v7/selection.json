@@ -1,0 +1,11 @@
+{
+  "selected": "cross800",
+  "means": {
+    "cross400": 0.8791461074561404,
+    "cross800": 0.8846285635964911,
+    "without_high_cross400": 0.8488212719298246
+  },
+  "minimum_improvement": 0.005,
+  "selection_metric": "independent window accuracy",
+  "holdout_used": false
+}

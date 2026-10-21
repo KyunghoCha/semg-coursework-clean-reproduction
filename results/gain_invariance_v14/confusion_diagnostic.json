@@ -1,0 +1,21 @@
+{
+  "aggregates_match_verified_matrices": true,
+  "new_model_evaluations": 0,
+  "confidence_intervals_computed": false,
+  "causal_explanation_established": false,
+  "normalization_source_matches_pre_fit_commit": "c41f96e",
+  "normalization_source_sha256": "a40627e86c371466259883b67f410c073d52f8ab6063403112f8ac4ce76ceb1f",
+  "plan_matches_registration": true,
+  "dc_removal": false,
+  "denominator_formula": "sqrt(mean(x*x, axes=(samples,channels)))",
+  "denominator_epsilon": null,
+  "positive_denominator_policy": "divide by exact positive g, including small positive values",
+  "zero_denominator_policy": "all zero output",
+  "observed_denominator_minimum": 0.0011166584497018348,
+  "observed_denominator_maximum": 0.5569389909208409,
+  "observed_zero_denominators": 0,
+  "zc_threshold": 0.01,
+  "zc_units": "dimensionless normalized waveform",
+  "ssc_threshold": null,
+  "amplitude_hypothesis_scope": "one common positive scale per current window, not channel-specific gains or spectral shape"
+}

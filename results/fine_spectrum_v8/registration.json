@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "8b81a4f0e82e1140e20f45c37971f540789e5fd56bd24958bfe3ab4257a7be45",
+  "models": [
+    "fine400"
+  ],
+  "folds": 3,
+  "development_trials": 1536,
+  "holdout_excluded": 384,
+  "rounds": [
+    400
+  ],
+  "inference_inputs": "signal features only; no subject/recording ID",
+  "external_independent_data": false
+}

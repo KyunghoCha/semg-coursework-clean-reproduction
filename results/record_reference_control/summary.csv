@@ -1,0 +1,3 @@
+protocol,mean,fold_std,folds,min_train_trials,max_train_trials
+record_disjoint,0.02602914072032865,0.012155806967295636,4,1139,1164
+trial_shared,0.8131510416666666,0.02714929617447013,4,1152,1152

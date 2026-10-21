@@ -1,0 +1,11 @@
+{
+  "model_device_pairs": 32,
+  "timing_series_recomputed": 256,
+  "gpu_sync_verified": true,
+  "cpu_gpu_prediction_equivalence": true,
+  "prediction_equivalence_windows": 256,
+  "prediction_equivalence_scope": "fixed benchmark inputs, not all evaluation windows",
+  "comparison_groups_separate": true,
+  "memory_scope": "process RSS and two observed VRAM snapshots; not training peak",
+  "pareto_scope": "descriptive measured medians, not a statistical dominance test"
+}

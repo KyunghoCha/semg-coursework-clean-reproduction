@@ -1,0 +1,18 @@
+{
+  "development_trials": 1536,
+  "development_windows": 29184,
+  "paired_accuracy_gain": 0.01864035087719298,
+  "trial_mean_improved": 589,
+  "trial_mean_regressed": 297,
+  "trial_mean_tied": 650,
+  "descriptive_trial_bootstrap_percentile95": [
+    0.015042489035087718,
+    0.022306743421052627
+  ],
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261107,
+  "interval_scope": "class-stratified paired trial resampling, conditional on adapted models and reused development folds; not an unbiased generalization interval",
+  "training_gain_scope": "descriptive training total gain, not causal importance",
+  "physiological_origin_confirmed": false,
+  "holdout_evaluations": 0
+}

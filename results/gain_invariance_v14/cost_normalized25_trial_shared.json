@@ -1,0 +1,41 @@
+{
+  "case": "normalized25_trial_shared",
+  "utc": "2026-10-21T03:57:09.048140+00:00",
+  "device": "cpu",
+  "threads": 6,
+  "features": 25,
+  "classes": 8,
+  "trees": 3200,
+  "representative_fold": 0,
+  "training_trials": 1152,
+  "signal_ms": 200,
+  "model_bytes": 11257888,
+  "fit_seconds": 5.612739362986758,
+  "timing": {
+    "feature_batch1": {
+      "median_ms": 0.0863305,
+      "p95_ms": 0.15400649999999996,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "scaler_model_probability_batch1": {
+      "median_ms": 0.45791000000000004,
+      "p95_ms": 0.7979918,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "total_batch1": {
+      "median_ms": 0.6021084999999999,
+      "p95_ms": 1.0530304,
+      "repeats": 200,
+      "warmup": 20
+    }
+  },
+  "model_sha256": "fd104e7dfc821b13c4eaaf12182e69d66e58c5ebd6a85c7d59d554675eae3f7c",
+  "model_unchanged": true,
+  "restored_evaluation_windows": 7296,
+  "restored_predictions_equal": true,
+  "feature_cache_matches": true,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true
+}

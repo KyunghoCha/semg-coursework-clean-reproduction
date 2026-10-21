@@ -1,0 +1,12 @@
+protocol,fold,train,evaluation,train_eval_intersection,train_intersection_holdout_test,evaluation_intersection_holdout_test
+baseline_cv,0,1536,384,0,291,93
+baseline_cv,1,1536,384,0,317,67
+baseline_cv,2,1536,384,0,316,68
+baseline_cv,3,1536,384,0,306,78
+baseline_cv,4,1536,384,0,306,78
+development,0,1228,308,0,0,0
+development,1,1229,307,0,0,0
+development,2,1229,307,0,0,0
+development,3,1229,307,0,0,0
+development,4,1229,307,0,0,0
+holdout,0,1536,384,0,0,384

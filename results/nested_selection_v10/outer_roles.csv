@@ -1,0 +1,7 @@
+fold,role,model,stem
+0,selected,narrow64,outer_narrow64_0
+0,reference,fine64,outer_fine64_0
+1,selected,narrow64,outer_narrow64_1
+1,reference,fine64,outer_fine64_1
+2,selected,narrow64,outer_narrow64_2
+2,reference,fine64,outer_fine64_2

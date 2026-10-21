@@ -1,0 +1,32 @@
+{
+  "recordings": 64,
+  "trials": 1920,
+  "windows": 36480,
+  "features": 25,
+  "classes": [
+    "30_extor",
+    "30_fist",
+    "30_open",
+    "30_pro",
+    "60_extor",
+    "60_fist",
+    "60_open",
+    "60_pro"
+  ],
+  "trials_per_class": [
+    240,
+    240,
+    240,
+    240,
+    240,
+    240,
+    240,
+    240
+  ],
+  "holdout_train_trials": 1536,
+  "holdout_test_trials": 384,
+  "shared_holdout_trials": 0,
+  "split_sha256": "07d8b2f4b59a98c613f35d103c96f731da933a1cbc59a7aaca09a92473cfcb23",
+  "features_sha256": "7aac384f7c84653b05ab5c5a63b739ad561878f6d5f6f628e606d272ef3a8523",
+  "preprocessing": "provided_bandpass_no_additional_filter"
+}

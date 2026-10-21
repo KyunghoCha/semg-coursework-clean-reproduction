@@ -1,0 +1,53 @@
+{
+  "plan_sha256": "a55b72e73df973e144bcb562a6b78338b9fc64f2395e180901de797b5a178671",
+  "candidates": [
+    [
+      "XGB_base",
+      "base"
+    ],
+    [
+      "XGB_zc0",
+      "zc0"
+    ],
+    [
+      "XGB_time",
+      "time"
+    ],
+    [
+      "XGB_relation",
+      "relation"
+    ],
+    [
+      "XGB_spectrum",
+      "spectrum"
+    ],
+    [
+      "XGB_rich",
+      "rich"
+    ],
+    [
+      "XGB_rich800",
+      "rich"
+    ],
+    [
+      "ET_rich",
+      "rich"
+    ],
+    [
+      "SVM_standard",
+      "base"
+    ],
+    [
+      "SVM_quantile",
+      "base"
+    ]
+  ],
+  "outer_folds": 3,
+  "inner_folds": 3,
+  "development_trials": 1536,
+  "holdout_trials_excluded": 384,
+  "window_samples": 200,
+  "windows_per_trial": 19,
+  "main_metric": "window_accuracy",
+  "candidate_selection": "maximum inner mean; fixed order on ties"
+}

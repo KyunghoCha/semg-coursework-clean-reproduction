@@ -1,0 +1,95 @@
+{
+  "case": "inner_blend",
+  "utc": "2026-10-21T03:33:57.660788+00:00",
+  "device": "cpu",
+  "threads": 6,
+  "representative_fold": 0,
+  "training_trials": 768,
+  "signal_ms": 200,
+  "hop_ms": 100,
+  "alpha": 0.75,
+  "active_models": 2,
+  "model_bytes": 66293064,
+  "fit_seconds_sum": 287.9626323778648,
+  "fit_times_original_training_devices": true,
+  "timing": {
+    "feature_batch1": {
+      "median_ms": 1.9075075,
+      "p95_ms": 2.4450778,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "scaler_model_probability_batch1": {
+      "median_ms": 4.5649055,
+      "p95_ms": 5.5220385,
+      "repeats": 200,
+      "warmup": 20
+    },
+    "total_batch1": {
+      "median_ms": 6.799298,
+      "p95_ms": 7.8148283,
+      "repeats": 200,
+      "warmup": 20
+    }
+  },
+  "source_models": [
+    {
+      "model": "fine64",
+      "path": "private/nested_selection_v10/inner_fine64_0.joblib",
+      "bytes": 32883824,
+      "sha256": "c5740fc1ad04e55ff59610218386597512de33dd10e8e475808bcb2d7e3401f1"
+    },
+    {
+      "model": "narrow64",
+      "path": "private/nested_selection_v10/inner_narrow64_0.joblib",
+      "bytes": 33409240,
+      "sha256": "009fe306e9894a5992f712006cae818506f872273d25679d78d93b729a3688db"
+    }
+  ],
+  "verification": [
+    {
+      "model": "fine64",
+      "restored_evaluation_windows": 256,
+      "predictions_equal": true
+    },
+    {
+      "model": "narrow64",
+      "restored_evaluation_windows": 256,
+      "predictions_equal": true
+    }
+  ],
+  "equivalent_feature_windows": 256,
+  "current_window_only": true,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true,
+  "private_predictions_written": false,
+  "cpu_api": "XGB inplace_predict / forest predict_proba",
+  "library_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 6,
+      "version": "2025.0-Product"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    }
+  ],
+  "process_lifetime_peak_rss_kib": 1094000,
+  "peak_rss_includes_validation_arrays": true
+}

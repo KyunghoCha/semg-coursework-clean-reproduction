@@ -1,0 +1,7 @@
+{
+  "timing_series_recomputed": 12,
+  "paired_order_balanced": true,
+  "features_and_total_separate": true,
+  "models_unchanged": true,
+  "heldout_evaluations": 0
+}

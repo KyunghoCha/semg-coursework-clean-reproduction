@@ -1,0 +1,132 @@
+{
+  "library_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 6,
+      "version": "2025.0-Product"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "version": null
+    }
+  ],
+  "model": "inner_SVM_standard",
+  "comparison_group": "capacity_v4_inner",
+  "device": "cpu",
+  "thread_cap": 6,
+  "svm_implementation_single_thread": true,
+  "signal_ms": 200,
+  "features": 240,
+  "model_bytes_with_scaler": 21722433,
+  "timing": {
+    "feature_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 1.0763055000000001,
+      "p95_ms": 1.21228955,
+      "measured_total_ms": 218.709278,
+      "calls_per_second": 914.4559473146813,
+      "windows_per_second": 914.4559473146813
+    },
+    "scaler_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 0.052444,
+      "p95_ms": 0.057807,
+      "measured_total_ms": 10.688679,
+      "calls_per_second": 18711.386131064464,
+      "windows_per_second": 18711.386131064464
+    },
+    "model_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 2.3266885000000004,
+      "p95_ms": 2.5315252999999998,
+      "measured_total_ms": 467.817989,
+      "calls_per_second": 427.51669389096537,
+      "windows_per_second": 427.51669389096537
+    },
+    "total_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 3.652505,
+      "p95_ms": 3.8874881999999995,
+      "measured_total_ms": 733.383804,
+      "calls_per_second": 272.70850393636454,
+      "windows_per_second": 272.70850393636454
+    },
+    "context_update_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 0.0023245,
+      "p95_ms": 0.005103999999999999,
+      "measured_total_ms": 0.601481,
+      "calls_per_second": 332512.58144480037,
+      "windows_per_second": 332512.58144480037
+    },
+    "total_with_context_batch1": {
+      "repeats": 200,
+      "warmup": 20,
+      "median_ms": 3.6811745,
+      "p95_ms": 3.9712335999999997,
+      "measured_total_ms": 740.766096,
+      "calls_per_second": 269.99075832433886,
+      "windows_per_second": 269.99075832433886
+    },
+    "model_batch256": {
+      "repeats": 30,
+      "warmup": 5,
+      "median_ms": 573.8893065,
+      "p95_ms": 585.6262090499999,
+      "measured_total_ms": 17283.098553,
+      "calls_per_second": 1.7357998571843243,
+      "windows_per_second": 444.364763439187
+    },
+    "total_batch256": {
+      "repeats": 30,
+      "warmup": 5,
+      "median_ms": 614.379655,
+      "p95_ms": 621.5651854500001,
+      "measured_total_ms": 18454.980385,
+      "calls_per_second": 1.625577452489934,
+      "windows_per_second": 416.1478278374231
+    }
+  },
+  "memory": {
+    "rss_before_model_kib": 226816,
+    "rss_after_load_kib": 252056,
+    "rss_after_warmup_kib": 268152,
+    "process_lifetime_peak_rss_kib": 276456,
+    "observed_vram_before_mib": 0,
+    "observed_vram_after_mib": 0,
+    "vram_is_not_peak": true
+  },
+  "synchronization": "CPU synchronous calls",
+  "model_timing_includes": "classifier.predict",
+  "context_signal": {
+    "first_output_signal_ms": 200,
+    "fully_populated_history_ms": 600,
+    "future_wait_ms": 0,
+    "hop_ms": 100,
+    "reset": "known trial boundary",
+    "continuous_transition_delay_measured": false
+  },
+  "other_compute_processes_before": 0,
+  "other_compute_processes_after": 0,
+  "graphics_desktop_remains_active": true
+}

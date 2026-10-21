@@ -1,0 +1,14 @@
+{
+  "development_trials": 1536,
+  "development_windows": 29184,
+  "excluded_holdout_trials": 384,
+  "records": 64,
+  "subjects": 8,
+  "classes": 8,
+  "label_mapping_checked": true,
+  "raw_profile_window_rms_match": true,
+  "amplitude_preprocessing": "global train-only affine StandardScaler, not per-window amplitude normalization",
+  "rest_reference": "mark+0.2 to 1.0 seconds; diagnostic quiet reference, physiological marker semantics unconfirmed",
+  "zc_all_five_zero_fraction": 0.1328467653508772,
+  "trial_centroid_context_is_not_local_window_input": true
+}

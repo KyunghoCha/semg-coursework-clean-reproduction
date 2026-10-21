@@ -1,0 +1,11 @@
+{
+  "fold": 2,
+  "selected": "narrow64",
+  "source": "inner correct window counts only",
+  "scores": {
+    "fine64": 4332,
+    "narrow64": 4348,
+    "drop_two64": 4237,
+    "direct8": 4212
+  }
+}

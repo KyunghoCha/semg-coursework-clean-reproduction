@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "b0348c0375780321471d033a7e6c80dbd1bdac5d8c1e53c2ef1288de0a89ba62",
+  "models": [
+    "cross400",
+    "cross800",
+    "without_high_cross400"
+  ],
+  "folds": 3,
+  "development_trials": 1536,
+  "holdout_excluded": 384,
+  "rounds": [
+    400,
+    800,
+    400
+  ],
+  "inference_inputs": "signal features only; no subject/recording ID",
+  "external_independent_data": false
+}
