@@ -1,0 +1,15 @@
+{
+  "plan_sha256": "51681a0ec0a9e7deb8995d45ce80f6be66afb75bee761db6f960f1712e10d097",
+  "alphas": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "inner_new_fits": 0,
+  "outer_fits_max": 3,
+  "development_trials": 1536,
+  "excluded_historical_test": 384,
+  "features": 410,
+  "external_independent_test": false
+}

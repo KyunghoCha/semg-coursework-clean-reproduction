@@ -1,0 +1,46 @@
+{
+  "scalar_probability_rows_verified": 102144,
+  "frozen_plan_and_selection_preserved": true,
+  "trial_splits_and_19_row_chronology_verified": true,
+  "inner_choice_recomputed": true,
+  "prefix_invariance_to_future_changes": true,
+  "known_trial_boundaries_reset": true,
+  "first_window_label_changes": 0,
+  "k1_matches_v21": true,
+  "all_1536_development_trials_evaluated_once": true,
+  "historical_test_intersection": 0,
+  "new_model_fits": 0,
+  "source_files_preserved": 15,
+  "float64_algebraic_sensitivity": [
+    {
+      "fold": 0,
+      "max_probability_difference": 1.0516960180506629e-07,
+      "label_changes_by_history": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "fold": 1,
+      "max_probability_difference": 1.273420640046652e-07,
+      "label_changes_by_history": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "fold": 2,
+      "max_probability_difference": 9.620562191337001e-08,
+      "label_changes_by_history": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "original_mixed_precision_arithmetic_reproduced": true,
+  "single_200ms_result_replaced": false,
+  "external_independent_test": false
+}

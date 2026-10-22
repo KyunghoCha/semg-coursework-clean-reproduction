@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-22T03:52:40.835962+00:00",
+  "tests_passed": 66,
+  "current_phase_restored_models": 3,
+  "completed_models_v24_through_v28": 15,
+  "restored_models_v24_through_v28": 15,
+  "all_plan_and_selection_hashes_preserved": true,
+  "new_historical_test_evaluations": 0,
+  "python_files_parsed": 7,
+  "document_links_resolved": 266,
+  "aggregate_plot_visually_inspected": true,
+  "shell_syntax_and_diff_check": true,
+  "v23_tracked_sources_and_results_unchanged": true,
+  "frozen_public_zip_bytes": 3546178,
+  "frozen_public_zip_sha256": "51de9a5390431e5be9763881109958584ddf937387f6bea8f1479770c225d0d0",
+  "external_publication_attempted": false
+}

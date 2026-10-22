@@ -1,0 +1,24 @@
+{
+  "new_fits": 3,
+  "inner_new_fits": 0,
+  "fold_alphas": [
+    0.2,
+    0.2,
+    0.2
+  ],
+  "final_development_alpha": 0.2,
+  "baseline_accuracy": 0.9001507675438597,
+  "selected_accuracy": 0.9059416118421052,
+  "accuracy_delta_pp": 0.5790844298245501,
+  "correct_delta": 169,
+  "paired_changes": {
+    "selected_only_correct": 390,
+    "baseline_only_correct": 221,
+    "trials_improved": 282,
+    "trials_worsened": 158,
+    "trials_equal": 1096
+  },
+  "cost_conditions": 2,
+  "raw_timing_verified": true,
+  "external_independent_test": false
+}

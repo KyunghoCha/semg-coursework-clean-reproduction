@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-22T04:02:00.030282+00:00",
+  "plan_sha256": "f9f509d2f019c8dfbea340f63ed704483ce2034ca12932f29b04b89e5c6b1600",
+  "candidates": {
+    "regularized": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "broad": {
+      "C": 100.0,
+      "gamma": 0.0012195121951219512
+    },
+    "narrow": {
+      "C": 100.0,
+      "gamma": 0.004878048780487805
+    }
+  },
+  "size_cap": 1.25,
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "source_head": "7690b21bf3aeec9e3d24c8b551920277e4a90a09",
+  "signal_ms": 200,
+  "stride_ms": 100,
+  "windows_per_trial": 19,
+  "development_trials": 1536,
+  "inner_models": 9,
+  "maximum_outer_models": 3,
+  "four_base_fits_per_model": true,
+  "internal_calibration_trial_grouped": true,
+  "temporal_context": false
+}

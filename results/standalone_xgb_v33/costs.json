@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-22T05:40:39.340458+00:00",
+  "rows": [
+    {
+      "model": "depth4_800",
+      "fold": 1,
+      "models_per_prediction": 1,
+      "model_bytes": 55443768,
+      "windows": 380,
+      "median_ms": 5.8271175,
+      "mean_ms": 6.067208505263158,
+      "p95_ms": 7.669814700000001
+    },
+    {
+      "model": "depth3_1600",
+      "fold": 1,
+      "models_per_prediction": 1,
+      "model_bytes": 92473800,
+      "windows": 380,
+      "median_ms": 7.315055,
+      "mean_ms": 7.540328234210526,
+      "p95_ms": 9.28076295
+    }
+  ],
+  "device": "cpu",
+  "library_threads": 6,
+  "source_hashes": {
+    "private/regularized_boosting_v24/outer_shallow800_1.joblib": "ead38d7ff768e978be80b6bda195bec7d5b24b266354944438be7e1053919a07",
+    "private/standalone_xgb_v33/outer_depth3_1600_1.joblib": "0c2c6575a2a7ecc3a0b35a99556038f25ca324e343250a714c2e9f0e14a91bf5"
+  },
+  "raw_timing_sha256": "f4c9e8697ae45236b59c1b4fb12bdae8bb8363a3dc3dec30bb90105ec26c192e",
+  "feature_computation_905_then_select_410": true,
+  "input_ms": 200,
+  "windows_per_model": 380,
+  "warmup": 19,
+  "models_per_prediction": 1,
+  "no_output_blending": true,
+  "no_temporal_state": true,
+  "csv_loading_signal_acquisition_excluded": true
+}

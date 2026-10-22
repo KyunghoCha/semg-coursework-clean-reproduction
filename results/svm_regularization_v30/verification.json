@@ -1,0 +1,50 @@
+{
+  "calibrated_models_verified": 3,
+  "base_svc_models_verified": 12,
+  "models": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "candidate": "C1",
+      "model_sha256": "87b151bd878ae712c1a9ab8af3541b4c7cfe767a607f1a1ce4cf917593ae8fa6",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "candidate": "C1",
+      "model_sha256": "74960537dfaad3a74665fb8bc34facf83c33c286b2fddfec2cd3e40453a4d8f9",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "candidate": "C1",
+      "model_sha256": "6b1925742dfb9fc1ce160734a057f52475689e840e4444a4da5e4eb00fc2602e",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    }
+  ],
+  "trial_grouped_calibration_reconstructed": true,
+  "all_oof_training_windows_seen_once": true,
+  "all_base_training_classes_present": true,
+  "all_fit_status_zero": true,
+  "train_only_scalers_verified": true,
+  "sigmoid_coefficients_recomputed_from_training_oof": true,
+  "probability_formula_and_metrics_recomputed": true,
+  "all_outer_cpu_labels_equal": true,
+  "selection_and_size_cap_recomputed": true,
+  "selection_inner_only": true,
+  "models_preserved": true,
+  "all_development_trials_covered_by_outer_procedure": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

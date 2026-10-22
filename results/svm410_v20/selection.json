@@ -1,0 +1,28 @@
+{
+  "choices": [
+    "incumbent",
+    "incumbent",
+    "incumbent"
+  ],
+  "comparisons": [
+    {
+      "fold": 0,
+      "svm_correct": 4195,
+      "incumbent_correct": 4337,
+      "selected": "incumbent"
+    },
+    {
+      "fold": 1,
+      "svm_correct": 4200,
+      "incumbent_correct": 4446,
+      "selected": "incumbent"
+    },
+    {
+      "fold": 2,
+      "svm_correct": 4189,
+      "incumbent_correct": 4379,
+      "selected": "incumbent"
+    }
+  ],
+  "outer_scores_used": false
+}

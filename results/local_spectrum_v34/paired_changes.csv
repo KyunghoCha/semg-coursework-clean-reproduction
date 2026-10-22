@@ -1,0 +1,4 @@
+fold,fixed_errors,lost_correct,improved_trials,worse_trials,unchanged_trials
+0,0,0,0,0,512
+1,0,0,0,0,512
+2,85,86,57,61,394

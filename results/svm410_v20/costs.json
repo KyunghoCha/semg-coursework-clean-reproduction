@@ -1,0 +1,89 @@
+[
+  {
+    "case": "inner_incumbent_0",
+    "stage": "inner",
+    "fold": 0,
+    "method": "incumbent",
+    "utc": "2026-10-21T11:40:04.171990+00:00",
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": false,
+    "features": 410,
+    "active_models": 2,
+    "model_bytes": 36534905,
+    "fit_seconds": 101.79805050091818,
+    "fit_device": "original XGB cuda and LDA cpu",
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.8167814999999998,
+        "p95_ms": 1.9675667499999998,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "model_probability_batch1": {
+        "median_ms": 2.0319995,
+        "p95_ms": 2.2363015500000003,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 3.9915320000000003,
+        "p95_ms": 4.19635805,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "source_hashes": {
+      "inner_narrow64_0.joblib": "009fe306e9894a5992f712006cae818506f872273d25679d78d93b729a3688db",
+      "inner_lda_0.joblib": "a4286d5dd8a7ffcb70b5ff06b25b3474d3711b5b8095d59794cb65b0fc0d7152"
+    },
+    "model_files_preserved": true,
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "inner_svm_0",
+    "stage": "inner",
+    "fold": 0,
+    "method": "svm",
+    "utc": "2026-10-21T11:40:22.577741+00:00",
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": true,
+    "features": 410,
+    "active_models": 1,
+    "model_bytes": 60938709,
+    "fit_seconds": 100.47183156199752,
+    "fit_device": "cpu, including trial-grouped calibration",
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.744571,
+        "p95_ms": 1.859035,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "model_probability_batch1": {
+        "median_ms": 30.863461,
+        "p95_ms": 32.1698342,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 32.643615499999996,
+        "p95_ms": 33.394523299999996,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "source_hashes": {
+      "inner_svm_0.joblib": "17ac7d9e45b623ed23d5cb3c3d0dfca905e02fe5afaea56ade7a200a9fb7ad38"
+    },
+    "model_files_preserved": true,
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  }
+]

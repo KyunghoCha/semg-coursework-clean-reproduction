@@ -1,0 +1,45 @@
+{
+  "calibrated_models_verified": 3,
+  "base_svc_models_verified": 12,
+  "models": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "model_sha256": "17ac7d9e45b623ed23d5cb3c3d0dfca905e02fe5afaea56ade7a200a9fb7ad38",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "model_sha256": "bca1aefb6ac155c3925db5e057975faae3b113df8e12cdc3bea320f056fcb8e7",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "model_sha256": "f19e7a30a0081e954706a44cfaa132d662faa883555fbf94245e66703c0ca557",
+      "base_models_verified": 4,
+      "calibration_oof_windows": 14592,
+      "sigmoid_coefficients_recomputed": 64,
+      "restored_evaluation_windows": 4864
+    }
+  ],
+  "trial_grouped_calibration_reconstructed": true,
+  "all_oof_training_windows_seen_once": true,
+  "all_base_training_classes_present": true,
+  "all_fit_status_zero": true,
+  "train_only_scalers_verified": true,
+  "sigmoid_coefficients_recomputed_from_training_oof": true,
+  "probability_formula_and_metrics_recomputed": true,
+  "selection_inner_only": true,
+  "models_preserved": true,
+  "all_development_trials_covered_by_outer_procedure": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

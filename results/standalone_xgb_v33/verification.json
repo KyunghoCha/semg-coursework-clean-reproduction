@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-22T05:40:00.756526+00:00",
+  "models_restored": 4,
+  "models": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "cpu_labels_equal": true,
+      "train_only_scaler": true,
+      "targets": 64,
+      "rounds": 1600,
+      "trees": 102400,
+      "model_sha256": "1191b59f02d318296cbc62957034cc2e78b5f878866b554f916853a8613a4ada"
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "cpu_labels_equal": true,
+      "train_only_scaler": true,
+      "targets": 64,
+      "rounds": 1600,
+      "trees": 102400,
+      "model_sha256": "0c934ba739d2ccf4fa37cec8ef2a447e2eb22cc8686f16e6641fac04887d2dba"
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "cpu_labels_equal": true,
+      "train_only_scaler": true,
+      "targets": 64,
+      "rounds": 1600,
+      "trees": 102400,
+      "model_sha256": "fba09c37296a876eb24c55a830912b8269c8b0d4b32eebf178a112fade8ad76d"
+    },
+    {
+      "stage": "outer",
+      "fold": 1,
+      "cpu_labels_equal": true,
+      "train_only_scaler": true,
+      "targets": 64,
+      "rounds": 1600,
+      "trees": 102400,
+      "model_sha256": "0c2c6575a2a7ecc3a0b35a99556038f25ca324e343250a714c2e9f0e14a91bf5"
+    }
+  ],
+  "selection_inner_only": true,
+  "selection_independently_recomputed": true,
+  "all_development_trials_once": true,
+  "windows_per_trial": 19,
+  "input_ms": 200,
+  "models_per_prediction": 1,
+  "no_output_blending": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false,
+  "source_hashes_preserved": true
+}

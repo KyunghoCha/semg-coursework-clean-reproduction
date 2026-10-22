@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-21T12:20:43.913369+00:00",
+  "frozen_plan_hashes_verified": {
+    "svm410_v20": "plan hash matches and verification present",
+    "svm_blend_v21": "plan hash matches and verification present",
+    "svm_gate_v22": "plan hash matches and verification present"
+  },
+  "unit_tests_passed": 56,
+  "unit_test_log_sha256": "b079cdd614a2dfdd284a3948d66fcabb06535afe9900a0f7c95d7c3f375842f7",
+  "local_document_links_checked": 210,
+  "missing_local_links": 0,
+  "plots_visually_inspected": true,
+  "frozen_v19_zip_unchanged": true,
+  "public_push_or_upload_attempted": false
+}

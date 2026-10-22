@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "ddba9571b868b55b61d36d669971c41a1810f73392b513deea8712546cb6e993",
+  "development_trials": 1536,
+  "excluded_historical_test": 384,
+  "features": 410,
+  "learning_targets": 64,
+  "window_ms": 200,
+  "windows_per_trial": 19,
+  "new_fits_range": [
+    3,
+    6
+  ],
+  "cpu_threads": 6,
+  "selection": "inner correct counts, strict improvement over narrow64",
+  "external_independent_test": false
+}

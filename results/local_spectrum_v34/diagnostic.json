@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-22T05:56:08.839997+00:00",
+  "development_trials": 1536,
+  "historical_test_trials_processed": 0,
+  "windows_per_trial": 19,
+  "features": 80,
+  "combined_features": 490,
+  "existing_features_checked": 940,
+  "generation_seconds": 1.013768739067018,
+  "rows": [
+    {
+      "fold": 0,
+      "training_windows": 14592,
+      "evaluation_windows": 4864,
+      "nearest_existing_abs_correlation_min": 0.40879783184281915,
+      "nearest_existing_abs_correlation_median": 0.5998516101439377,
+      "nearest_existing_abs_correlation_max": 0.8690407561941043,
+      "near_duplicate_columns_0999": 0,
+      "conditional_variation_error_correlation": -0.026295784785821133,
+      "raw_variation_error_correlation": -0.038001645166752224,
+      "mean_variation_correct": 0.0595807044458463,
+      "mean_variation_error": 0.05675661019839734
+    },
+    {
+      "fold": 1,
+      "training_windows": 14592,
+      "evaluation_windows": 4864,
+      "nearest_existing_abs_correlation_min": 0.41761808877098655,
+      "nearest_existing_abs_correlation_median": 0.598004138267396,
+      "nearest_existing_abs_correlation_max": 0.862203910424805,
+      "near_duplicate_columns_0999": 0,
+      "conditional_variation_error_correlation": 0.0020656768181841075,
+      "raw_variation_error_correlation": 0.009292109358658242,
+      "mean_variation_correct": 0.059850952066438805,
+      "mean_variation_error": 0.06062791629036914
+    },
+    {
+      "fold": 2,
+      "training_windows": 14592,
+      "evaluation_windows": 4864,
+      "nearest_existing_abs_correlation_min": 0.41135943844784806,
+      "nearest_existing_abs_correlation_median": 0.5963511878129988,
+      "nearest_existing_abs_correlation_max": 0.8509883711347336,
+      "near_duplicate_columns_0999": 0,
+      "conditional_variation_error_correlation": -0.013120372250742899,
+      "raw_variation_error_correlation": -0.01404065661009061,
+      "mean_variation_correct": 0.05956860335932701,
+      "mean_variation_error": 0.05851398057592332
+    }
+  ],
+  "learned_transforms": 0,
+  "no_independent_window_significance_test": true,
+  "conditional_controls": [
+    "recording (also class)",
+    "log broadband RMS",
+    "40ms broadband RMS variability"
+  ],
+  "source_sha256": "5e8463e65871c6157a6957351b3fd2070ac43fe37ac962d6f42ca73c12356bef",
+  "features_sha256": "b45b70a2a508d4b38e6b59bb03475a42ebc4e08f7ee97bb49a853b3553e7f1d9",
+  "feature_code_sha256": "a97ec6d08e1eca2d95783402fca609a5d725445d5a56421a282a3c149cbb6a13"
+}

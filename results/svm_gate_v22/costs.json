@@ -1,0 +1,88 @@
+[
+  {
+    "method": "full_mixture_labels",
+    "fold": 0,
+    "beta": 0.2,
+    "utc": "2026-10-21T12:10:12.327778+00:00",
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": true,
+    "features": 410,
+    "model_bytes": 119838478,
+    "new_model_fits": 0,
+    "timing": {
+      "model_labels_batch1": {
+        "median_ms": 36.283950000000004,
+        "mean_ms": 36.362508954999996,
+        "p95_ms": 37.170995549999994,
+        "svm_calls": 200,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 38.0232765,
+        "mean_ms": 38.16486237,
+        "p95_ms": 39.10199185,
+        "svm_calls": 200,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "input_counts": {
+      "svm_calls_of_256": 8,
+      "svm_calls_of_measured_200": 5
+    },
+    "source_hashes": {
+      "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+      "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+      "outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+    },
+    "full_mixture_labels_equal": true,
+    "full_mixture_probabilities_not_returned": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "method": "safe_gate_labels",
+    "fold": 0,
+    "beta": 0.2,
+    "utc": "2026-10-21T12:10:14.450397+00:00",
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": true,
+    "features": 410,
+    "model_bytes": 119838478,
+    "new_model_fits": 0,
+    "timing": {
+      "model_labels_batch1": {
+        "median_ms": 2.4173065,
+        "mean_ms": 3.2831046149999996,
+        "p95_ms": 2.6635709,
+        "svm_calls": 5,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 4.4115785,
+        "mean_ms": 5.275702310000001,
+        "p95_ms": 4.6811522,
+        "svm_calls": 5,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "input_counts": {
+      "svm_calls_of_256": 8,
+      "svm_calls_of_measured_200": 5
+    },
+    "source_hashes": {
+      "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+      "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+      "outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+    },
+    "full_mixture_labels_equal": true,
+    "full_mixture_probabilities_not_returned": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  }
+]

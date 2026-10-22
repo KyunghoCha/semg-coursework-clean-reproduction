@@ -1,0 +1,26 @@
+{
+  "calibrated_models_fitted": 3,
+  "base_svc_fits": 12,
+  "inner_models": 3,
+  "outer_models": 0,
+  "historical_test_evaluations": 0,
+  "incumbent_inner_accuracy": 0.9020010964912281,
+  "svm_inner_accuracy": 0.862390350877193,
+  "inner_observations": 14592,
+  "inner_is_full_oof": false,
+  "choices": [
+    "incumbent",
+    "incumbent",
+    "incumbent"
+  ],
+  "calibrated_fit_seconds": 297.9061969569884,
+  "base_svc_fit_seconds": 155.0705977510661,
+  "cost_conditions": 2,
+  "raw_cost_times_recomputed": true,
+  "existing_240_feature_svm_is_not_410_feature_evidence": true,
+  "external_independent_test": false,
+  "both_correct": 11929,
+  "svm_only_correct": 655,
+  "incumbent_only_correct": 1233,
+  "both_wrong": 775
+}

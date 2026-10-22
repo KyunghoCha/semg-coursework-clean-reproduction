@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-22T05:05:33.665455+00:00",
+  "plan_sha256": "820eaca8d26e0adc281cd91cb011d5ded12773d538ee53936e3822e201b18d6e",
+  "code_sha256": "60166c439f124274d14f9227ee9e7482868ed8b2f99b67d7cf0f6f58fa07cc96",
+  "settings": {
+    "n_estimators": 200,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": 0.5,
+    "max_leaf_nodes": null,
+    "bootstrap": true,
+    "max_samples": null,
+    "class_weight": null,
+    "ccp_alpha": 0.0,
+    "random_state": 42,
+    "n_jobs": 6,
+    "warm_start": false
+  },
+  "candidates": [
+    "direct8",
+    "latent64"
+  ],
+  "mixture_weight": 0.1,
+  "minimum_improvement": 10,
+  "maximum_total_size_ratio": 3,
+  "windows_per_trial": 19,
+  "input_ms": 200,
+  "new_inner_fits": 6,
+  "maximum_new_outer_fits": 3,
+  "test_evaluations": 0
+}

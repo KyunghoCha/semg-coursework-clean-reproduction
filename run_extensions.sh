@@ -11,7 +11,7 @@ for stage in diagnostic_v2 mechanisms_v3 capacity_v4 geometry_probe latent_subcl
 done
 run_python() { "$SEMG_PYTHON" "$@"; }
 case "$phase" in
-  test) run_python -m pytest -q tests experiments/diagnostic_v2/test_features_v2.py experiments/diagnostic_v2/test_causal_context.py experiments/mechanisms_v3/test_features_v3.py experiments/latent_subclass_v5/test_collapse.py experiments/cross_spectrum_v6/test_cross.py experiments/fine_spectrum_v8/test_fine.py experiments/cost_benchmark/test_fast.py experiments/spectral_controls_v9/test_design.py experiments/nested_selection_v10/test_selection.py experiments/line_projection_v11/test_projection.py experiments/record_reference_control/test_splits.py experiments/probability_blend_v12/test_blending.py experiments/forest_transfer_v13/test_forest_selection.py experiments/gain_invariance_v14/test_features.py experiments/ar_residual_v15/test_ar_features.py experiments/factorized_targets_v16/test_factorization.py ;;
+  test) run_python -m pytest -q tests experiments/diagnostic_v2/test_features_v2.py experiments/diagnostic_v2/test_causal_context.py experiments/mechanisms_v3/test_features_v3.py experiments/latent_subclass_v5/test_collapse.py experiments/cross_spectrum_v6/test_cross.py experiments/fine_spectrum_v8/test_fine.py experiments/cost_benchmark/test_fast.py experiments/spectral_controls_v9/test_design.py experiments/nested_selection_v10/test_selection.py experiments/line_projection_v11/test_projection.py experiments/record_reference_control/test_splits.py experiments/probability_blend_v12/test_blending.py experiments/forest_transfer_v13/test_forest_selection.py experiments/gain_invariance_v14/test_features.py experiments/ar_residual_v15/test_ar_features.py experiments/factorized_targets_v16/test_factorization.py experiments/shrink_qda_v17/test_gaussian_boundary.py experiments/lda_blend_v19/test_blend_rule.py experiments/svm410_v20/test_trial_calibration.py experiments/svm_gate_v22/test_gate_rule.py experiments/causal_probability_v23/test_stream_average.py experiments/regularized_boosting_v24/test_rules.py experiments/mixture_weights_v25/test_weights.py experiments/pca_augmentation_v26/test_representation.py experiments/lda_temperature_v27/test_temperature.py experiments/forest64_v28/test_forest.py experiments/svm_tuning_v29/test_svm_tuning.py experiments/svm_metric_v31/test_covariance_metric.py ;;
   features)
     run_python experiments/diagnostic_v2/features_v2.py
     run_python experiments/mechanisms_v3/features_v3.py
@@ -56,6 +56,91 @@ case "$phase" in
   forest-transfer)
     run_python experiments/forest_transfer_v13/run.py "${@:2}"
     run_python experiments/forest_transfer_v13/verify.py ;;
+  svm-regularization)
+    export SEMG_SVM_COMPARISON=svm_regularization_v30
+    run_python experiments/svm_tuning_v29/run.py
+    run_python experiments/svm_tuning_v29/verify.py
+    run_python experiments/svm_tuning_v29/constraint_diagnostic.py
+    run_python experiments/svm_tuning_v29/cost.py
+    run_python experiments/svm_tuning_v29/report.py ;;
+  svm-metric)
+    export SEMG_SVM_COMPARISON=svm_metric_v31
+    run_python experiments/svm_tuning_v29/run.py
+    run_python experiments/svm_tuning_v29/verify.py
+    run_python experiments/svm_tuning_v29/cost.py
+    run_python experiments/svm_tuning_v29/report.py ;;
+  svm-tuning)
+    export SEMG_SVM_COMPARISON=svm_tuning_v29
+    run_python experiments/svm_tuning_v29/run.py
+    run_python experiments/svm_tuning_v29/verify.py
+    run_python experiments/svm_tuning_v29/constraint_diagnostic.py
+    run_python experiments/svm_tuning_v29/cost.py
+    run_python experiments/svm_tuning_v29/report.py ;;
+  forest64)
+    run_python experiments/forest64_v28/run.py "${@:2}"
+    run_python experiments/forest64_v28/verify.py
+    run_python experiments/forest64_v28/cost.py
+    run_python experiments/forest64_v28/report.py ;;
+  pca-augmentation)
+    run_python experiments/pca_augmentation_v26/run.py "${@:2}"
+    run_python experiments/pca_augmentation_v26/verify.py
+    run_python experiments/pca_augmentation_v26/cost.py
+    run_python experiments/pca_augmentation_v26/report.py ;;
+  lda-temperature)
+    run_python experiments/lda_temperature_v27/run.py
+    run_python experiments/lda_temperature_v27/verify.py
+    run_python experiments/lda_temperature_v27/cost.py
+    run_python experiments/lda_temperature_v27/report.py ;;
+  mixture-weights)
+    run_python experiments/mixture_weights_v25/run.py
+    run_python experiments/mixture_weights_v25/verify.py
+    run_python experiments/mixture_weights_v25/cost.py
+    run_python experiments/mixture_weights_v25/label_cost.py
+    run_python experiments/mixture_weights_v25/report.py ;;
+  regularized-boosting)
+    run_python experiments/regularized_boosting_v24/run.py "${@:2}"
+    run_python experiments/regularized_boosting_v24/verify.py
+    run_python experiments/regularized_boosting_v24/cost.py
+    run_python experiments/regularized_boosting_v24/report.py
+    run_python experiments/regularized_boosting_v24/solo_report.py ;;
+  causal-probability)
+    run_python experiments/causal_probability_v23/run.py
+    run_python experiments/causal_probability_v23/verify.py
+    run_python experiments/causal_probability_v23/cost.py
+    run_python experiments/causal_probability_v23/report.py ;;
+  svm-gate)
+    run_python experiments/svm_gate_v22/verify.py
+    run_python experiments/svm_gate_v22/cost.py
+    run_python experiments/svm_gate_v22/evaluation_cost.py
+    run_python experiments/svm_gate_v22/report.py ;;
+  svm-blend)
+    run_python experiments/svm_blend_v21/select_weights.py
+    run_python experiments/svm_blend_v21/run.py
+    run_python experiments/svm_blend_v21/verify.py
+    run_python experiments/svm_blend_v21/cost.py
+    run_python experiments/svm_blend_v21/report.py ;;
+  svm410)
+    if [[ ! -f "$task_output/results/svm410_v20/internal_diagnostic.json" ]]; then run_python experiments/svm410_v20/diagnose.py; fi
+    run_python experiments/svm410_v20/run.py
+    run_python experiments/svm410_v20/verify.py
+    run_python experiments/svm410_v20/cost.py
+    run_python experiments/svm410_v20/report.py ;;
+  lda-blend)
+    run_python experiments/lda_blend_v19/run.py
+    run_python experiments/lda_blend_v19/verify.py
+    run_python experiments/lda_blend_v19/cost.py
+    run_python experiments/lda_blend_v19/report.py ;;
+  shared-lda)
+    run_python experiments/shared_lda_v18/run.py
+    run_python experiments/shared_lda_v18/verify.py
+    run_python experiments/shared_lda_v18/cost.py
+    run_python experiments/shared_lda_v18/report.py ;;
+  shrink-qda)
+    run_python experiments/shrink_qda_v17/run.py
+    run_python experiments/shrink_qda_v17/verify.py
+    run_python experiments/shrink_qda_v17/cost.py
+    run_python experiments/shrink_qda_v17/diagnose_training.py
+    run_python experiments/shrink_qda_v17/report.py ;;
   factorized-targets)
     run_python experiments/factorized_targets_v16/run.py
     run_python experiments/factorized_targets_v16/verify.py
@@ -96,5 +181,5 @@ case "$phase" in
     run_python experiments/nested_selection_v10/verify.py
     run_python experiments/line_projection_v11/verify.py
     run_python experiments/record_reference_control/verify.py ;;
-  *) echo 'Usage: bash run_extensions.sh {test|features|diagnose|nested|mechanisms|capacity|subclass|cross|cross-capacity|fine-spectrum|spectral-controls|nested-selection|line-projection|reference-phase|record-reference|probability-blend|forest-transfer|ar-residual|factorized-targets|fit-gap|benchmark|verify} [--resume]' >&2; exit 2 ;;
+  *) echo 'Usage: bash run_extensions.sh {test|features|diagnose|nested|mechanisms|capacity|subclass|cross|cross-capacity|fine-spectrum|spectral-controls|nested-selection|line-projection|reference-phase|record-reference|probability-blend|forest-transfer|ar-residual|factorized-targets|shrink-qda|shared-lda|lda-blend|svm410|svm-blend|svm-gate|causal-probability|regularized-boosting|mixture-weights|pca-augmentation|lda-temperature|forest64|svm-tuning|svm-regularization|svm-metric|fit-gap|benchmark|verify} [--resume]' >&2; exit 2 ;;
 esac

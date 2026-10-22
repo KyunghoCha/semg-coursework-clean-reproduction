@@ -1,0 +1,41 @@
+{
+  "fold_betas": [
+    0.2,
+    0.2,
+    0.2
+  ],
+  "pooled_inner_beta": 0.2,
+  "inner_correct_totals": [
+    {
+      "alpha": 0.0,
+      "correct": 13162
+    },
+    {
+      "alpha": 0.05,
+      "correct": 13189
+    },
+    {
+      "alpha": 0.1,
+      "correct": 13216
+    },
+    {
+      "alpha": 0.2,
+      "correct": 13260
+    }
+  ],
+  "outer_scores_used": false,
+  "source_hashes": [
+    {
+      "fold": 0,
+      "svm_prediction_sha256": "d778258445fd1afb8ae3d2749c05845031b3c59e9d9b9d1bf43a5b879f723490"
+    },
+    {
+      "fold": 1,
+      "svm_prediction_sha256": "24b3b5cd40e90427c28cab8aa007ee4b3f5bebdfe756d41b9ee428445eb5a3a8"
+    },
+    {
+      "fold": 2,
+      "svm_prediction_sha256": "633935817add5bdb9368dbfd95e44268a4d5e9ce9151fdcfda2eb331355c4d82"
+    }
+  ]
+}

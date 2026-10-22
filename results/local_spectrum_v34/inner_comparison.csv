@@ -1,0 +1,4 @@
+fold,windows,fixed800_correct,incumbent_v33_correct,local80_correct,change_vs_fixed800,change_vs_incumbent,fixes_incumbent_errors,loses_incumbent_correct
+0,4864,4352,4352,4347,-5,-5,41,46
+1,4864,4442,4457,4433,-9,-24,58,82
+2,4864,4384,4384,4397,13,13,52,39

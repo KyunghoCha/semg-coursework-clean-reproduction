@@ -1,0 +1,44 @@
+{
+  "single_svc_models_restored": 3,
+  "checks": [
+    {
+      "fold": 0,
+      "correct": 4199,
+      "windows": 4864,
+      "model_sha256": "84f36c4e6159accc9d1e974e7b141bd56bcce77761834266a312592a2a363e7f",
+      "model_fit_seconds": 17.75097452895716,
+      "models_per_prediction": 1,
+      "calibration_used": false,
+      "probability_used": false,
+      "training_rows": 14592,
+      "train_only_scaler": true
+    },
+    {
+      "fold": 1,
+      "correct": 4202,
+      "windows": 4864,
+      "model_sha256": "7de09d29b2a5cb0d7d49350d1c3212fc3bae76a7dfe5e324972470b1ce40a3f1",
+      "model_fit_seconds": 17.86512584495358,
+      "models_per_prediction": 1,
+      "calibration_used": false,
+      "probability_used": false,
+      "training_rows": 14592,
+      "train_only_scaler": true
+    },
+    {
+      "fold": 2,
+      "correct": 4192,
+      "windows": 4864,
+      "model_sha256": "4ada804e81a7b7cf819653ebfc8b0a57c4533b9752ac555faf09fe25c067d9fe",
+      "model_fit_seconds": 17.846032329136506,
+      "models_per_prediction": 1,
+      "calibration_used": false,
+      "probability_used": false,
+      "training_rows": 14592,
+      "train_only_scaler": true
+    }
+  ],
+  "source_hashes_preserved": true,
+  "new_training_fits": 0,
+  "test_evaluations": 0
+}

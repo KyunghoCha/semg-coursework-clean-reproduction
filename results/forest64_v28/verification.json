@@ -1,0 +1,55 @@
+{
+  "models": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "model_sha256": "c17f7496dd63c3ddfa623d78bfeb7259799e1bc404d7e93c8b7db14f64f6b161",
+      "trees": 128,
+      "full_training_rows_per_tree": true,
+      "max_leaf_nodes_384": true,
+      "min_leaf_samples_4": true,
+      "all_64_targets": true,
+      "train_only_scaler": true,
+      "cpu_restored": true,
+      "prediction_threads_equivalent": true
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "model_sha256": "e37cae5333f6abc95575d41fa500e31c33bbceec7a5f2a682c1f3ecf948509e0",
+      "trees": 128,
+      "full_training_rows_per_tree": true,
+      "max_leaf_nodes_384": true,
+      "min_leaf_samples_4": true,
+      "all_64_targets": true,
+      "train_only_scaler": true,
+      "cpu_restored": true,
+      "prediction_threads_equivalent": true
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "model_sha256": "8845b76949ed557e0b7613c80df166bd65e77de3a5fe40e68b1a02c1d237e600",
+      "trees": 128,
+      "full_training_rows_per_tree": true,
+      "max_leaf_nodes_384": true,
+      "min_leaf_samples_4": true,
+      "all_64_targets": true,
+      "train_only_scaler": true,
+      "cpu_restored": true,
+      "prediction_threads_equivalent": true
+    }
+  ],
+  "models_restored": 3,
+  "splits_reconstructed": true,
+  "inner_choice_and_cost_cap_recomputed": true,
+  "source_hashes_preserved": true,
+  "first_checkpoint_preserved_on_resume": true,
+  "all_1536_development_trials_once": true,
+  "all_19_windows": true,
+  "input_ms": 200,
+  "inference_temporal_state": false,
+  "inference_id_features": false,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

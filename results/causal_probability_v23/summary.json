@@ -1,0 +1,145 @@
+{
+  "outer": [
+    {
+      "role": "current",
+      "windows": 29184,
+      "correct": 26670,
+      "fold_sd": 0.0035021133151456,
+      "accuracy": 0.9138569078947368,
+      "precision_macro": 0.9140329323152696,
+      "recall_macro": 0.9138569078947368,
+      "f1_macro": 0.9138896423631786,
+      "angle_accuracy": 0.9636787280701754,
+      "gesture_accuracy": 0.9335594846491228
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 28206,
+      "fold_sd": 0.0033161354404975,
+      "accuracy": 0.9664884868421052,
+      "precision_macro": 0.9666210510385742,
+      "recall_macro": 0.9664884868421052,
+      "f1_macro": 0.9664911987190726,
+      "angle_accuracy": 0.9823533442982456,
+      "gesture_accuracy": 0.9803659539473684
+    }
+  ],
+  "histories": [
+    5,
+    5,
+    5
+  ],
+  "maximum_signal_span_ms": 600,
+  "first_window_label_changes": 0,
+  "original_200ms_primary_accuracy": 0.9138569078947368,
+  "new_model_fits": 0,
+  "all_1536_development_trials_and_19_windows_retained": true,
+  "known_boundary_reset_required": true,
+  "future_wait_ms": 0,
+  "transition_response_delay_measured": false,
+  "v22_gate_used": false,
+  "external_independent_test": false,
+  "source_record_dependence_unresolved": true,
+  "raw_timing_statistics_verified": true,
+  "cost": [
+    {
+      "history": 1,
+      "maximum_signal_span_ms": 200,
+      "model_mb": 119.838478,
+      "original_training_seconds_sum": 282.45435270271264,
+      "count": 380,
+      "median_ms": 37.975147,
+      "mean_ms": 38.04843660526316,
+      "p95_ms": 38.7232864,
+      "averaging_only_median_ms": 0.010895,
+      "averaging_only_p95_ms": 0.01180465,
+      "history_payload_bytes": 64,
+      "state_bytes_excluding_shared_keys_and_integers": 528
+    },
+    {
+      "history": 5,
+      "maximum_signal_span_ms": 600,
+      "model_mb": 119.838478,
+      "original_training_seconds_sum": 282.45435270271264,
+      "count": 380,
+      "median_ms": 37.7347775,
+      "mean_ms": 37.80375239999999,
+      "p95_ms": 38.45735735,
+      "averaging_only_median_ms": 0.011078,
+      "averaging_only_p95_ms": 0.01197795,
+      "history_payload_bytes": 320,
+      "state_bytes_excluding_shared_keys_and_integers": 768
+    }
+  ],
+  "corrected": 1792,
+  "broken": 256,
+  "net": 1536,
+  "trial_improved": 818,
+  "trial_worsened": 41,
+  "trial_tied": 677,
+  "axis_errors": [
+    {
+      "role": "current",
+      "angle_only": 575,
+      "gesture_only": 1454,
+      "both": 485
+    },
+    {
+      "role": "selected",
+      "angle_only": 405,
+      "gesture_only": 463,
+      "both": 110
+    }
+  ],
+  "single_window_error_runs": {
+    "current": 1222,
+    "selected": 176
+  },
+  "verification": {
+    "scalar_probability_rows_verified": 102144,
+    "frozen_plan_and_selection_preserved": true,
+    "trial_splits_and_19_row_chronology_verified": true,
+    "inner_choice_recomputed": true,
+    "prefix_invariance_to_future_changes": true,
+    "known_trial_boundaries_reset": true,
+    "first_window_label_changes": 0,
+    "k1_matches_v21": true,
+    "all_1536_development_trials_evaluated_once": true,
+    "historical_test_intersection": 0,
+    "new_model_fits": 0,
+    "source_files_preserved": 15,
+    "float64_algebraic_sensitivity": [
+      {
+        "fold": 0,
+        "max_probability_difference": 1.0516960180506629e-07,
+        "label_changes_by_history": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "fold": 1,
+        "max_probability_difference": 1.273420640046652e-07,
+        "label_changes_by_history": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "fold": 2,
+        "max_probability_difference": 9.620562191337001e-08,
+        "label_changes_by_history": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "original_mixed_precision_arithmetic_reproduced": true,
+    "single_200ms_result_replaced": false,
+    "external_independent_test": false
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    },
+    {
+      "role": "candidate",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    }
+  ],
+  "fold_candidates": [
+    "incumbent",
+    "incumbent",
+    "incumbent"
+  ],
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "outer_changes": [
+    {
+      "fold": 0,
+      "corrected": 0,
+      "broken": 0
+    },
+    {
+      "fold": 1,
+      "corrected": 0,
+      "broken": 0
+    },
+    {
+      "fold": 2,
+      "corrected": 0,
+      "broken": 0
+    }
+  ],
+  "complete": {
+    "utc": "2026-10-22T04:36:06.856941+00:00",
+    "calibrated_models": 3,
+    "base_svc_fits": 12,
+    "inner_models": 3,
+    "outer_models": 0,
+    "selection_sha256": "8482664f60e811aba420b2d5bdecee5914e1a7e2a5ffdc9f4ee3bd1a39b42eed",
+    "historical_test_evaluations": 0
+  },
+  "inner_totals": {
+    "C1": 13298,
+    "incumbent": 13330
+  },
+  "calibrated_wrapper_fit_seconds_sum": 307.41648800414987,
+  "base_svc_fit_seconds_sum": 154.14828611491248,
+  "cost": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "candidate": "incumbent",
+      "beta": 0.4,
+      "model_bytes": 116317630,
+      "svm_model_bytes": 60938709,
+      "original_component_training_seconds_sum": 233.11618514894508,
+      "svm_wrapper_fit_seconds": 100.47183156199752,
+      "svm_base_fit_seconds": 52.721716773929074,
+      "median_ms": 41.9386865,
+      "mean_ms": 43.25010460526316,
+      "p95_ms": 53.1197815,
+      "windows": 380
+    },
+    {
+      "stage": "inner",
+      "fold": 0,
+      "candidate": "C1",
+      "beta": 0.4,
+      "model_bytes": 116373422,
+      "svm_model_bytes": 60994501,
+      "original_component_training_seconds_sum": 233.9248634809628,
+      "svm_wrapper_fit_seconds": 101.28050989401528,
+      "svm_base_fit_seconds": 50.13901663175784,
+      "median_ms": 44.238996,
+      "mean_ms": 48.50861313947368,
+      "p95_ms": 69.4105921,
+      "windows": 380
+    }
+  ],
+  "raw_cost_statistics_recomputed": true,
+  "all_19_current_200ms_windows": true,
+  "external_independent_test": false
+}

@@ -1,0 +1,9 @@
+{
+  "raw_statistics_recomputed": true,
+  "paired_models": 2,
+  "windows_per_model": 380,
+  "models_per_prediction": 1,
+  "source_hashes_preserved": true,
+  "feature_scope": "current 200ms; computes 905 then selects 410",
+  "historical_test_evaluations": 0
+}

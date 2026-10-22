@@ -1,0 +1,21 @@
+{
+  "new_fits": 3,
+  "inner_fits": 3,
+  "outer_fits": 0,
+  "inner_evaluation_observations": 14592,
+  "inner_is_complete_oof": false,
+  "baseline_inner_accuracy": 0.8965871710526315,
+  "lda_inner_accuracy": 0.7950246710526315,
+  "inner_fold_choices": [
+    "narrow64",
+    "narrow64",
+    "narrow64"
+  ],
+  "cost_conditions": 2,
+  "raw_cost_timings_recomputed": true,
+  "external_independent_test": false,
+  "both_correct": 10966,
+  "lda_only_correct": 635,
+  "baseline_only_correct": 2117,
+  "both_wrong": 874
+}

@@ -1,0 +1,14 @@
+{
+  "inner_candidates_recomputed": 18,
+  "outer_probability_rows": 58368,
+  "inner_only_choice_verified": true,
+  "splits_reconstructed": true,
+  "source_hashes_preserved": true,
+  "all_1536_development_trials_and_19_windows": true,
+  "historical_test_intersection": 0,
+  "temporal_context": false,
+  "input_ms": 200,
+  "new_model_fits": 0,
+  "prior_checkpoint_verification": "results/regularized_boosting_v24/verification.json and results/svm_blend_v21/verification.json",
+  "external_independent_test": false
+}

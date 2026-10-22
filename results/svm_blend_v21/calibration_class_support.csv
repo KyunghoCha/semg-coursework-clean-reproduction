@@ -1,0 +1,10 @@
+fold,calibration_fold,train_trials,calibration_trials,min_training_trials_per_target,max_training_trials_per_target,all_64_classes_present
+0,0,682,342,6,15,True
+0,1,683,341,6,16,True
+0,2,683,341,6,15,True
+1,0,682,342,8,14,True
+1,1,683,341,8,14,True
+1,2,683,341,8,14,True
+2,0,682,342,7,15,True
+2,1,683,341,7,15,True
+2,2,683,341,8,15,True

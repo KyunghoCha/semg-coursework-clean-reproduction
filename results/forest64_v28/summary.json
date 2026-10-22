@@ -1,0 +1,90 @@
+{
+  "new_fits": 3,
+  "inner_fits": 3,
+  "outer_fits": 0,
+  "selection_sha256": "2b68486cf2f792773c4b208f4589c9c3be3f9e4329cc7939749df803a0aed9f9",
+  "utc": "2026-10-22T03:45:09.759598+00:00",
+  "historical_test_evaluations": 0,
+  "fold_use_forest": [
+    false,
+    false,
+    false
+  ],
+  "inner": [
+    {
+      "role": "candidate",
+      "windows": 14592,
+      "correct": 13319
+    },
+    {
+      "role": "incumbent",
+      "windows": 14592,
+      "correct": 13330
+    }
+  ],
+  "outer": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.0049860500968791,
+      "accuracy": 0.9198190789473684,
+      "precision_macro": 0.9199797292695232,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877192,
+      "gesture_accuracy": 0.939281798245614
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.0049860500968791,
+      "accuracy": 0.9198190789473684,
+      "precision_macro": 0.9199797292695232,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877192,
+      "gesture_accuracy": 0.939281798245614
+    }
+  ],
+  "fit_seconds_sum": 19.315838938811794,
+  "scaler_fit_seconds_sum": 0.15656108898110682,
+  "cost": [
+    {
+      "role": "incumbent",
+      "stage": "inner",
+      "fold": 0,
+      "windows": 380,
+      "model_bytes": 116317630,
+      "component_training_seconds_sum": 233.11618514894508,
+      "forest_fit_seconds": 0,
+      "median_ms": 40.622609,
+      "mean_ms": 43.19884526052631,
+      "p95_ms": 57.69577450000001
+    },
+    {
+      "role": "candidate",
+      "stage": "inner",
+      "fold": 0,
+      "windows": 380,
+      "model_bytes": 172993839,
+      "component_training_seconds_sum": 239.4819459677674,
+      "forest_fit_seconds": 6.365760818822309,
+      "median_ms": 44.838299,
+      "mean_ms": 46.45715528421053,
+      "p95_ms": 58.686951
+    }
+  ],
+  "raw_cost_statistics_recomputed": true,
+  "input_ms": 200,
+  "all_19_windows": true,
+  "temporal_context": false,
+  "external_independent_test": false,
+  "corrected": 0,
+  "broken": 0,
+  "net": 0,
+  "trial_improved": 0,
+  "trial_worsened": 0,
+  "trial_tied": 1536
+}

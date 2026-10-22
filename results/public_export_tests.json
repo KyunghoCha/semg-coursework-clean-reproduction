@@ -1,0 +1,8 @@
+{
+  "passed": 83,
+  "seconds": 5.14,
+  "source_commit": "e6ddc74f30536abd4c446dc12ccd352733968cb8",
+  "test_scope": "synthetic unit checks in the export itself; no experiment training",
+  "command": "python -m pytest -q -p no:cacheprovider",
+  "log_sha256": "816a38c898c07613b8bd0190b6bce8015df9a46713aa7bf4c94e607f5557b8ab"
+}

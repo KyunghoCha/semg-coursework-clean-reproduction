@@ -1,0 +1,15 @@
+{
+  "attempt1_status": "stopped before feature loading or any timing",
+  "reason": "The sequential parent shell command contained Python experiments training entrypoints; the process-argument substring guard matched that launcher although fitting and restoration were complete.",
+  "training_guard_unchanged": true,
+  "previous_files_preserved": {
+    "results/svm_tuning_v29/cost_started.json": "9241b17fee257d1f33ff23a9c181c808cb4bf855b0c6e10e4f0a01f027a6e12e",
+    "private/svm_tuning_v29/cost.log": "0b3a69c289a21af6ac7252a8c98c7afdcb3f53a0ff4091e724a435031eabcc3f"
+  },
+  "valid_measurements_before_retry": 0,
+  "retry": "one standalone cost-only process after confirming training and restoration exit",
+  "verification_complete": [
+    11,
+    3
+  ]
+}

@@ -1,0 +1,10 @@
+stage,fold,candidate,calibration_fold,train_trials,calibration_trials,min_trials_per_target,max_trials_per_target
+inner,0,C1,0,512,256,4,12
+inner,0,C1,1,512,256,4,12
+inner,0,C1,2,512,256,4,12
+inner,1,C1,0,512,256,4,11
+inner,1,C1,1,512,256,4,11
+inner,1,C1,2,512,256,4,11
+inner,2,C1,0,512,256,5,12
+inner,2,C1,1,512,256,5,13
+inner,2,C1,2,512,256,6,13

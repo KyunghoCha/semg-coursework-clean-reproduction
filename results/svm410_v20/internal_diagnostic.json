@@ -1,0 +1,47 @@
+{
+  "scope": "v19 fixed mixture inner evaluation observations only",
+  "observations": 14592,
+  "correct": 13162,
+  "errors": 1430,
+  "top_confusions": [
+    {
+      "count": 77,
+      "true_class": 6,
+      "predicted_class": 7
+    },
+    {
+      "count": 65,
+      "true_class": 7,
+      "predicted_class": 3
+    },
+    {
+      "count": 61,
+      "true_class": 0,
+      "predicted_class": 3
+    },
+    {
+      "count": 56,
+      "true_class": 6,
+      "predicted_class": 5
+    },
+    {
+      "count": 56,
+      "true_class": 3,
+      "predicted_class": 7
+    },
+    {
+      "count": 55,
+      "true_class": 0,
+      "predicted_class": 4
+    }
+  ],
+  "axes_totals": {
+    "angle_only_errors": 335,
+    "gesture_only_errors": 803,
+    "both_errors": 292
+  },
+  "rms_bins_fit_on_inner_training_only": true,
+  "internal_observations_are_not_full_oof": true,
+  "outer_predictions_read": false,
+  "historical_test_evaluated": false
+}

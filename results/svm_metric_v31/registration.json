@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-22T04:53:36.899503+00:00",
+  "plan_sha256": "816a51b252653c68760da6e0674f92c640908eead410e8c1ab59cc5853b1de64",
+  "candidates": {
+    "whitened": {
+      "C": 100.0,
+      "gamma": "scale"
+    }
+  },
+  "size_cap": 1.25,
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "baseline_head": "7690b21bf3aeec9e3d24c8b551920277e4a90a09",
+  "execution_source_hashes": {
+    "experiments/svm_tuning_v29/run.py": "c500a082234488c0b5c673e3d120b44e7e83e7b58ab4d4e4bdd32244b7b218b5",
+    "experiments/svm_tuning_v29/common29.py": "08d42a5abc7ab163ef7e0f509dfa206942123f83cc58844c8b7df4dd6b6a57a3",
+    "experiments/svm_tuning_v29/tuning_rules.py": "90c198559724473e9195a46d4dfce51fd8433e2364e11dc65fcc8d20b90e6f4a",
+    "experiments/svm410_v20/audited_svm.py": "03f37ec5cd00522d380f2508c4419a4bde200090ee2fd8be3f59db1749a9265a",
+    "experiments/svm_metric_v31/covariance_metric.py": "af97c300d59078099897ac1d79bb533e1356d3027bfbae0bfa32eda4bb2b7a54"
+  },
+  "representation": "full-dimensional LedoitWolf covariance metric",
+  "signal_ms": 200,
+  "stride_ms": 100,
+  "windows_per_trial": 19,
+  "development_trials": 1536,
+  "inner_models": 3,
+  "maximum_outer_models": 3,
+  "four_base_fits_per_model": true,
+  "internal_calibration_trial_grouped": true,
+  "temporal_context": false
+}

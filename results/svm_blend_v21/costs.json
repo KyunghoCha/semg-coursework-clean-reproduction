@@ -1,0 +1,89 @@
+[
+  {
+    "method": "incumbent",
+    "fold": 0,
+    "utc": "2026-10-21T12:05:57.485278+00:00",
+    "beta": 0.0,
+    "features": 410,
+    "active_models": 2,
+    "model_bytes": 39876777,
+    "fit_seconds": 123.66011915588751,
+    "fit_times_original_devices": true,
+    "svm_fit_includes_grouped_calibration": false,
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": false,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.876694,
+        "p95_ms": 1.9194837,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "model_probability_batch1": {
+        "median_ms": 2.2296005,
+        "p95_ms": 2.3543601999999995,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 4.196515,
+        "p95_ms": 4.30822935,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "source_hashes": {
+      "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+      "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036"
+    },
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "method": "selected",
+    "fold": 0,
+    "utc": "2026-10-21T12:06:19.667556+00:00",
+    "beta": 0.2,
+    "features": 410,
+    "active_models": 3,
+    "model_bytes": 119838478,
+    "fit_seconds": 282.45435270271264,
+    "fit_times_original_devices": true,
+    "svm_fit_includes_grouped_calibration": true,
+    "device": "cpu",
+    "library_thread_limit": 6,
+    "svm_libsvm_single_thread": true,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.7828805,
+        "p95_ms": 1.8526837999999994,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "model_probability_batch1": {
+        "median_ms": 36.836070500000005,
+        "p95_ms": 39.21042865,
+        "repeats": 200,
+        "warmup": 20
+      },
+      "total_batch1": {
+        "median_ms": 38.7054475,
+        "p95_ms": 40.23528405,
+        "repeats": 200,
+        "warmup": 20
+      }
+    },
+    "source_hashes": {
+      "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+      "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+      "outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+    },
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  }
+]

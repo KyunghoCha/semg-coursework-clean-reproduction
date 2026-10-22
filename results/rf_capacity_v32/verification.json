@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-22T05:22:20.757113+00:00",
+  "models_restored": 6,
+  "checks": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "name": "direct8",
+      "restored": true,
+      "trees": 200,
+      "targets": 8,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "8d9ed3be3afe189d7c34a0b11ff44ea174b16285b7adcf3c3add633c0d9587ca"
+    },
+    {
+      "stage": "inner",
+      "fold": 0,
+      "name": "latent64",
+      "restored": true,
+      "trees": 200,
+      "targets": 64,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "7e3b524e9f1c2cb799109325dcf54af0b8f7227242aa1c01b5d0b0782e5c195e"
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "name": "direct8",
+      "restored": true,
+      "trees": 200,
+      "targets": 8,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "0a65f4de5a11eba3eba8d57456c71763918a2d25afdf895edaa0b2a8e595c924"
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "name": "latent64",
+      "restored": true,
+      "trees": 200,
+      "targets": 64,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "580e8afe7dcbb563579b6e2ef8be440e3822bd708843daad90b7440f760ea89e"
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "name": "direct8",
+      "restored": true,
+      "trees": 200,
+      "targets": 8,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "85f901baf76fd4404d8f8850cc90e17e244d96319e122cb5708ebc4f8b7b0180"
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "name": "latent64",
+      "restored": true,
+      "trees": 200,
+      "targets": 64,
+      "all_training_rows_offered": true,
+      "bootstrap_draws_per_tree": 14592,
+      "train_only_scaler": true,
+      "model_sha256": "e1b3bcf1b7c45537fc508af4c00d37eb73b44f141fc9c362038a346fbea2b796"
+    }
+  ],
+  "splits_reconstructed": true,
+  "all_development_trials": 1536,
+  "windows_per_trial": 19,
+  "input_ms": 200,
+  "historical_test_intersection": 0,
+  "selection_independently_recomputed": true,
+  "source_hashes_preserved": true,
+  "external_unseen_test": false
+}

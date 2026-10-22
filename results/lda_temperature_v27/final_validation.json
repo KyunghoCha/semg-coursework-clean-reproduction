@@ -1,0 +1,13 @@
+{
+  "tests_passed": 65,
+  "python_files_parsed": 15,
+  "document_links_resolved": 262,
+  "plots_visually_inspected": 2,
+  "new_checkpoints_restored": 3,
+  "pca_first_cost_excluded_reason": "overlapped independent verification",
+  "pca_isolated_repeat_count": 1,
+  "temperature_nll_tolerance_note_preserved": true,
+  "model_labels_verified_exactly": true,
+  "public_zip_unchanged_sha256": "51de9a5390431e5be9763881109958584ddf937387f6bea8f1479770c225d0d0",
+  "external_publication_attempted": false
+}

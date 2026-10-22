@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-22T06:03:07.642453+00:00",
+  "trials": 1536,
+  "windows": 29184,
+  "independently_recomputed_features": 80,
+  "maximum_absolute_error": 5.551115123125783e-16,
+  "independent_method": "scipy.signal.periodogram, four explicit 50-sample slices",
+  "zero_denominators": 0,
+  "historical_test_trials_accessed": 0,
+  "feature_cache_sha256": "b45b70a2a508d4b38e6b59bb03475a42ebc4e08f7ee97bb49a853b3553e7f1d9"
+}

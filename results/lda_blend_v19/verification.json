@@ -1,0 +1,33 @@
+{
+  "new_models_verified": 3,
+  "models": [
+    {
+      "fold": 0,
+      "model_sha256": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16
+    },
+    {
+      "fold": 1,
+      "model_sha256": "079918e7db5d182f34e187f7a2da73a32c11dcddc0da34982104e4c165213e6b",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16
+    },
+    {
+      "fold": 2,
+      "model_sha256": "dad0616ed079bead6a7015a448da3f9ca90fa69140e37711f3d178384057a589",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16
+    }
+  ],
+  "inner_selection_recomputed": true,
+  "outer_weights_unchanged": true,
+  "splits_recomputed": true,
+  "train_only_scalers_and_covariances": true,
+  "all_training_classes_present": true,
+  "mixture_probabilities_and_metrics_equal": true,
+  "models_preserved": true,
+  "all_1536_development_trials_evaluated_once": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-22T04:29:43.003247+00:00",
+  "plan_sha256": "c9b54096273061b6c08e927686ef43c7ffee4d231f96e2f0493b8ce544373a9b",
+  "candidates": {
+    "C1": {
+      "C": 1.0,
+      "gamma": "scale"
+    }
+  },
+  "size_cap": 1.25,
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "baseline_head": "7690b21bf3aeec9e3d24c8b551920277e4a90a09",
+  "execution_source_hashes": {
+    "experiments/svm_tuning_v29/run.py": "0313cd4ce0282697c453bd92d5127bb5881721c90d9d0562177ec32fe70e90dd",
+    "experiments/svm_tuning_v29/common29.py": "c40582ede20f12b1863e9dfe23edf4e4e2923cd52589596fc76cb7f5b3f470f9",
+    "experiments/svm_tuning_v29/tuning_rules.py": "90c198559724473e9195a46d4dfce51fd8433e2364e11dc65fcc8d20b90e6f4a",
+    "experiments/svm410_v20/audited_svm.py": "03f37ec5cd00522d380f2508c4419a4bde200090ee2fd8be3f59db1749a9265a"
+  },
+  "signal_ms": 200,
+  "stride_ms": 100,
+  "windows_per_trial": 19,
+  "development_trials": 1536,
+  "inner_models": 3,
+  "maximum_outer_models": 3,
+  "four_base_fits_per_model": true,
+  "internal_calibration_trial_grouped": true,
+  "temporal_context": false
+}

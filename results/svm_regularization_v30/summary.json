@@ -1,0 +1,67 @@
+{
+  "rows": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    },
+    {
+      "role": "candidate",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    }
+  ],
+  "fold_candidates": [
+    "incumbent",
+    "incumbent",
+    "incumbent"
+  ],
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "outer_changes": [
+    {
+      "fold": 0,
+      "corrected": 0,
+      "broken": 0
+    },
+    {
+      "fold": 1,
+      "corrected": 0,
+      "broken": 0
+    },
+    {
+      "fold": 2,
+      "corrected": 0,
+      "broken": 0
+    }
+  ]
+}

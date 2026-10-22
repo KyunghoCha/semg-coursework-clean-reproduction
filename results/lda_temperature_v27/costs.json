@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-22T03:34:24.468946+00:00",
+  "rows": [
+    {
+      "role": "incumbent",
+      "fold": 0,
+      "beta": 0.4,
+      "temperature": 1.0,
+      "xgb_candidate": "shallow800",
+      "model_bytes": 138507342,
+      "original_component_training_seconds_sum": 331.3527096067555,
+      "new_fit_seconds": 0,
+      "median_ms": 43.284127,
+      "mean_ms": 46.202693489473674,
+      "p95_ms": 69.97244080000002,
+      "windows": 380
+    },
+    {
+      "role": "selected",
+      "fold": 0,
+      "beta": 0.4,
+      "temperature": 1.5,
+      "xgb_candidate": "shallow800",
+      "model_bytes": 138507342,
+      "original_component_training_seconds_sum": 331.3527096067555,
+      "new_fit_seconds": 0,
+      "median_ms": 44.471331,
+      "mean_ms": 48.40026772894736,
+      "p95_ms": 79.1368224,
+      "windows": 380
+    }
+  ],
+  "source_hashes": {
+    "private/regularized_boosting_v24/outer_shallow800_0.joblib": "3c34e8955014c4abff549d42a3be20486ceee3a6f43cc881be4fd0c3ddee135f",
+    "private/lda_blend_v19/outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+    "private/svm_blend_v21/outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+  },
+  "raw_timing_sha256": "4e4ffb14c0dd2aef6a0c818ca3cb167682c3229e8ff3769d43aeffdfbd20400d",
+  "device": "cpu",
+  "library_threads": 6,
+  "svm_single_thread": true,
+  "warmup": 19,
+  "signal_ms": 200,
+  "temporal_context": false,
+  "all_required_model_probabilities_computed": true,
+  "v22_gate_used": false,
+  "signal_acquisition_csv_loading_excluded": true,
+  "restored_features_and_probabilities_equal": true
+}

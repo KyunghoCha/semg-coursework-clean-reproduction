@@ -1,0 +1,21 @@
+{
+  "plan_sha256": "790b23e92cc901f66cf10b234b983421f8dbe6be3b8e49f56eedc91e02db6bfa",
+  "features": 410,
+  "learning_targets": 64,
+  "output_classes": 8,
+  "window_ms": 200,
+  "windows_per_trial": 19,
+  "development_trials": 1536,
+  "historical_test_excluded": 384,
+  "inner_calibrated_models": 3,
+  "inner_base_svc_fits": 12,
+  "outer_calibrated_models_max": 3,
+  "outer_base_svc_fits_max": 12,
+  "C": 100,
+  "gamma": "scale",
+  "max_iter": -1,
+  "probability": false,
+  "calibration": "sigmoid trial-grouped 3-fold ensemble=False",
+  "outer_scores_used_for_selection": false,
+  "external_independent_test": false
+}

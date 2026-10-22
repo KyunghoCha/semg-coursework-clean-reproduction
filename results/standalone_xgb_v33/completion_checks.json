@@ -1,0 +1,11 @@
+{
+  "tests_passed": 77,
+  "pytest_log_summary": "77 passed in 5.77s",
+  "models_restored": 4,
+  "single_svc_models_restored": 3,
+  "rf_models_restored": 6,
+  "cost_statistics_verified": true,
+  "figures_visually_inspected": true,
+  "new_training_after_v33": false,
+  "publication_or_upload": false
+}

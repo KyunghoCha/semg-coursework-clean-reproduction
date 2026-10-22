@@ -1,0 +1,4 @@
+fold,windows,baseline_correct,qda_correct,both_correct,qda_only_correct,baseline_only_correct,both_wrong
+0,4864,4319,2318,2198,120,2121,425
+1,4864,4416,2336,2211,125,2205,323
+2,4864,4348,2514,2372,142,1976,374

@@ -1,0 +1,40 @@
+{
+  "outer_cpu_windows": 29184,
+  "all_labels_equal": true,
+  "actual_conditional_svm_calls_verified": true,
+  "models": [
+    {
+      "fold": 0,
+      "windows": 9728,
+      "actual_svm_calls": 792,
+      "label_differences": 0,
+      "model_hashes": {
+        "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+        "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+        "outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+      }
+    },
+    {
+      "fold": 1,
+      "windows": 9728,
+      "actual_svm_calls": 828,
+      "label_differences": 0,
+      "model_hashes": {
+        "outer_narrow64_1.joblib": "bbcc4e632a95c9a697a482289c0ff2f71cf8a5f0275e612bfdbaa12d50523f69",
+        "outer_lda_1.joblib": "079918e7db5d182f34e187f7a2da73a32c11dcddc0da34982104e4c165213e6b",
+        "outer_svm_1.joblib": "199cda8c3cb1df52b7d2f070ad5c180b48c995eb09d752b82b1638799fb9cca3"
+      }
+    },
+    {
+      "fold": 2,
+      "windows": 9728,
+      "actual_svm_calls": 742,
+      "label_differences": 0,
+      "model_hashes": {
+        "outer_narrow64_2.joblib": "c7e7362e33003f0fd5022355d57aa72deb681536a1e216782e7502e171dc6fcd",
+        "outer_lda_2.joblib": "dad0616ed079bead6a7015a448da3f9ca90fa69140e37711f3d178384057a589",
+        "outer_svm_2.joblib": "f8d804c88b247135de9021a6909cc616462b672a5fdcf2bba20e3e9aba5bcbf0"
+      }
+    }
+  ]
+}

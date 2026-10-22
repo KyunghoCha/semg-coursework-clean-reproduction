@@ -1,0 +1,4 @@
+fold,windows,baseline_correct,lda_correct,both_correct,lda_only_correct,baseline_only_correct,both_wrong
+0,4864,4319,3856,3621,235,698,310
+1,4864,4416,3897,3706,191,710,257
+2,4864,4348,3848,3639,209,709,307

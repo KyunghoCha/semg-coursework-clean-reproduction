@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-22T06:00:18.281477+00:00",
+  "plan_sha256": "de35918acb76b2a3c5e75f98e28a9d5385423f6cd57cc1abfc3fa987fa6e2503",
+  "code_sha256": "5c5811c178990b7802b9a8b0b5f8725dede383cfc72960203314206d27805507",
+  "diagnostic_decision_sha256": "fd80cbb63eadeedf0fce3d9493a4594d3365794b1fef08ceefdd4c60d51521c2",
+  "settings": {
+    "n_estimators": 800,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "min_child_weight": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "device": "cuda",
+    "n_jobs": 6,
+    "random_state": 42,
+    "early_stopping_rounds": null
+  },
+  "input_ms": 200,
+  "windows": 19,
+  "features": 490,
+  "targets": 64,
+  "feature_code_sha256": "a97ec6d08e1eca2d95783402fca609a5d725445d5a56421a282a3c149cbb6a13",
+  "feature_cache_sha256": "b45b70a2a508d4b38e6b59bb03475a42ebc4e08f7ee97bb49a853b3553e7f1d9",
+  "models_per_prediction": 1,
+  "model_output_blending": false,
+  "temporal_state": false,
+  "historical_test_evaluations": 0
+}

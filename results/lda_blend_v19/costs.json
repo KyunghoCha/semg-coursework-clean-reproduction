@@ -1,0 +1,81 @@
+[
+  {
+    "case": "baseline",
+    "fold": 0,
+    "alpha": 0.0,
+    "utc": "2026-10-21T11:12:17.987087+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "active_models": 1,
+    "features": 410,
+    "model_bytes": 36751112,
+    "fit_seconds_sum": 123.41043994296342,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.8356919999999999,
+        "p95_ms": 1.965358,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "models_probability_batch1": {
+        "median_ms": 2.030468,
+        "p95_ms": 2.21045145,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 3.9750375,
+        "p95_ms": 4.0876737,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_hashes": {
+      "narrow64": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc"
+    },
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  },
+  {
+    "case": "selected",
+    "fold": 0,
+    "alpha": 0.2,
+    "utc": "2026-10-21T11:12:20.434838+00:00",
+    "device": "cpu",
+    "threads": 6,
+    "active_models": 2,
+    "features": 410,
+    "model_bytes": 39876777,
+    "fit_seconds_sum": 123.66011915588751,
+    "timing": {
+      "feature_batch1": {
+        "median_ms": 1.8355785,
+        "p95_ms": 1.87446545,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "models_probability_batch1": {
+        "median_ms": 2.3415985,
+        "p95_ms": 2.4855279500000003,
+        "warmup": 20,
+        "repeats": 200
+      },
+      "total_batch1": {
+        "median_ms": 4.291596,
+        "p95_ms": 4.43259685,
+        "warmup": 20,
+        "repeats": 200
+      }
+    },
+    "model_hashes": {
+      "narrow64": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+      "lda": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036"
+    },
+    "feature_cache_equal": true,
+    "restored_probabilities_equal": true,
+    "signal_acquisition_excluded": true,
+    "model_loading_excluded": true
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "models": [
+    {
+      "name": "direct8",
+      "solo_mean": 0.8220257675438596,
+      "solo_sd": 0.010007829122789875,
+      "mixture_mean": 0.9140625,
+      "inner_correct_delta": [
+        -1,
+        1,
+        8
+      ],
+      "bytes_min": 93215921,
+      "bytes_max": 96092849,
+      "fit_seconds_total": 382.60914676380344,
+      "fit_seconds_mean": 127.53638225460115,
+      "training_accuracy_min": 1.0,
+      "training_accuracy_max": 1.0
+    },
+    {
+      "name": "latent64",
+      "solo_mean": 0.8441611842105262,
+      "solo_sd": 0.008225397299641984,
+      "mixture_mean": 0.9133771929824562,
+      "inner_correct_delta": [
+        -2,
+        -3,
+        3
+      ],
+      "bytes_min": 504100337,
+      "bytes_max": 518981873,
+      "fit_seconds_total": 545.2968199041206,
+      "fit_seconds_mean": 181.76560663470687,
+      "training_accuracy_min": 1.0,
+      "training_accuracy_max": 1.0
+    }
+  ],
+  "fold_candidates": [
+    "incumbent",
+    "incumbent",
+    "incumbent"
+  ],
+  "pooled": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.0049860500968791,
+      "accuracy": 0.9198190789473684,
+      "precision_macro": 0.9199797292695232,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877192,
+      "gesture_accuracy": 0.939281798245614
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.0049860500968791,
+      "accuracy": 0.9198190789473684,
+      "precision_macro": 0.9199797292695232,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877192,
+      "gesture_accuracy": 0.939281798245614
+    }
+  ],
+  "test_evaluations": 0,
+  "outer_candidate_fits": 0,
+  "input_ms": 200,
+  "windows_per_trial": 19,
+  "calibration": "RF bagged probabilities; fixed 10% mixture, no additional fitted calibration",
+  "latency": "Skipped: no RF passed the inner adoption rule"
+}

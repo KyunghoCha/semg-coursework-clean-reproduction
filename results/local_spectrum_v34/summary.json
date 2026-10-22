@@ -1,0 +1,93 @@
+{
+  "input_ms": 200,
+  "windows_per_trial": 19,
+  "features_candidate": 490,
+  "single_estimator": true,
+  "use_new_model": [
+    false,
+    false,
+    true
+  ],
+  "inner_summary": [
+    {
+      "model": "fixed_410_XGB800",
+      "correct": 13178,
+      "windows": 14592,
+      "mean_accuracy": 0.9030975877192983,
+      "fold_sd": 0.007658286756962157
+    },
+    {
+      "model": "incumbent_v33",
+      "correct": 13193,
+      "windows": 14592,
+      "mean_accuracy": 0.904125548245614,
+      "fold_sd": 0.009034103784409409
+    },
+    {
+      "model": "local80_490_XGB800",
+      "correct": 13177,
+      "windows": 14592,
+      "mean_accuracy": 0.903029057017544,
+      "fold_sd": 0.007250017080832368
+    }
+  ],
+  "outer": [
+    {
+      "role": "reference",
+      "windows": 29184,
+      "correct": 26580,
+      "fold_sd": 0.0034596128216745,
+      "accuracy": 0.9107730263157896,
+      "precision_macro": 0.9109515794730124,
+      "recall_macro": 0.9107730263157896,
+      "f1_macro": 0.910818182783741,
+      "angle_accuracy": 0.9608689692982456,
+      "gesture_accuracy": 0.9317434210526316
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26579,
+      "fold_sd": 0.0034292752201745,
+      "accuracy": 0.9107387609649122,
+      "precision_macro": 0.9108915005719718,
+      "recall_macro": 0.9107387609649122,
+      "f1_macro": 0.9107744513491274,
+      "angle_accuracy": 0.9609717653508772,
+      "gesture_accuracy": 0.931811951754386
+    }
+  ],
+  "paired_changes": [
+    {
+      "fold": 0,
+      "fixed_errors": 0,
+      "lost_correct": 0,
+      "improved_trials": 0,
+      "worse_trials": 0,
+      "unchanged_trials": 512
+    },
+    {
+      "fold": 1,
+      "fixed_errors": 0,
+      "lost_correct": 0,
+      "improved_trials": 0,
+      "worse_trials": 0,
+      "unchanged_trials": 512
+    },
+    {
+      "fold": 2,
+      "fixed_errors": 85,
+      "lost_correct": 86,
+      "improved_trials": 57,
+      "worse_trials": 61,
+      "unchanged_trials": 394
+    }
+  ],
+  "new_fit_count": 4,
+  "fit_seconds": 661.2316045581829,
+  "model_bytes_min": 52069496,
+  "model_bytes_max": 55591224,
+  "changed_outer_conditions": false,
+  "independent_external_test": false,
+  "selection_sha256": "3ad523519393246d0dc0acdaad51daf71bc9bc889948e80edaff976c3fcb2858"
+}

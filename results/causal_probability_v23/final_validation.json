@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-21T12:43:17.550726+00:00",
+  "unit_tests_passed": 59,
+  "scalar_probability_rows_verified": 102144,
+  "new_model_fits": 0,
+  "all_model_and_prediction_source_hashes_preserved": 18,
+  "plan_and_selection_unchanged": true,
+  "readme_and_scope_local_links_checked": 232,
+  "three_figures_visually_reviewed": true,
+  "python_syntax_and_shell_syntax_passed": true,
+  "git_diff_check_passed": true,
+  "long_error_run_counts_recomputed": true,
+  "original_200ms_primary_result_retained": true,
+  "private_data_models_predictions_not_staged": true,
+  "v19_zip_unchanged": true,
+  "v19_zip_bytes": 3546178,
+  "v19_zip_sha256": "51de9a5390431e5be9763881109958584ddf937387f6bea8f1479770c225d0d0",
+  "external_push_or_upload_attempted": false
+}

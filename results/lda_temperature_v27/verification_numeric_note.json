@@ -1,0 +1,10 @@
+{
+  "first_verification_failed": true,
+  "original_nll_absolute_tolerance": 1e-12,
+  "observed_max_inner_nll_difference": 5.552250881279974e-10,
+  "reason": "Independent float32 64-to-8 reduction order differs; probability/label checks remain unchanged.",
+  "new_nll_absolute_tolerance": 1e-08,
+  "all_prediction_labels_exact": true,
+  "producer_results_modified": false,
+  "first_log": "private/lda_temperature_v27/verify_first.log"
+}

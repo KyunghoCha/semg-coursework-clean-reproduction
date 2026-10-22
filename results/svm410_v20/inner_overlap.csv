@@ -1,0 +1,4 @@
+fold,windows,incumbent_correct,svm_correct,both_correct,svm_only_correct,incumbent_only_correct,both_wrong
+0,4864,4337,4195,3948,247,389,280
+1,4864,4446,4200,4014,186,432,232
+2,4864,4379,4189,3967,222,412,263

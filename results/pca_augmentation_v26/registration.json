@@ -1,0 +1,26 @@
+{
+  "plan_sha256": "70d208021367d9bcb76f2074bce959a0e01290b2b146ab3e1727d04665e4b24d",
+  "settings": {
+    "n_estimators": 800,
+    "max_depth": 4,
+    "min_child_weight": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "n_jobs": 6
+  },
+  "beta": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "pca_components": 64,
+  "svd_solver": "full",
+  "whiten": false,
+  "original_features_preserved": 410,
+  "features": 474,
+  "input_ms": 200,
+  "hop_ms": 100,
+  "windows": 19,
+  "historical_test_evaluations": 0
+}

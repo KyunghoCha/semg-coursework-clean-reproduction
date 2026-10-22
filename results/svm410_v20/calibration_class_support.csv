@@ -1,0 +1,10 @@
+stage,fold,calibration_fold,train_trials,calibration_trials,min_training_trials_per_target,max_training_trials_per_target,all_64_classes_present
+inner,0,0,512,256,4,12,True
+inner,0,1,512,256,4,12,True
+inner,0,2,512,256,4,12,True
+inner,1,0,512,256,4,11,True
+inner,1,1,512,256,4,11,True
+inner,1,2,512,256,4,11,True
+inner,2,0,512,256,5,12,True
+inner,2,1,512,256,5,13,True
+inner,2,2,512,256,6,13,True

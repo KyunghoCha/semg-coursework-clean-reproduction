@@ -1,0 +1,27 @@
+{
+  "fold_alphas": [
+    0.2,
+    0.2,
+    0.2
+  ],
+  "final_development_alpha": 0.2,
+  "inner_correct_totals": [
+    {
+      "alpha": 0.0,
+      "correct": 13083
+    },
+    {
+      "alpha": 0.05,
+      "correct": 13110
+    },
+    {
+      "alpha": 0.1,
+      "correct": 13135
+    },
+    {
+      "alpha": 0.2,
+      "correct": 13162
+    }
+  ],
+  "outer_scores_used": false
+}

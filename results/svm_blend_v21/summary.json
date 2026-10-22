@@ -1,0 +1,48 @@
+{
+  "inner_new_fits": 0,
+  "outer_calibrated_models": 3,
+  "outer_base_svc_fits": 12,
+  "historical_test_evaluations": 0,
+  "selection_sha256": "c78a0b8141f7eb524ef82efa019ea5706438a6703baa2ff1b2eef2a84cb3cb6f",
+  "utc": "2026-10-21T11:57:52.722666+00:00",
+  "fold_betas": [
+    0.2,
+    0.2,
+    0.2
+  ],
+  "outer": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26439,
+      "fold_sd": 0.0035737956065056,
+      "accuracy": 0.9059416118421052,
+      "precision_macro": 0.9061170980547284,
+      "recall_macro": 0.9059416118421052,
+      "f1_macro": 0.905971045312418,
+      "angle_accuracy": 0.9594640899122808,
+      "gesture_accuracy": 0.9277001096491228
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26670,
+      "fold_sd": 0.0035021133151456,
+      "accuracy": 0.9138569078947368,
+      "precision_macro": 0.9140329323152696,
+      "recall_macro": 0.9138569078947368,
+      "f1_macro": 0.9138896423631786,
+      "angle_accuracy": 0.9636787280701754,
+      "gesture_accuracy": 0.9335594846491228
+    }
+  ],
+  "cost_conditions": 2,
+  "raw_cost_times_recomputed": true,
+  "external_independent_test": false,
+  "corrected": 365,
+  "broken": 134,
+  "net": 231,
+  "trial_improved": 285,
+  "trial_worsened": 95,
+  "trial_tied": 1156
+}

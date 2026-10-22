@@ -1,0 +1,17 @@
+{
+  "plan_sha256": "7619595126cf8b679c75d0ac320098301a3a7f55ef155a05bdbf3e7ee6c3bf44",
+  "temperatures": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "new_fits": 0,
+  "input_ms": 200,
+  "windows_per_trial": 19,
+  "historical_test_evaluations": 0
+}

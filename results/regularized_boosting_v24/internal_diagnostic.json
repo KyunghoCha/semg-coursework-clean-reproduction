@@ -1,0 +1,49 @@
+{
+  "scope": "frozen v21 inner evaluation observations only",
+  "outer_predictions_read": false,
+  "historical_test_evaluated": false,
+  "new_fits": 0,
+  "total": {
+    "windows": 14592,
+    "correct": 13260,
+    "errors": 1332,
+    "true_class_in_top2_when_wrong": 946,
+    "angle_only_errors": 319,
+    "gesture_only_errors": 749,
+    "both_errors": 264
+  },
+  "top_confusions": [
+    {
+      "count": 72,
+      "true_class": 6,
+      "predicted_class": 7
+    },
+    {
+      "count": 63,
+      "true_class": 7,
+      "predicted_class": 3
+    },
+    {
+      "count": 55,
+      "true_class": 0,
+      "predicted_class": 3
+    },
+    {
+      "count": 53,
+      "true_class": 6,
+      "predicted_class": 5
+    },
+    {
+      "count": 51,
+      "true_class": 3,
+      "predicted_class": 7
+    },
+    {
+      "count": 50,
+      "true_class": 2,
+      "predicted_class": 1
+    }
+  ],
+  "internal_observations_are_not_full_oof": true,
+  "rms_thresholds_fit_on_inner_training_only": true
+}

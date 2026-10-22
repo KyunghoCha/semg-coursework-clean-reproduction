@@ -1,0 +1,12 @@
+{
+  "completed_fit_count": 1,
+  "reason": "Progress json.dumps could not serialize numpy int64 max_leaves after model, prediction, audit and CSV had already been saved.",
+  "change": "Convert max_leaves to Python int; model settings unchanged.",
+  "completed_checkpoint_sha256": {
+    "private/forest64_v28/inner_forest_0.json": "baaffcc8cdf28e8a9cdf02078c2f01ee5965d653d16fd718482d061bc181b5f1",
+    "private/forest64_v28/inner_forest_0.npz": "cb19a16ac9962e7287a56f6a780dde646c68c69e881bde5127984daf851c1b7c",
+    "private/forest64_v28/inner_forest_0.joblib": "c17f7496dd63c3ddfa623d78bfeb7259799e1bc404d7e93c8b7db14f64f6b161"
+  },
+  "first_fit_will_be_reused": true,
+  "first_log": "private/forest64_v28/run_first.log"
+}

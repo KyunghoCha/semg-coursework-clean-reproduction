@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-21T12:14:12.853657+00:00",
+  "fold": 0,
+  "scope": "all 9728 outer fold0 evaluation windows, each timed once",
+  "features": 410,
+  "window_ms": 200,
+  "signal_acquisition_excluded": true,
+  "model_loading_excluded": true,
+  "warmup": 20,
+  "device": "cpu",
+  "library_thread_limit": 6,
+  "svm_libsvm_single_thread": true,
+  "model_bytes": 119838478,
+  "svm_calls": 792,
+  "call_fraction": 0.08141447368421052,
+  "all_labels_equal": true,
+  "new_model_fits": 0,
+  "all": {
+    "count": 9728,
+    "median_ms": 4.520224,
+    "mean_ms": 7.3149658742804275,
+    "p95_ms": 38.11433775,
+    "p99_ms": 39.70399147,
+    "max_ms": 51.717876
+  },
+  "svm_called": {
+    "count": 792,
+    "median_ms": 38.2761925,
+    "mean_ms": 38.615562618686866,
+    "p95_ms": 40.125082899999995,
+    "p99_ms": 41.43505884000001,
+    "max_ms": 51.717876
+  },
+  "svm_skipped": {
+    "count": 8936,
+    "median_ms": 4.5031735,
+    "mean_ms": 4.540785858437779,
+    "p95_ms": 4.8352885,
+    "p99_ms": 5.239193899999999,
+    "max_ms": 8.079502
+  },
+  "source_hashes": {
+    "outer_narrow64_0.joblib": "4d68e3dd1edd5d1d95b39af3a3281e37e0bbbebcb01a48878010c14fe74561dc",
+    "outer_lda_0.joblib": "521a392da60a8e7fc712c63250aa4ef959fdbd4b0bf2493c430d81563d360036",
+    "outer_svm_0.joblib": "70cbc112b7c9460a039775ebe5e82a2292c47620617c145d536b03b2051bc8a3"
+  },
+  "raw_timing_sha256": "a3cadac0958b8e23136d147b7d4e040b59bb04701841828373a1a27bcf4cce2d"
+}

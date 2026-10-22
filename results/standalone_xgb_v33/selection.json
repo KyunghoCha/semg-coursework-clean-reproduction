@@ -1,0 +1,10 @@
+{
+  "use_new_model": [
+    false,
+    true,
+    false
+  ],
+  "outer_scores_used": false,
+  "models_per_prediction": 1,
+  "utc": "2026-10-22T05:35:01.587976+00:00"
+}

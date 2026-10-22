@@ -1,0 +1,21 @@
+{
+  "plan_sha256": "ffb526d2736c214dca9e241134be4dbed4ec052a020c7b761a0e7832abc2a642",
+  "utc": "2026-10-21T11:45:38.025880+00:00",
+  "betas": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "inner_new_fits": 0,
+  "outer_calibrated_models_max": 3,
+  "outer_base_svc_fits_max": 12,
+  "features": 410,
+  "learning_targets": 64,
+  "output_classes": 8,
+  "window_ms": 200,
+  "windows_per_trial": 19,
+  "development_trials": 1536,
+  "historical_test_excluded": 384,
+  "external_independent_test": false
+}

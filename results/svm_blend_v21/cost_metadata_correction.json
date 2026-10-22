@@ -1,0 +1,11 @@
+{
+  "before_sha256": "54421b590d36cc3924527da4de9c456d522532cae68dd6806ce3a6269ac67bd0",
+  "after_sha256": "8f1edd411336ab0d5d16d37a66094336ac11147f4f27a130507a4bf776e1527e",
+  "reason": "Reference path has no active SVM; corrected two descriptive flags only.",
+  "changed_fields_in_incumbent": [
+    "svm_fit_includes_grouped_calibration",
+    "svm_libsvm_single_thread"
+  ],
+  "timings_model_bytes_fit_seconds_unchanged": true,
+  "original_preserved_privately": true
+}

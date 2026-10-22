@@ -1,0 +1,8 @@
+{
+  "baseline_tests": 77,
+  "final_tests": 83,
+  "passed": true,
+  "seconds": 5.23,
+  "command": "python -m pytest -q -p no:cacheprovider",
+  "log_sha256": "2db16cff55bf267070e53aefd08f4f0cde07d3e4775bbc66cc8f5986ac0d3900"
+}

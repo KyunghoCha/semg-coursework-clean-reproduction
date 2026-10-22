@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-22T04:49:38.582767+00:00",
+  "rows": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "candidate": "incumbent",
+      "beta": 0.4,
+      "model_bytes": 116317630,
+      "svm_model_bytes": 60938709,
+      "original_component_training_seconds_sum": 233.11618514894508,
+      "svm_wrapper_fit_seconds": 100.47183156199752,
+      "svm_base_fit_seconds": 52.721716773929074,
+      "median_ms": 41.9386865,
+      "mean_ms": 43.25010460526316,
+      "p95_ms": 53.1197815,
+      "windows": 380
+    },
+    {
+      "stage": "inner",
+      "fold": 0,
+      "candidate": "C1",
+      "beta": 0.4,
+      "model_bytes": 116373422,
+      "svm_model_bytes": 60994501,
+      "original_component_training_seconds_sum": 233.9248634809628,
+      "svm_wrapper_fit_seconds": 101.28050989401528,
+      "svm_base_fit_seconds": 50.13901663175784,
+      "median_ms": 44.238996,
+      "mean_ms": 48.50861313947368,
+      "p95_ms": 69.4105921,
+      "windows": 380
+    }
+  ],
+  "source_hashes": {
+    "private/regularized_boosting_v24/inner_shallow800_0.joblib": "9af8d0d19bd7be9e6b8bd6aa1a63bc84521f0bd1c05ced422d7f5ccf86469381",
+    "private/shared_lda_v18/inner_lda_0.joblib": "a4286d5dd8a7ffcb70b5ff06b25b3474d3711b5b8095d59794cb65b0fc0d7152",
+    "private/svm410_v20/inner_svm_0.joblib": "17ac7d9e45b623ed23d5cb3c3d0dfca905e02fe5afaea56ade7a200a9fb7ad38",
+    "private/svm_regularization_v30/inner_C1_0.joblib": "87b151bd878ae712c1a9ab8af3541b4c7cfe767a607f1a1ce4cf917593ae8fa6"
+  },
+  "raw_timing_sha256": "d57ff0711faf379b814bf973ec1b315cd3a405d7604dd4131ec41b9a5c191cd1",
+  "device": "cpu",
+  "library_threads": 6,
+  "libsvm_single_thread": true,
+  "warmup": 19,
+  "current_signal_ms": 200,
+  "temporal_context": false,
+  "all_required_model_probabilities_computed": true,
+  "label_only_call_skipping": false,
+  "signal_acquisition_csv_and_model_loading_excluded": true,
+  "feature_cache_and_restored_probabilities_equal": true
+}

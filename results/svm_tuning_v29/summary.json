@@ -1,0 +1,67 @@
+{
+  "rows": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26844,
+      "fold_sd": 0.004986050096879134,
+      "accuracy": 0.9198190789473685,
+      "precision_macro": 0.9199797292695233,
+      "recall_macro": 0.9198190789473684,
+      "f1_macro": 0.9198536835871178,
+      "angle_accuracy": 0.9663171600877193,
+      "gesture_accuracy": 0.9392817982456141
+    },
+    {
+      "role": "candidate",
+      "windows": 29184,
+      "correct": 26832,
+      "fold_sd": 0.004625441626631159,
+      "accuracy": 0.9194078947368421,
+      "precision_macro": 0.9195443444343228,
+      "recall_macro": 0.919407894736842,
+      "f1_macro": 0.9194382702343514,
+      "angle_accuracy": 0.9662486293859649,
+      "gesture_accuracy": 0.9385279605263158
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26832,
+      "fold_sd": 0.004625441626631159,
+      "accuracy": 0.9194078947368421,
+      "precision_macro": 0.9195443444343228,
+      "recall_macro": 0.919407894736842,
+      "f1_macro": 0.9194382702343514,
+      "angle_accuracy": 0.9662486293859649,
+      "gesture_accuracy": 0.9385279605263158
+    }
+  ],
+  "fold_candidates": [
+    "broad",
+    "incumbent",
+    "broad"
+  ],
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "outer_changes": [
+    {
+      "fold": 0,
+      "corrected": 48,
+      "broken": 50
+    },
+    {
+      "fold": 1,
+      "corrected": 0,
+      "broken": 0
+    },
+    {
+      "fold": 2,
+      "corrected": 22,
+      "broken": 32
+    }
+  ]
+}

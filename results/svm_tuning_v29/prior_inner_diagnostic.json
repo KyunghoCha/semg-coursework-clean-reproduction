@@ -1,0 +1,91 @@
+{
+  "rows": [
+    {
+      "fold": 0,
+      "C": 100.0,
+      "gamma": "scale",
+      "effective_gamma": 0.002439024390243906,
+      "constant_columns": 0,
+      "support_vectors": 14101,
+      "train_windows": 14592,
+      "support_fraction": 0.9663514254385965,
+      "mixture_correct": 4406,
+      "mixture_wrong": 458,
+      "svm_correct_when_mixture_wrong": 94,
+      "mixture_wrong_with_truth_in_top2": 316,
+      "wrong_by_class": [
+        49,
+        44,
+        70,
+        65,
+        26,
+        78,
+        84,
+        42
+      ]
+    },
+    {
+      "fold": 1,
+      "C": 100.0,
+      "gamma": "scale",
+      "effective_gamma": 0.0024390243902439003,
+      "constant_columns": 0,
+      "support_vectors": 14199,
+      "train_windows": 14592,
+      "support_fraction": 0.9730674342105263,
+      "mixture_correct": 4489,
+      "mixture_wrong": 375,
+      "svm_correct_when_mixture_wrong": 119,
+      "mixture_wrong_with_truth_in_top2": 259,
+      "wrong_by_class": [
+        53,
+        36,
+        27,
+        57,
+        29,
+        37,
+        54,
+        82
+      ]
+    },
+    {
+      "fold": 2,
+      "C": 100.0,
+      "gamma": "scale",
+      "effective_gamma": 0.0024390243902439033,
+      "constant_columns": 0,
+      "support_vectors": 14158,
+      "train_windows": 14592,
+      "support_fraction": 0.9702576754385965,
+      "mixture_correct": 4435,
+      "mixture_wrong": 429,
+      "svm_correct_when_mixture_wrong": 140,
+      "mixture_wrong_with_truth_in_top2": 300,
+      "wrong_by_class": [
+        57,
+        56,
+        50,
+        48,
+        35,
+        44,
+        93,
+        46
+      ]
+    }
+  ],
+  "source_hashes": {
+    "private/regularized_boosting_v24/inner_shallow800_0.npz": "6ae003002ec88c588ba29db2be1445ca943e8aa275481a9dab5658217740e97c",
+    "private/shared_lda_v18/inner_lda_0.npz": "41c9b88f6be85419d728ec6e9e600b0d7d45b7774f42f2670b84baac9a2be9a7",
+    "private/svm410_v20/inner_svm_0.npz": "d778258445fd1afb8ae3d2749c05845031b3c59e9d9b9d1bf43a5b879f723490",
+    "private/svm410_v20/inner_svm_0.joblib": "17ac7d9e45b623ed23d5cb3c3d0dfca905e02fe5afaea56ade7a200a9fb7ad38",
+    "private/regularized_boosting_v24/inner_shallow800_1.npz": "8d2b358bc9c4019b73c1a2427a89780e56e96d336588f213b6a34c2dbf5a0d60",
+    "private/shared_lda_v18/inner_lda_1.npz": "82925160eb421689efb1234983b63aad108dda3e7496fe1291f35dc2972de015",
+    "private/svm410_v20/inner_svm_1.npz": "24b3b5cd40e90427c28cab8aa007ee4b3f5bebdfe756d41b9ee428445eb5a3a8",
+    "private/svm410_v20/inner_svm_1.joblib": "bca1aefb6ac155c3925db5e057975faae3b113df8e12cdc3bea320f056fcb8e7",
+    "private/regularized_boosting_v24/inner_shallow800_2.npz": "0c0ee360e1d97a2540d8bd8cbf7412bf5b205a480230df087c2d681b74a2132b",
+    "private/shared_lda_v18/inner_lda_2.npz": "7935ef3f2bb00c16364bd4401b5d6ee572cf4138c425fba9474333608bff14b7",
+    "private/svm410_v20/inner_svm_2.npz": "633935817add5bdb9368dbfd95e44268a4d5e9ce9151fdcfda2eb331355c4d82",
+    "private/svm410_v20/inner_svm_2.joblib": "f19e7a30a0081e954706a44cfaa132d662faa883555fbf94245e66703c0ca557"
+  },
+  "outer_predictions_read": false
+}

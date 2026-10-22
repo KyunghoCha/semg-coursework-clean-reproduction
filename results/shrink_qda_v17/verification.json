@@ -1,0 +1,36 @@
+{
+  "new_models_verified": 3,
+  "covariances_rebuilt": 192,
+  "models": [
+    {
+      "stem": "inner_qda_0",
+      "model_sha256": "bdef79ec32ee47c4b00e0b2d68f2b7f7761502e234a27d9319c126c6a442354b",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_qda_1",
+      "model_sha256": "d4bf7b18063568818a29e6f87525f67cda56fbec1a1578cdeac5f4378f624f2b",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_qda_2",
+      "model_sha256": "b34685bb4e520aae76ad5ac6cffcbf3574bcb796db57f515f496f8886f446d61",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    }
+  ],
+  "splits_independently_regenerated": true,
+  "train_only_scalers_and_covariances": true,
+  "all_64_training_classes_present": true,
+  "gaussian_scores_checked_against_scipy": true,
+  "selected_from_inner_only": true,
+  "models_preserved": true,
+  "outer_all_development_trials_covered": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

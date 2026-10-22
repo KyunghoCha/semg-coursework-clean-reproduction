@@ -1,0 +1,24 @@
+{
+  "fold_histories": [
+    5,
+    5,
+    5
+  ],
+  "pooled_inner_history": 5,
+  "inner_correct_totals": [
+    {
+      "history": 1,
+      "correct": 13260
+    },
+    {
+      "history": 3,
+      "correct": 13906
+    },
+    {
+      "history": 5,
+      "correct": 14069
+    }
+  ],
+  "outer_scores_used": false,
+  "utc": "2026-10-21T12:29:29.246180+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-22T03:04:34.562109+00:00",
+  "plan_sha256": "f6725e9921289a74474b1ca480f8f32a423593de385cff8a5041adba96dfa774",
+  "betas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "signal_ms": 200,
+  "windows_per_trial": 19,
+  "new_fits": 0,
+  "temporal_context": false
+}

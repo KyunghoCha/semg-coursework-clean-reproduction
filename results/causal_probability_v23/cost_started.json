@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-21T12:37:16.276114+00:00",
+  "fold": 0,
+  "histories": [
+    1,
+    5
+  ],
+  "full_path_trials": 20,
+  "full_path_windows": 380,
+  "averaging_only_windows": 9728
+}

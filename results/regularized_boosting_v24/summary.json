@@ -1,0 +1,140 @@
+{
+  "new_fits": 9,
+  "inner_fits": 6,
+  "outer_fits": 3,
+  "selection_sha256": "726d42687693befbf1e1aba131dc29b98380f371084be583f8f9b4214c1da6cc",
+  "utc": "2026-10-22T03:01:44.577490+00:00",
+  "historical_test_evaluations": 0,
+  "fold_candidates": [
+    "shallow800",
+    "shallow800",
+    "shallow800"
+  ],
+  "inner": [
+    {
+      "candidate": "incumbent",
+      "correct": 13260,
+      "windows": 14592,
+      "accuracy": 0.9087171052631579
+    },
+    {
+      "candidate": "reg400",
+      "correct": 13219,
+      "windows": 14592,
+      "accuracy": 0.9059073464912281
+    },
+    {
+      "candidate": "shallow800",
+      "correct": 13313,
+      "windows": 14592,
+      "accuracy": 0.9123492324561403
+    }
+  ],
+  "outer": [
+    {
+      "role": "incumbent",
+      "windows": 29184,
+      "correct": 26670,
+      "fold_sd": 0.0035021133151456,
+      "accuracy": 0.9138569078947368,
+      "precision_macro": 0.9140329323152696,
+      "recall_macro": 0.9138569078947368,
+      "f1_macro": 0.9138896423631786,
+      "angle_accuracy": 0.9636787280701754,
+      "gesture_accuracy": 0.9335594846491228
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26798,
+      "fold_sd": 0.0058158304575868,
+      "accuracy": 0.9182428728070176,
+      "precision_macro": 0.9184248137014182,
+      "recall_macro": 0.9182428728070176,
+      "f1_macro": 0.918285673755966,
+      "angle_accuracy": 0.9656661184210528,
+      "gesture_accuracy": 0.9377055921052632
+    }
+  ],
+  "fit_seconds_sum": 1201.0161725678481,
+  "scaler_fit_seconds_sum": 0.7136966278776522,
+  "model_bytes_sum": 411529208,
+  "new_model_cost_measurements": [
+    {
+      "candidate": "incumbent",
+      "mode": "xgb",
+      "stage": "outer",
+      "fold": 0,
+      "model_bytes": 36751112,
+      "xgb_fit_seconds": 123.41043994296342,
+      "reused_lda_fit_seconds": 0.0,
+      "reused_svm_calibrated_fit_seconds": 0.0,
+      "component_training_seconds_sum": 123.41043994296342,
+      "fit_times_original_devices_and_runs": true,
+      "count": 380,
+      "median_ms": 4.687237,
+      "mean_ms": 4.892922284210526,
+      "p95_ms": 6.12727745
+    },
+    {
+      "candidate": "incumbent",
+      "mode": "mixture",
+      "stage": "outer",
+      "fold": 0,
+      "model_bytes": 119838478,
+      "xgb_fit_seconds": 123.41043994296342,
+      "reused_lda_fit_seconds": 0.249679212924093,
+      "reused_svm_calibrated_fit_seconds": 158.79423354682513,
+      "component_training_seconds_sum": 282.45435270271264,
+      "fit_times_original_devices_and_runs": true,
+      "count": 380,
+      "median_ms": 41.707660000000004,
+      "mean_ms": 43.51120631052632,
+      "p95_ms": 57.15765125
+    },
+    {
+      "candidate": "shallow800",
+      "mode": "xgb",
+      "stage": "outer",
+      "fold": 0,
+      "model_bytes": 55419976,
+      "xgb_fit_seconds": 172.3087968470063,
+      "reused_lda_fit_seconds": 0.0,
+      "reused_svm_calibrated_fit_seconds": 0.0,
+      "component_training_seconds_sum": 172.3087968470063,
+      "fit_times_original_devices_and_runs": true,
+      "count": 380,
+      "median_ms": 7.066714,
+      "mean_ms": 7.000808973684212,
+      "p95_ms": 7.9246319000000005
+    },
+    {
+      "candidate": "shallow800",
+      "mode": "mixture",
+      "stage": "outer",
+      "fold": 0,
+      "model_bytes": 138507342,
+      "xgb_fit_seconds": 172.3087968470063,
+      "reused_lda_fit_seconds": 0.249679212924093,
+      "reused_svm_calibrated_fit_seconds": 158.79423354682513,
+      "component_training_seconds_sum": 331.3527096067555,
+      "fit_times_original_devices_and_runs": true,
+      "count": 380,
+      "median_ms": 43.109015,
+      "mean_ms": 45.455023344736844,
+      "p95_ms": 66.4643824
+    }
+  ],
+  "input_ms": 200,
+  "temporal_context": false,
+  "v22_gate_used": false,
+  "all_19_windows_evaluated": true,
+  "external_independent_test": false,
+  "raw_cost_statistics_recomputed": true,
+  "corrected": 387,
+  "broken": 259,
+  "net": 128,
+  "trial_improved": 267,
+  "trial_worsened": 169,
+  "trial_tied": 1100
+}

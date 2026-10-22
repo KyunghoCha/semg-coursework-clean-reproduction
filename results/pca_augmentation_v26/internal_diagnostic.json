@@ -1,0 +1,144 @@
+{
+  "scope": "inner observations only; covariance uses inner training rows only",
+  "folds": [
+    {
+      "fold": 0,
+      "observations": 4864,
+      "correct": 4406,
+      "errors": 458,
+      "true_in_top2_errors": 316,
+      "any_constituent_correct_errors": 252,
+      "angle_only_errors": 108,
+      "gesture_only_errors": 260,
+      "train_windows": 14592,
+      "pca64_training_variance": 0.6567469773741572,
+      "training_pairs_abs_corr_gt_09": 367,
+      "finite_training_feature_pairs": 83845
+    },
+    {
+      "fold": 1,
+      "observations": 4864,
+      "correct": 4489,
+      "errors": 375,
+      "true_in_top2_errors": 259,
+      "any_constituent_correct_errors": 197,
+      "angle_only_errors": 112,
+      "gesture_only_errors": 181,
+      "train_windows": 14592,
+      "pca64_training_variance": 0.6576657172254172,
+      "training_pairs_abs_corr_gt_09": 393,
+      "finite_training_feature_pairs": 83845
+    },
+    {
+      "fold": 2,
+      "observations": 4864,
+      "correct": 4435,
+      "errors": 429,
+      "true_in_top2_errors": 300,
+      "any_constituent_correct_errors": 233,
+      "angle_only_errors": 98,
+      "gesture_only_errors": 256,
+      "train_windows": 14592,
+      "pca64_training_variance": 0.6565787442332572,
+      "training_pairs_abs_corr_gt_09": 387,
+      "finite_training_feature_pairs": 83845
+    }
+  ],
+  "confusion": [
+    [
+      1665,
+      4,
+      19,
+      50,
+      49,
+      14,
+      16,
+      7
+    ],
+    [
+      5,
+      1688,
+      25,
+      44,
+      5,
+      33,
+      18,
+      6
+    ],
+    [
+      7,
+      50,
+      1677,
+      34,
+      8,
+      5,
+      39,
+      4
+    ],
+    [
+      38,
+      21,
+      40,
+      1654,
+      9,
+      5,
+      9,
+      48
+    ],
+    [
+      22,
+      5,
+      4,
+      0,
+      1734,
+      10,
+      18,
+      31
+    ],
+    [
+      16,
+      47,
+      5,
+      26,
+      14,
+      1665,
+      41,
+      10
+    ],
+    [
+      26,
+      17,
+      21,
+      8,
+      38,
+      49,
+      1593,
+      72
+    ],
+    [
+      17,
+      11,
+      6,
+      59,
+      28,
+      13,
+      36,
+      1654
+    ]
+  ],
+  "max_offdiagonal": 72,
+  "source_hashes": {
+    "private/regularized_boosting_v24/inner_shallow800_0.npz": "6ae003002ec88c588ba29db2be1445ca943e8aa275481a9dab5658217740e97c",
+    "private/shared_lda_v18/inner_lda_0.npz": "41c9b88f6be85419d728ec6e9e600b0d7d45b7774f42f2670b84baac9a2be9a7",
+    "private/svm410_v20/inner_svm_0.npz": "d778258445fd1afb8ae3d2749c05845031b3c59e9d9b9d1bf43a5b879f723490",
+    "private/regularized_boosting_v24/inner_shallow800_1.npz": "8d2b358bc9c4019b73c1a2427a89780e56e96d336588f213b6a34c2dbf5a0d60",
+    "private/shared_lda_v18/inner_lda_1.npz": "82925160eb421689efb1234983b63aad108dda3e7496fe1291f35dc2972de015",
+    "private/svm410_v20/inner_svm_1.npz": "24b3b5cd40e90427c28cab8aa007ee4b3f5bebdfe756d41b9ee428445eb5a3a8",
+    "private/regularized_boosting_v24/inner_shallow800_2.npz": "0c0ee360e1d97a2540d8bd8cbf7412bf5b205a480230df087c2d681b74a2132b",
+    "private/shared_lda_v18/inner_lda_2.npz": "7935ef3f2bb00c16364bd4401b5d6ee572cf4138c425fba9474333608bff14b7",
+    "private/svm410_v20/inner_svm_2.npz": "633935817add5bdb9368dbfd95e44268a4d5e9ce9151fdcfda2eb331355c4d82"
+  },
+  "outer_predictions_read": false,
+  "new_model_fits": 0,
+  "temporal_context": false
+}

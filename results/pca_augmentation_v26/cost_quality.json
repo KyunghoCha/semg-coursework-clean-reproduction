@@ -1,0 +1,8 @@
+{
+  "excluded_primary_measurement": "costs.json",
+  "reason": "First CPU timing overlapped with the independent v27 verification process; impact is unknown. Preserve it but do not use it as final comparison.",
+  "authorized_repeat": "costs_isolated.json",
+  "maximum_repeats": 1,
+  "selection_by_better_latency": false,
+  "accuracy_or_models_changed": false
+}

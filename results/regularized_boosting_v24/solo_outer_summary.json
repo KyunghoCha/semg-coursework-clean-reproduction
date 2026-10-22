@@ -1,0 +1,20 @@
+{
+  "scope": "auxiliary standalone XGB; candidates were selected for fixed three-model mixture",
+  "windows": 29184,
+  "correct": 26546,
+  "fold_sd": 0.0032575519610471633,
+  "accuracy": 0.9096080043859649,
+  "precision_macro": 0.9097992377175925,
+  "recall_macro": 0.9096080043859649,
+  "f1_macro": 0.9096572192331478,
+  "angle_accuracy": 0.9609375,
+  "gesture_accuracy": 0.9306126644736842,
+  "source_hashes": {
+    "private/regularized_boosting_v24/outer_shallow800_0.npz": "08e3c9fbe8a74200cbab23f4296016055a8f1a8c908f7957af8bcc1740aca774",
+    "private/regularized_boosting_v24/outer_shallow800_1.npz": "daf09854054a5982fdf90f772c24b96de692a2126f36db4c6454d8c9c7b43d29",
+    "private/regularized_boosting_v24/outer_shallow800_2.npz": "e434acc0031aa51237cb78072e3e78013f89dd59a52afab94891b7d59d063d1c"
+  },
+  "new_model_fits": 0,
+  "selection_changed": false,
+  "input_ms": 200
+}

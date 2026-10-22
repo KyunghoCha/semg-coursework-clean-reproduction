@@ -1,0 +1,10 @@
+fold,candidate,corrected,broken,both_wrong
+0,regularized,0,0,458
+0,broad,28,26,430
+0,narrow,31,43,427
+1,regularized,0,0,375
+1,broad,10,12,365
+1,narrow,10,20,365
+2,regularized,0,0,429
+2,broad,18,15,411
+2,narrow,13,25,416

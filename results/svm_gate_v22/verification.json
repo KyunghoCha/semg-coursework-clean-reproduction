@@ -1,0 +1,44 @@
+{
+  "inner_observations_verified": 14592,
+  "outer_windows_verified": 29184,
+  "all_labels_identical": true,
+  "actual_callback_counts_match_mask": true,
+  "source_predictions_preserved": true,
+  "source_hashes": [
+    {
+      "stage": "inner",
+      "fold": 0,
+      "prediction_sha256": "d778258445fd1afb8ae3d2749c05845031b3c59e9d9b9d1bf43a5b879f723490"
+    },
+    {
+      "stage": "inner",
+      "fold": 1,
+      "prediction_sha256": "24b3b5cd40e90427c28cab8aa007ee4b3f5bebdfe756d41b9ee428445eb5a3a8"
+    },
+    {
+      "stage": "inner",
+      "fold": 2,
+      "prediction_sha256": "633935817add5bdb9368dbfd95e44268a4d5e9ce9151fdcfda2eb331355c4d82"
+    },
+    {
+      "stage": "outer",
+      "fold": 0,
+      "prediction_sha256": "ac1085122d093c112710fc69b94f96a074912f75054e5b078bfe1e91ececfbad"
+    },
+    {
+      "stage": "outer",
+      "fold": 1,
+      "prediction_sha256": "219d126d1bd67d6dd05775aff48bab3464b94c4803171178fdf227a4a677b83c"
+    },
+    {
+      "stage": "outer",
+      "fold": 2,
+      "prediction_sha256": "e4370509ae73ffb47d0541a3fa5c72a6ec701d57594a89c0e3f7adbdb316f0b8"
+    }
+  ],
+  "frozen_beta_preserved": true,
+  "threshold_tuned": false,
+  "historical_test_evaluations": 0,
+  "full_mixture_probabilities_not_returned_by_gate": true,
+  "external_independent_test": false
+}

@@ -1,0 +1,4 @@
+fold,windows,correct,errors,true_class_in_top2_when_wrong,angle_only_errors,gesture_only_errors,both_errors
+0,4864,4374,490,341,98,287,105
+1,4864,4470,394,287,117,193,84
+2,4864,4416,448,318,104,269,75

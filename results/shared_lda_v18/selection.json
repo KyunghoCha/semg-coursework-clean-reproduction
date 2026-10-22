@@ -1,0 +1,28 @@
+{
+  "choices": [
+    "narrow64",
+    "narrow64",
+    "narrow64"
+  ],
+  "comparisons": [
+    {
+      "fold": 0,
+      "lda_correct": 3856,
+      "baseline_correct": 4319,
+      "selected": "narrow64"
+    },
+    {
+      "fold": 1,
+      "lda_correct": 3897,
+      "baseline_correct": 4416,
+      "selected": "narrow64"
+    },
+    {
+      "fold": 2,
+      "lda_correct": 3848,
+      "baseline_correct": 4348,
+      "selected": "narrow64"
+    }
+  ],
+  "outer_scores_used": false
+}

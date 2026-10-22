@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "fold": 0,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 4.968399839751833,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.968399839751833,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 0,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.109363120034711,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.109363120034711,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 0,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.324099172042478,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.324099172042478,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 0,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 4.772909981136213,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.772909981136213,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 1,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 5.356893955528128,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 5.356893955528128,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 1,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.709186061410347,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.709186061410347,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 1,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.4442378501794355,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.4442378501794355,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 1,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 5.276563055256755,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 5.276563055256755,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 2,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 4.432123617595178,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.432123617595178,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 2,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.724419704264051,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.724419704264051,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 2,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.3544885257026404,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.3544885257026404,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    },
+    {
+      "fold": 2,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 4.778470154000899,
+      "candidate_C": 10.0,
+      "incumbent_coefficients_at_or_above_new_C": 0,
+      "candidate_max_abs_dual": 4.778470154000899,
+      "candidate_coefficients_at_C": 0,
+      "fitted_svc_arrays_identical": true
+    }
+  ],
+  "source_hashes": {
+    "private/svm410_v20/inner_svm_0/base_00.joblib": "78592602fce1f73d0ef29b36d7f875fc0fc3852171036a1cefa3da41e88d7248",
+    "private/svm_tuning_v29/inner_regularized_0/base_00.joblib": "d4cc2eabfbbaac30d834c444f3ae540714225a168ebc111e31c630e187f93a3a",
+    "private/svm410_v20/inner_svm_0/base_01.joblib": "b796fff028bf2c2241d0dc250da158deb41c977d55bdfe9d40a6d978061cca99",
+    "private/svm_tuning_v29/inner_regularized_0/base_01.joblib": "a8f57b6bbc908f10f5a59c6641a9e600ff6a16ebf291e0f85a78663dd1973a71",
+    "private/svm410_v20/inner_svm_0/base_02.joblib": "7fd34090ad2d74d5c53f8ab57a2f696d39730940d26747b3b3cc749508dd8b0e",
+    "private/svm_tuning_v29/inner_regularized_0/base_02.joblib": "8dee08e861d71e7eccac79c2f2a13ee959e920065519768970dcbca289fdf607",
+    "private/svm410_v20/inner_svm_0/base_03.joblib": "84f36c4e6159accc9d1e974e7b141bd56bcce77761834266a312592a2a363e7f",
+    "private/svm_tuning_v29/inner_regularized_0/base_03.joblib": "fd7eebbd2d97ee18547e432587b769cc4c9a2c5f18bdf1289b1f9e50602c1236",
+    "private/svm410_v20/inner_svm_1/base_00.joblib": "a942f11702aed1601d9c42972cfc502b706058afaecbb79ae8ccd09c58c84a19",
+    "private/svm_tuning_v29/inner_regularized_1/base_00.joblib": "ea35c77723a5b86f29f823784baaed4fccf1acf5ed4ec3748ea30256df9fccb1",
+    "private/svm410_v20/inner_svm_1/base_01.joblib": "ff6520b6750e123a525620bed774b96ef1a2e4239fe63fe5bc380e852defef80",
+    "private/svm_tuning_v29/inner_regularized_1/base_01.joblib": "70650402fb87f5fed0ea12480903d805bf3e720d75bd1d5f7096c68c5c34444c",
+    "private/svm410_v20/inner_svm_1/base_02.joblib": "08a45b738fcbe37b43a2d8a41ef8d20fa6f59e45d4770fc73569388b0415d6b0",
+    "private/svm_tuning_v29/inner_regularized_1/base_02.joblib": "393e676fbe748b9e0d59c3c2c85be1a3788fea7f4717aa95892c949cd77d438c",
+    "private/svm410_v20/inner_svm_1/base_03.joblib": "7de09d29b2a5cb0d7d49350d1c3212fc3bae76a7dfe5e324972470b1ce40a3f1",
+    "private/svm_tuning_v29/inner_regularized_1/base_03.joblib": "3fe1fac69728c5f305b8bd171defa5519093959c5fd69287a3f44548a34cb463",
+    "private/svm410_v20/inner_svm_2/base_00.joblib": "865f633d2749a92804e3f757f701e9ef58325e387af21d2ec6421da6591ede10",
+    "private/svm_tuning_v29/inner_regularized_2/base_00.joblib": "c623fd6736a4977b7ae80bc8f196635f78cd08a79c11518855048998b804a934",
+    "private/svm410_v20/inner_svm_2/base_01.joblib": "fdc7fd86220ee80b4f868b241a88579a785bfc834e3612ae9a62e61b03838d53",
+    "private/svm_tuning_v29/inner_regularized_2/base_01.joblib": "18d1d77c343a28b5445f8865c65dece8fbe2b1ae7332d64c2378c54283d5721f",
+    "private/svm410_v20/inner_svm_2/base_02.joblib": "26354c10c8bbe0c7d1752f78d5407077e62484645fcc19ef721d2f9523a523a7",
+    "private/svm_tuning_v29/inner_regularized_2/base_02.joblib": "41ec0e87f1840589d5845ed5441474e0f7d5d84f532f2393c10e7636cbba1b49",
+    "private/svm410_v20/inner_svm_2/base_03.joblib": "4ada804e81a7b7cf819653ebfc8b0a57c4533b9752ac555faf09fe25c067d9fe",
+    "private/svm_tuning_v29/inner_regularized_2/base_03.joblib": "f2c6675fcdef06484abfe2dff616163609ea0de45ffda1bd8d198c6e7df1688f"
+  },
+  "new_fits": 0
+}

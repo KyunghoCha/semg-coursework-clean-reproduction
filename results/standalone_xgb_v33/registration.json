@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-22T05:24:29.646373+00:00",
+  "plan_sha256": "19d8ae0e2381eff1cbd8134731a6b07b48fa64d8fb5f6c9c6a16cd9296c16835",
+  "code_sha256": "85046d79de2151f5b58c9f41a4b8a9db735eb96adbbc8f64d23d21a3895792d9",
+  "settings": {
+    "n_estimators": 1600,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "min_child_weight": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "subsample": 0.9,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "device": "cuda",
+    "n_jobs": 6,
+    "random_state": 42,
+    "early_stopping_rounds": null
+  },
+  "input_ms": 200,
+  "windows": 19,
+  "features": 410,
+  "targets": 64,
+  "models_per_prediction": 1,
+  "model_output_blending": false,
+  "temporal_state": false,
+  "historical_test_evaluations": 0
+}

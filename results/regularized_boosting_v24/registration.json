@@ -1,0 +1,32 @@
+{
+  "plan_sha256": "42343ea3e02dba582d9473a8018724673fc00ebc75fc211716f29de70719d1c6",
+  "settings": {
+    "reg400": {
+      "n_estimators": 400,
+      "max_depth": 6,
+      "min_child_weight": 5.0,
+      "reg_lambda": 5.0
+    },
+    "shallow800": {
+      "n_estimators": 800,
+      "max_depth": 4,
+      "min_child_weight": 1.0,
+      "reg_lambda": 1.0
+    }
+  },
+  "features": 410,
+  "signal_ms": 200,
+  "hop_ms": 100,
+  "windows_per_trial": 19,
+  "inner_fits": 6,
+  "maximum_outer_fits": 3,
+  "learning_targets": 64,
+  "inference_identity_features": false,
+  "temporal_context": false,
+  "fixed_weights": [
+    0.64,
+    0.16,
+    0.2
+  ],
+  "historical_test_evaluations": 0
+}

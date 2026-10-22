@@ -1,0 +1,74 @@
+[
+  {
+    "fold": 0,
+    "model": "XGB800",
+    "accuracy": 0.8947368421052632,
+    "mean_max_probability": 0.8920542001724243,
+    "incorrect_mean_max_probability": 0.6430961489677429,
+    "log_loss": 0.3168642222881317
+  },
+  {
+    "fold": 0,
+    "model": "LDA",
+    "accuracy": 0.7927631578947368,
+    "mean_max_probability": 0.9255504815973806,
+    "incorrect_mean_max_probability": 0.811489004432287,
+    "log_loss": 1.0013107597668172
+  },
+  {
+    "fold": 0,
+    "model": "SVM",
+    "accuracy": 0.8624588815789473,
+    "mean_max_probability": 0.6809132920824371,
+    "incorrect_mean_max_probability": 0.6421264228997897,
+    "log_loss": 0.6329348320679172
+  },
+  {
+    "fold": 1,
+    "model": "XGB800",
+    "accuracy": 0.9132401315789473,
+    "mean_max_probability": 0.9020540118217468,
+    "incorrect_mean_max_probability": 0.6350758671760559,
+    "log_loss": 0.2586314082145691
+  },
+  {
+    "fold": 1,
+    "model": "LDA",
+    "accuracy": 0.8011924342105263,
+    "mean_max_probability": 0.9280032923171685,
+    "incorrect_mean_max_probability": 0.8060280876834333,
+    "log_loss": 1.0076874646710985
+  },
+  {
+    "fold": 1,
+    "model": "SVM",
+    "accuracy": 0.8634868421052632,
+    "mean_max_probability": 0.682538923657512,
+    "incorrect_mean_max_probability": 0.6365223132535979,
+    "log_loss": 0.6187983077030783
+  },
+  {
+    "fold": 2,
+    "model": "XGB800",
+    "accuracy": 0.9013157894736842,
+    "mean_max_probability": 0.8957297801971436,
+    "incorrect_mean_max_probability": 0.6438983082771301,
+    "log_loss": 0.29372039437294006
+  },
+  {
+    "fold": 2,
+    "model": "LDA",
+    "accuracy": 0.7911184210526315,
+    "mean_max_probability": 0.9278371301203753,
+    "incorrect_mean_max_probability": 0.8169535890865633,
+    "log_loss": 1.027365532513708
+  },
+  {
+    "fold": 2,
+    "model": "SVM",
+    "accuracy": 0.8612253289473685,
+    "mean_max_probability": 0.6661158145750686,
+    "incorrect_mean_max_probability": 0.6298109663457432,
+    "log_loss": 0.6220916573023124
+  }
+]

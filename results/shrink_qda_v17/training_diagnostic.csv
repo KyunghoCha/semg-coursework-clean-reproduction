@@ -1,0 +1,4 @@
+fold,train_windows,train_8class_accuracy,train_64class_accuracy
+0,14592,0.9990405701754386,0.9990405701754386
+1,14592,1.0,1.0
+2,14592,1.0,1.0

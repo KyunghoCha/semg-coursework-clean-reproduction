@@ -1,0 +1,10 @@
+{
+  "new_fits": 0,
+  "inner_candidates_evaluated": 9,
+  "outer_protocol_comparisons": 3,
+  "outer_windows_per_protocol": 29184,
+  "historical_test_evaluations": 0,
+  "selection_sha256": "cb45ed4b11c5333b3998f6867b6e22755e83f76789cc03af8fa20d785e28d250",
+  "source_files_preserved": 15,
+  "utc": "2026-10-21T12:29:29.655330+00:00"
+}

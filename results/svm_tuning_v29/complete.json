@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-22T04:28:28.428915+00:00",
+  "calibrated_models": 11,
+  "base_svc_fits": 44,
+  "inner_models": 9,
+  "outer_models": 2,
+  "selection_sha256": "8ab4010464ea6922f8c6be96d91e05909b1db625a35020ebbc1fd24f35b56cf2",
+  "historical_test_evaluations": 0
+}

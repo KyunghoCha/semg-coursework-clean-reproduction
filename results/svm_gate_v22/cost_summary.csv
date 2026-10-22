@@ -1,0 +1,3 @@
+method,fold,model_mb,median_ms,mean_ms,p95_ms,measured_calls,measured_windows
+full_mixture_labels,0,119.838478,38.0232765,38.16486237,39.10199185,200,200
+safe_gate_labels,0,119.838478,4.4115785,5.275702310000001,4.6811522,5,200

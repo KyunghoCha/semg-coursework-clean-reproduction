@@ -1,0 +1,3 @@
+role,fold,beta,temperature,xgb_candidate,model_bytes,original_component_training_seconds_sum,new_fit_seconds,median_ms,mean_ms,p95_ms,windows
+incumbent,0,0.4,1.0,shallow800,138507342,331.3527096067555,0,43.284127,46.202693489473674,69.97244080000002,380
+selected,0,0.4,1.5,shallow800,138507342,331.3527096067555,0,44.471331,48.40026772894736,79.1368224,380

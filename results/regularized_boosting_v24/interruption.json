@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-22T02:41:12.664867+00:00",
+  "previous_pid": 1960392,
+  "process_absent": true,
+  "last_log_round": 100,
+  "total_rounds": 400,
+  "completed_fit_artifacts": 0,
+  "exception_log_present": false,
+  "exit_reason": "unknown; no exit code captured for detached launch",
+  "next_action": "resume through managed foreground execution session",
+  "original_log_preserved": true
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-22T03:48:33.566702+00:00",
+  "rows": [
+    {
+      "role": "incumbent",
+      "stage": "inner",
+      "fold": 0,
+      "windows": 380,
+      "model_bytes": 116317630,
+      "component_training_seconds_sum": 233.11618514894508,
+      "forest_fit_seconds": 0,
+      "median_ms": 40.622609,
+      "mean_ms": 43.19884526052631,
+      "p95_ms": 57.69577450000001
+    },
+    {
+      "role": "candidate",
+      "stage": "inner",
+      "fold": 0,
+      "windows": 380,
+      "model_bytes": 172993839,
+      "component_training_seconds_sum": 239.4819459677674,
+      "forest_fit_seconds": 6.365760818822309,
+      "median_ms": 44.838299,
+      "mean_ms": 46.45715528421053,
+      "p95_ms": 58.686951
+    }
+  ],
+  "source_hashes": {
+    "private/regularized_boosting_v24/inner_shallow800_0.joblib": "9af8d0d19bd7be9e6b8bd6aa1a63bc84521f0bd1c05ced422d7f5ccf86469381",
+    "private/shared_lda_v18/inner_lda_0.joblib": "a4286d5dd8a7ffcb70b5ff06b25b3474d3711b5b8095d59794cb65b0fc0d7152",
+    "private/svm410_v20/inner_svm_0.joblib": "17ac7d9e45b623ed23d5cb3c3d0dfca905e02fe5afaea56ade7a200a9fb7ad38",
+    "private/forest64_v28/inner_forest_0.joblib": "c17f7496dd63c3ddfa623d78bfeb7259799e1bc404d7e93c8b7db14f64f6b161"
+  },
+  "raw_timing_sha256": "834824c53e68ee69817cc99246ee14f54b80ffa21bfd91efa69a0e8e0bff8ea4",
+  "library_threads": 6,
+  "svm_threads": 1,
+  "forest_prediction_threads": 1,
+  "forest_training_jobs": 6,
+  "warmup": 19,
+  "input_ms": 200,
+  "temporal_context": false,
+  "all_full_probabilities_computed": true,
+  "label_gate_used": false,
+  "signal_csv_and_loading_excluded": true,
+  "restored_features_and_probabilities_equal": true
+}

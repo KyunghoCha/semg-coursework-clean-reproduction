@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-22T04:21:55.731599+00:00",
+  "fold_candidates": [
+    "broad",
+    "incumbent",
+    "broad"
+  ],
+  "fold_betas": [
+    0.4,
+    0.2,
+    0.3
+  ],
+  "outer_scores_used": false,
+  "rule": "correct, size cap, incumbent tie priority"
+}

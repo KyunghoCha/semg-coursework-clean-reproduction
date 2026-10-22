@@ -1,0 +1,44 @@
+{
+  "new_model_fits": 0,
+  "threshold_searches": 0,
+  "stages": [
+    {
+      "stage": "inner",
+      "windows": 14592,
+      "svm_calls": 1366,
+      "skipped": 13226,
+      "correct": 13260,
+      "label_differences": 0,
+      "call_fraction": 0.09361293859649122,
+      "accuracy": 0.9087171052631579
+    },
+    {
+      "stage": "outer",
+      "windows": 29184,
+      "svm_calls": 2362,
+      "skipped": 26822,
+      "correct": 26670,
+      "label_differences": 0,
+      "call_fraction": 0.08093475877192982,
+      "accuracy": 0.9138569078947368
+    }
+  ],
+  "runtime_outer_cpu_windows": 29184,
+  "all_labels_identical": true,
+  "full_probabilities_preserved": false,
+  "models_unchanged": true,
+  "model_size_reduced": false,
+  "cost_conditions": 2,
+  "raw_cost_times_recomputed": true,
+  "external_independent_test": false,
+  "all_outer_fold0_timing": {
+    "count": 9728,
+    "median_ms": 4.520224,
+    "mean_ms": 7.3149658742804275,
+    "p95_ms": 38.11433775,
+    "p99_ms": 39.70399147,
+    "max_ms": 51.717876
+  },
+  "all_outer_fold0_call_fraction": 0.08141447368421052,
+  "benchmark_call_fraction": 0.025
+}

@@ -1,0 +1,7 @@
+{
+  "calibrated_models_fitted": 3,
+  "base_svc_fits": 12,
+  "inner_models": 3,
+  "outer_models": 0,
+  "historical_test_evaluations": 0
+}

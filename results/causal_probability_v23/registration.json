@@ -1,0 +1,25 @@
+{
+  "plan_sha256": "9073ef2d79c492a7e1d62d1870e1b39b85f95088e8235c404e18643bfb8b667d",
+  "utc": "2026-10-21T12:29:28.654457+00:00",
+  "histories": [
+    1,
+    3,
+    5
+  ],
+  "signal_ms": 200,
+  "stride_ms": 100,
+  "windows_per_trial": 19,
+  "maximum_signal_spans_ms": [
+    200,
+    400,
+    600
+  ],
+  "new_fits": 0,
+  "development_trials": 1536,
+  "historical_test_excluded": 384,
+  "probability_source": "frozen v21 full probabilities",
+  "v22_label_gate_used": false,
+  "known_trial_boundary_reset": true,
+  "future_windows_used": false,
+  "external_independent_test": false
+}

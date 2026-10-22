@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "fold": 0,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 4.968399839751833,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 17879,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 17694,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 0,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.109363120034711,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 17341,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 17302,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 0,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.324099172042478,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 17659,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 17543,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 0,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 4.772909981136213,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 22113,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 21925,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 1,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 5.356893955528128,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 18218,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 18103,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 1,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.709186061410347,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 18297,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 18181,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 1,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.4442378501794355,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 17649,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 17486,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 1,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 5.276563055256755,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 22766,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 22468,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 2,
+      "base_fit": 0,
+      "incumbent_max_abs_dual": 4.432123617595178,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 18864,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 18581,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 2,
+      "base_fit": 1,
+      "incumbent_max_abs_dual": 4.724419704264051,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 17985,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 17848,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 2,
+      "base_fit": 2,
+      "incumbent_max_abs_dual": 4.3544885257026404,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 18373,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 18234,
+      "fitted_svc_arrays_identical": false
+    },
+    {
+      "fold": 2,
+      "base_fit": 3,
+      "incumbent_max_abs_dual": 4.778470154000899,
+      "candidate_C": 1.0,
+      "incumbent_coefficients_at_or_above_new_C": 23263,
+      "candidate_max_abs_dual": 1.0,
+      "candidate_coefficients_at_C": 23052,
+      "fitted_svc_arrays_identical": false
+    }
+  ],
+  "source_hashes": {
+    "private/svm410_v20/inner_svm_0/base_00.joblib": "78592602fce1f73d0ef29b36d7f875fc0fc3852171036a1cefa3da41e88d7248",
+    "private/svm_regularization_v30/inner_C1_0/base_00.joblib": "3304b2dc1d3640331c0fc0cf0c6e6d845ae7eee3f188ea48da4469af25ca685d",
+    "private/svm410_v20/inner_svm_0/base_01.joblib": "b796fff028bf2c2241d0dc250da158deb41c977d55bdfe9d40a6d978061cca99",
+    "private/svm_regularization_v30/inner_C1_0/base_01.joblib": "62ffa517240241c721197a3aa2839c2f28a9c089c3026200fe6794cb312c08cf",
+    "private/svm410_v20/inner_svm_0/base_02.joblib": "7fd34090ad2d74d5c53f8ab57a2f696d39730940d26747b3b3cc749508dd8b0e",
+    "private/svm_regularization_v30/inner_C1_0/base_02.joblib": "bf20a96070ede7cc1b2d913f29f030c1301b6268d482757a09e9840d9402c21b",
+    "private/svm410_v20/inner_svm_0/base_03.joblib": "84f36c4e6159accc9d1e974e7b141bd56bcce77761834266a312592a2a363e7f",
+    "private/svm_regularization_v30/inner_C1_0/base_03.joblib": "f9de15e61734c68738c3358001f174ac5246807c3c35a8b213e16282fd36353b",
+    "private/svm410_v20/inner_svm_1/base_00.joblib": "a942f11702aed1601d9c42972cfc502b706058afaecbb79ae8ccd09c58c84a19",
+    "private/svm_regularization_v30/inner_C1_1/base_00.joblib": "bb628eaacce4af60f43c89a8a8b2b589a000d3e4512102c66890af013d3591e8",
+    "private/svm410_v20/inner_svm_1/base_01.joblib": "ff6520b6750e123a525620bed774b96ef1a2e4239fe63fe5bc380e852defef80",
+    "private/svm_regularization_v30/inner_C1_1/base_01.joblib": "b7da1576608b3e94588536084a63e1cfa29ee4ea65e4f1f955aa8afc521066dd",
+    "private/svm410_v20/inner_svm_1/base_02.joblib": "08a45b738fcbe37b43a2d8a41ef8d20fa6f59e45d4770fc73569388b0415d6b0",
+    "private/svm_regularization_v30/inner_C1_1/base_02.joblib": "e5a0f0d3cb9e0e741427523458e9abf95edb2b5333a6410c94afc091fac16c4d",
+    "private/svm410_v20/inner_svm_1/base_03.joblib": "7de09d29b2a5cb0d7d49350d1c3212fc3bae76a7dfe5e324972470b1ce40a3f1",
+    "private/svm_regularization_v30/inner_C1_1/base_03.joblib": "dafe73365540727f0db54c426696106fc71874179ef7b5071ce9d2a298e0487a",
+    "private/svm410_v20/inner_svm_2/base_00.joblib": "865f633d2749a92804e3f757f701e9ef58325e387af21d2ec6421da6591ede10",
+    "private/svm_regularization_v30/inner_C1_2/base_00.joblib": "0037d42171714ae094eaba2327bed7b0401e4db60a1155c54d2c06d317ad8800",
+    "private/svm410_v20/inner_svm_2/base_01.joblib": "fdc7fd86220ee80b4f868b241a88579a785bfc834e3612ae9a62e61b03838d53",
+    "private/svm_regularization_v30/inner_C1_2/base_01.joblib": "15bdd8a10a7f38bf000d922a87b363cb749ed48cc2a4a895d6c4e56f1c6038b7",
+    "private/svm410_v20/inner_svm_2/base_02.joblib": "26354c10c8bbe0c7d1752f78d5407077e62484645fcc19ef721d2f9523a523a7",
+    "private/svm_regularization_v30/inner_C1_2/base_02.joblib": "8e1c8f1b7cf9b9382e93d50a29c2b2a6e3d7b1524ec725359f31a82f71bc91d0",
+    "private/svm410_v20/inner_svm_2/base_03.joblib": "4ada804e81a7b7cf819653ebfc8b0a57c4533b9752ac555faf09fe25c067d9fe",
+    "private/svm_regularization_v30/inner_C1_2/base_03.joblib": "a0c1865485bd5ad850d7922e813aa0767812d1deb6dabdd82ed6231935fb10e2"
+  },
+  "new_fits": 0
+}

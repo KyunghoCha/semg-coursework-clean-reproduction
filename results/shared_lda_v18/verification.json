@@ -1,0 +1,37 @@
+{
+  "new_models_verified": 3,
+  "class_covariances_rebuilt": 192,
+  "shared_covariances_rebuilt": 3,
+  "models": [
+    {
+      "stem": "inner_lda_0",
+      "model_sha256": "a4286d5dd8a7ffcb70b5ff06b25b3474d3711b5b8095d59794cb65b0fc0d7152",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_lda_1",
+      "model_sha256": "e65370b8680350e6b34ab740ea06f529f53c0b4896b68abbe4545dd01600f46d",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    },
+    {
+      "stem": "inner_lda_2",
+      "model_sha256": "526635ccbb0ba1fa70d8845dc2e771349cf64b149ff5b9a92c257fcf35ea6404",
+      "covariances_recomputed": 64,
+      "scipy_density_windows": 16,
+      "restored_windows": 4864
+    }
+  ],
+  "splits_independently_regenerated": true,
+  "train_only_scalers_and_covariances": true,
+  "all_64_training_classes_present": true,
+  "gaussian_scores_checked_against_scipy": true,
+  "selected_from_inner_only": true,
+  "models_preserved": true,
+  "outer_all_development_trials_covered": true,
+  "historical_test_intersection": 0,
+  "external_independent_test": false
+}

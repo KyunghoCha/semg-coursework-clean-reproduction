@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-22T04:48:01.304437+00:00",
+  "stage": "outer",
+  "fold": 0,
+  "names": [
+    "incumbent",
+    "broad"
+  ],
+  "windows": 380,
+  "warmup": 19
+}

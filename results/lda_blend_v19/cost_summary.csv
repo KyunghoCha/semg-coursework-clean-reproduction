@@ -1,0 +1,3 @@
+case,fold,alpha,active_models,model_mb,fit_seconds,median_ms,p95_ms
+baseline,0,0.0,1,36.751112,123.41043994296342,3.9750375,4.0876737
+selected,0,0.2,2,39.876777,123.66011915588751,4.291596,4.43259685

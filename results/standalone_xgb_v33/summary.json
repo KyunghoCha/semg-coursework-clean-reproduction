@@ -1,0 +1,48 @@
+{
+  "input_ms": 200,
+  "windows_per_trial": 19,
+  "features": 410,
+  "models_per_prediction": 1,
+  "output_blending": false,
+  "use_new_model": [
+    false,
+    true,
+    false
+  ],
+  "inner_correct_delta": [
+    5,
+    15,
+    9
+  ],
+  "outer_results": [
+    {
+      "role": "reference",
+      "windows": 29184,
+      "correct": 26546,
+      "fold_sd": 0.0032575519610471,
+      "accuracy": 0.9096080043859648,
+      "precision_macro": 0.9097992377175924,
+      "recall_macro": 0.9096080043859648,
+      "f1_macro": 0.9096572192331478,
+      "angle_accuracy": 0.9609375,
+      "gesture_accuracy": 0.9306126644736842
+    },
+    {
+      "role": "selected",
+      "windows": 29184,
+      "correct": 26580,
+      "fold_sd": 0.0034596128216745,
+      "accuracy": 0.9107730263157896,
+      "precision_macro": 0.9109515794730124,
+      "recall_macro": 0.9107730263157896,
+      "f1_macro": 0.910818182783741,
+      "angle_accuracy": 0.9608689692982456,
+      "gesture_accuracy": 0.9317434210526316
+    }
+  ],
+  "new_fits": 4,
+  "historical_test_evaluations": 0,
+  "external_independent_test": false,
+  "standalone_inventory": "standalone_inner_summary.csv",
+  "cost_status": "costs.json"
+}
