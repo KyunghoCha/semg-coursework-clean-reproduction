@@ -4,6 +4,6 @@
 
 파서 검사에서 사용하는 `a_30 fist.csv`와 `h_60 extor.csv`는 형식 검사용 합성 문자열이며 실제 CSV 내용이나 개인별 결과가 아니다. 공개 코드가 실제 자료를 처리할 때 개인별 자료·모델·예측은 private 경로에 쓰며 Git ignore 대상이다. 원자료가 없으므로 이 묶음만으로 실제 모델 학습을 재실행할 수는 없다.
 
-원본 소스 커밋: `e6ddc74f30536abd4c446dc12ccd352733968cb8`. 이전 공개 remote 커밋: `678fc35642ee81b0d1a8e93cbaf2bb5ead911cb4`. 새 공개 커밋·전송은 없다. `EXPORT_PROVENANCE.csv`에는 원본 바이트와의 일치 또는 공개용 변환을 기록한다. `PUBLIC_MANIFEST.csv`는 자기 자신을 제외한 모든 파일의 크기와SHA256을 포함하며 ZIP 전체 해시는 외부 audit JSON에 있다.
+v34 실험 원본 커밋은 `e6ddc74f30536abd4c446dc12ccd352733968cb8`, 해당 공개 커밋은 `8d7258135e5eba51f10632be98e67ae3c2315f18`이다. 이후 제출용 README·클래스 집계·검산 코드를 보완했다. 파일마다 적용된 원본 커밋은 provenance에 기록한다. `EXPORT_PROVENANCE.csv`에는 원본 바이트와의 일치 또는 공개용 변환을 기록한다. `PUBLIC_MANIFEST.csv`는 자기 자신을 제외한 모든 파일의 크기와SHA256을 포함하며 ZIP 전체 해시는 외부 audit JSON에 있다.
 
-기존 결과 JSON에 적힌 code/source 해시는 당시 실행 원본의 증거다. 공개용 경로 정리로 바뀐 코드와 다를 수 있으며, 공개 파일의 실제 해시는 PUBLIC_MANIFEST.csv를 기준으로 확인한다. 원본 코드를 수정하거나 수치를 다시 학습해 바꾸지 않았다.
+기존 결과 JSON에 적힌 code/source 해시는 당시 실행 원본의 증거다. 공개용 경로 정리로 바뀐 코드와 다를 수 있으며, 공개 파일의 실제 해시는 PUBLIC_MANIFEST.csv를 기준으로 확인한다. 과거 실험 실행 코드를 바꾸거나 수치를 재학습하지 않았다. 새 검산 코드는 저장 예측 또는 공개 집계만 읽는다.

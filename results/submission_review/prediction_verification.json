@@ -1,0 +1,15 @@
+{
+  "saved_prediction_files_checked": 21,
+  "inner_metric_rows_checked": 15,
+  "original_csv_metric_max_tolerance": 1e-12,
+  "legacy_matrices_equal": true,
+  "outer_development_trials_once": 1536,
+  "outer_windows": 29184,
+  "outer_correct": 26580,
+  "new_training_fits": 0,
+  "new_holdout_inference": 0,
+  "private_outputs_exported": false,
+  "inner_evaluation_occurrences": 768,
+  "inner_unique_evaluation_trials": 682,
+  "metrics_definition": "8-class macro; inner table = unweighted mean of 3 fold metrics; outer = pooled counts"
+}

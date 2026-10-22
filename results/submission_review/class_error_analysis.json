@@ -1,0 +1,254 @@
+[
+  {
+    "model": "legacy_SVM",
+    "best_recall_classes": [
+      "30_extor"
+    ],
+    "best_recall": 0.5932017543859649,
+    "worst_recall_classes": [
+      "60_pro"
+    ],
+    "worst_recall": 0.4276315789473684,
+    "top_directional_errors": [
+      {
+        "truth": "60_extor",
+        "prediction": "30_extor",
+        "windows": 183
+      },
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 154
+      },
+      {
+        "truth": "30_pro",
+        "prediction": "30_extor",
+        "windows": 137
+      }
+    ]
+  },
+  {
+    "model": "legacy_RF",
+    "best_recall_classes": [
+      "30_fist"
+    ],
+    "best_recall": 0.6896929824561403,
+    "worst_recall_classes": [
+      "30_pro"
+    ],
+    "worst_recall": 0.5964912280701754,
+    "top_directional_errors": [
+      {
+        "truth": "30_pro",
+        "prediction": "60_pro",
+        "windows": 106
+      },
+      {
+        "truth": "60_open",
+        "prediction": "30_open",
+        "windows": 104
+      },
+      {
+        "truth": "30_fist",
+        "prediction": "60_fist",
+        "windows": 98
+      }
+    ]
+  },
+  {
+    "model": "legacy_XGB",
+    "best_recall_classes": [
+      "30_open"
+    ],
+    "best_recall": 0.6776315789473685,
+    "worst_recall_classes": [
+      "30_pro"
+    ],
+    "worst_recall": 0.5833333333333334,
+    "top_directional_errors": [
+      {
+        "truth": "30_pro",
+        "prediction": "60_pro",
+        "windows": 112
+      },
+      {
+        "truth": "30_fist",
+        "prediction": "60_fist",
+        "windows": 111
+      },
+      {
+        "truth": "60_open",
+        "prediction": "30_open",
+        "windows": 108
+      }
+    ]
+  },
+  {
+    "model": "inner_RF200_direct8",
+    "best_recall_classes": [
+      "30_fist"
+    ],
+    "best_recall": 0.8711622807017544,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.7532894736842105,
+    "top_directional_errors": [
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 144
+      },
+      {
+        "truth": "60_open",
+        "prediction": "60_pro",
+        "windows": 114
+      },
+      {
+        "truth": "60_fist",
+        "prediction": "30_fist",
+        "windows": 108
+      }
+    ]
+  },
+  {
+    "model": "inner_RF200_latent64",
+    "best_recall_classes": [
+      "60_extor"
+    ],
+    "best_recall": 0.8958333333333334,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.7817982456140351,
+    "top_directional_errors": [
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 102
+      },
+      {
+        "truth": "30_extor",
+        "prediction": "30_pro",
+        "windows": 91
+      },
+      {
+        "truth": "60_open",
+        "prediction": "60_fist",
+        "windows": 88
+      }
+    ]
+  },
+  {
+    "model": "inner_SVC100_raw",
+    "best_recall_classes": [
+      "60_extor"
+    ],
+    "best_recall": 0.9177631578947368,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.8196271929824561,
+    "top_directional_errors": [
+      {
+        "truth": "60_fist",
+        "prediction": "30_fist",
+        "windows": 91
+      },
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 86
+      },
+      {
+        "truth": "30_open",
+        "prediction": "30_fist",
+        "windows": 83
+      }
+    ]
+  },
+  {
+    "model": "inner_XGB400_depth6",
+    "best_recall_classes": [
+      "60_extor"
+    ],
+    "best_recall": 0.9237938596491229,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.8634868421052632,
+    "top_directional_errors": [
+      {
+        "truth": "60_open",
+        "prediction": "60_pro",
+        "windows": 77
+      },
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 66
+      },
+      {
+        "truth": "30_extor",
+        "prediction": "30_pro",
+        "windows": 63
+      }
+    ]
+  },
+  {
+    "model": "inner_XGB800_depth4",
+    "best_recall_classes": [
+      "60_extor"
+    ],
+    "best_recall": 0.9320175438596491,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.8640350877192983,
+    "top_directional_errors": [
+      {
+        "truth": "60_open",
+        "prediction": "60_pro",
+        "windows": 72
+      },
+      {
+        "truth": "60_pro",
+        "prediction": "30_pro",
+        "windows": 60
+      },
+      {
+        "truth": "30_extor",
+        "prediction": "30_pro",
+        "windows": 60
+      }
+    ]
+  },
+  {
+    "model": "outer_v33",
+    "best_recall_classes": [
+      "30_fist"
+    ],
+    "best_recall": 0.9265350877192983,
+    "worst_recall_classes": [
+      "60_open"
+    ],
+    "worst_recall": 0.8848684210526315,
+    "top_directional_errors": [
+      {
+        "truth": "60_open",
+        "prediction": "60_pro",
+        "windows": 133
+      },
+      {
+        "truth": "60_pro",
+        "prediction": "60_open",
+        "windows": 115
+      },
+      {
+        "truth": "30_open",
+        "prediction": "30_pro",
+        "windows": 101
+      }
+    ]
+  }
+]
